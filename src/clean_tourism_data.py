@@ -129,7 +129,18 @@ def clean_tourism_data(input_dir, output_dir):
     print(f"Total Rows: {len(full_df)}")
 
 if __name__ == "__main__":
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, "../.."))
-    OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data/processed")
-    clean_tourism_data(BASE_DIR, OUTPUT_DIR)
+    # 1. หาตำแหน่งของไฟล์โค้ดนี้ (src/)
+    CURRENT_FILE_PATH = os.path.dirname(os.path.abspath(__file__))
+    
+    # 2. ถอยออกมา 1 ชั้นเพื่อไปที่ตัวโปรเจคหลัก (Root)
+    PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_FILE_PATH, ".."))
+    
+    # 3. ระบุโฟลเดอร์ที่เก็บไฟล์ดิบ (แก้ให้ตรงกับชื่อโฟลเดอร์จริงของคุณ)
+    # ถ้าโฟลเดอร์ชื่อ ImportData และข้างในมี Tourism Data ให้เขียนแบบนี้:
+    INPUT_DIR = os.path.join(PROJECT_ROOT, "ImportData", "Tourism Data")
+    
+    # 4. ระบุโฟลเดอร์ที่จะเซฟไฟล์คลีน
+    OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "processed")
+    
+    print(f"Checking for files in: {INPUT_DIR}") # เอาไว้เช็คว่า Path ถูกไหม
+    clean_tourism_data(INPUT_DIR, OUTPUT_DIR)

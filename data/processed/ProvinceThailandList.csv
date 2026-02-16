@@ -1,0 +1,78 @@
+﻿No,ProvinceThai,ProvinceEN,Region_TH,Region_EN,City_type_TH,City_type_EN
+1,กรุงเทพมหานคร,Bangkok,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+2,นครปฐม,Nakhon Pathom,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+3,นนทบุรี,Nonthaburi,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+4,ปทุมธานี,Pathum Thani,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+5,สมุทรปราการ,Samut Prakan,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+6,สมุทรสาคร,Samut Sakhon,กรุงเทพมหานครและปริมณฑล,Bangkok Metropolitan ,เมืองหลัก,Major City
+7,อ่างทอง,Ang Thong,ภาคกลาง,Central,เมืองรอง,Secondary City
+8,ชัยนาท,Chainat,ภาคกลาง,Central,เมืองรอง,Secondary City
+9,ลพบุรี,Lopburi,ภาคกลาง,Central,เมืองรอง,Secondary City
+10,พระนครศรีอยุธยา,Phra Nakhon Si Ayutthaya,ภาคกลาง,Central,เมืองหลัก,Major City
+11,สระบุรี,Saraburi,ภาคกลาง,Central,เมืองหลัก,Major City
+12,สิงห์บุรี,Singburi,ภาคกลาง,Central,เมืองรอง,Secondary City
+13,ฉะเชิงเทรา,Chachoengsao,ภาคตะวันออก,Eastern,เมืองหลัก,Major City
+14,จันทบุรี,Chanthaburi,ภาคตะวันออก,Eastern,เมืองรอง,Secondary City
+15,ชลบุรี,Chonburi,ภาคตะวันออก,Eastern,เมืองหลัก,Major City
+16,นครนายก,Nakhon Nayok,ภาคตะวันออก,Eastern,เมืองรอง,Secondary City
+17,ปราจีนบุรี,Prachinburi,ภาคตะวันออก,Eastern,เมืองรอง,Secondary City
+18,ระยอง,Rayong,ภาคตะวันออก,Eastern,เมืองหลัก,Major City
+19,สระแก้ว,Sa Kaeo,ภาคตะวันออก,Eastern,เมืองรอง,Secondary City
+20,ตราด,Trat,ภาคตะวันออก,Eastern,เมืองรอง,Secondary City
+21,อำนาจเจริญ,Amnat Charoen,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+22,บึงกาฬ,Bueng Kan ,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+23,บุรีรัมย์,Buri Ram,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+24,ชัยภูมิ,Chaiyaphum,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+25,กาฬสินธุ์,Kalasin,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+26,ขอนแก่น,Khon Kaen,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองหลัก,Major City
+27,เลย,Loei,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+28,มหาสารคาม,Maha Sarakham,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+29,มุกดาหาร,Mukdahan,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+30,นครพนม,Nakhon Phanom,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+31,โคราช,Nakhon Ratchasima,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองหลัก,Major City
+32,หนองบัวลำภู,Nong Bua Lamphu,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+33,หนองคาย,Nong Khai,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+34,ร้อยเอ็ด,Roi Et,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+35,สกลนคร,Sakon Nakhon,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+36,ศรีสะเกษ,Si Saket,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+37,สุรินทร์,Surin,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+38,อุบลราชธานี,Ubon Ratchathani,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+39,อุดรธานี,Udon Thani,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+40,ยโสธร,Yasothon,ภาคตะวันออกเฉียงเหนือ,Northeastern,เมืองรอง,Secondary City
+41,เชียงใหม่,Chiang Mai,ภาคเหนือ,Northern,เมืองหลัก,Major City
+42,เชียงราย,Chiang Rai,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+43,กำแพงเพชร,Kamphaeng Phet,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+44,ลำปาง,Lampang,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+45,ลำพูน,Lamphun,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+46,แม่ฮ่องสอน,Mae Hong Son,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+47,นครสวรรค์,Nakhon Sawan,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+48,น่าน,Nan,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+49,พะเยา,Phayao,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+50,เพชรบูรณ์,Phetchabun,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+51,พิจิตร,Phichit,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+52,พิษณุโลก,Phitsanulok,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+53,แพร่,Phrae,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+54,สุโขทัย,Sukhothai,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+55,ตาก,Tak,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+56,อุทัยธานี,Uthai Thani,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+57,อุตรดิตถ์,Uttaradit,ภาคเหนือ,Northern,เมืองรอง,Secondary City
+58,ชุมพร,Chumphon,ภาคใต้,Southern,เมืองรอง,Secondary City
+59,กระบี่,Krabi,ภาคใต้,Southern,เมืองหลัก,Major City
+60,นครศรีธรรมราช,Nakhon Si Thammarat,ภาคใต้,Southern,เมืองรอง,Secondary City
+61,นราธิวาส,Narathiwat,ภาคใต้,Southern,เมืองรอง,Secondary City
+62,ปัตตานี,Pattani,ภาคใต้,Southern,เมืองรอง,Secondary City
+63,พังงา,Phang Nga,ภาคใต้,Southern,เมืองหลัก,Major City
+64,พัทลุง,Phatthalung,ภาคใต้,Southern,เมืองรอง,Secondary City
+65,ภูเก็ต,Phuket,ภาคใต้,Southern,เมืองหลัก,Major City
+66,ระนอง,Ranong,ภาคใต้,Southern,เมืองรอง,Secondary City
+67,สตูล,Satun,ภาคใต้,Southern,เมืองรอง,Secondary City
+68,สงขลา,Songkhla,ภาคใต้,Southern,เมืองหลัก,Major City
+69,สุราษฎร์ธานี,Surat Thani,ภาคใต้,Southern,เมืองหลัก,Major City
+70,ตรัง,Trang,ภาคใต้,Southern,เมืองรอง,Secondary City
+71,ยะลา,Yala,ภาคใต้,Southern,เมืองรอง,Secondary City
+72,กาญจนบุรี,Kanchanaburi,ภาคตะวันตก,Western,เมืองหลัก,Major City
+73,เพชรบุรี,Phetchaburi,ภาคตะวันตก,Western,เมืองหลัก,Major City
+74,ประจวบคีรีขันธ์,Prachuap Khiri Khan,ภาคตะวันตก,Western,เมืองหลัก,Major City
+75,ราชบุรี,Ratchaburi,ภาคตะวันตก,Western,เมืองรอง,Secondary City
+76,สมุทรสงคราม,Samut Songkhram,ภาคตะวันตก,Western,เมืองรอง,Secondary City
+77,สุพรรณบุรี,Suphanburi,ภาคตะวันตก,Western,เมืองรอง,Secondary City
