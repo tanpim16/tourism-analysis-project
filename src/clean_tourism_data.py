@@ -135,12 +135,11 @@ if __name__ == "__main__":
     # 2. ถอยออกมา 1 ชั้นเพื่อไปที่ตัวโปรเจคหลัก (Root)
     PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_FILE_PATH, ".."))
     
-    # 3. ระบุโฟลเดอร์ที่เก็บไฟล์ดิบ (แก้ให้ตรงกับชื่อโฟลเดอร์จริงของคุณ)
-    # ถ้าโฟลเดอร์ชื่อ ImportData และข้างในมี Tourism Data ให้เขียนแบบนี้:
+    # 3. ระบุโฟลเดอร์ที่เก็บไฟล์ดิบ
     INPUT_DIR = os.path.join(PROJECT_ROOT, "ImportData", "Tourism Data")
     
     # 4. ระบุโฟลเดอร์ที่จะเซฟไฟล์คลีน
     OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "processed")
     
-    print(f"Checking for files in: {INPUT_DIR}") # เอาไว้เช็คว่า Path ถูกไหม
+    print(f"Checking for files in: {INPUT_DIR}") 
     clean_tourism_data(INPUT_DIR, OUTPUT_DIR)
