@@ -1,1 +1,1 @@
-# tourism-analysis-project
+# TH Tourism Analysis Project
