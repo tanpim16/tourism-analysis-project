@@ -4,101 +4,113 @@ import time
 import random
 import os
 
-def fetch_google_trends_thailand(provinces_list):
-    # 1. ตั้งค่า pytrends
-    # hl=th-TH (ภาษาไทย), tz=360 (Timezone ไทย)
+def fetch_comprehensive_trends(provinces_df):
+    """
+    ดึงข้อมูล Google Trends แยกเป็น 2 Category: 
+    1. Thai Intent (เที่ยว + ชื่อจังหวัด)
+    2. Foreign Intent (Province Name + Tourism)
+    """
     pytrends = TrendReq(hl='th-TH', tz=360, retries=5, backoff_factor=1)
     
-    all_data = []
-    chunk_size = 5 # Google ให้ดึงได้สูงสุดครั้งละ 5 keywords
+    all_combined_data = []
+    chunk_size = 5 # Google Limit
     
-    for i in range(0, len(provinces_list), chunk_size):
-        chunk = provinces_list[i : i + chunk_size]
-        keywords = [f"เที่ยว{p}" for p in chunk]
-        
-        print(f"📡 กำลังดึงข้อมูลกลุ่ม {i//chunk_size + 1}: {keywords}...")
-        
-        try:
-            # 2. ส่ง Request (cat=67 คือหมวดหมู่ Travel)
-            # ดึงช่วงปี 2023-2025 (ค.ศ.)
-            pytrends.build_payload(
-                keywords, 
-                cat=67, 
-                timeframe='2023-01-01 2025-12-31', 
-                geo='TH'
-            )
-            
-            df = pytrends.interest_over_time()
-            
-            if not df.empty:
-                df = df.drop(columns=['isPartial']).reset_index()
-                
-                # จัดรูปข้อมูลจากแนวนอนเป็นแนวตั้ง (Melt)
-                df_melted = df.melt(id_vars=['date'], value_vars=keywords, 
-                                    var_name='Keyword', value_name='Search_Interest')
-                
-                # สกัดชื่อจังหวัด (ลบคำว่า 'เที่ยว' ออก)
-                df_melted['ProvinceThai'] = df_melted['Keyword'].str.replace('เที่ยว', '', regex=False)
-                
-                # 3. จัดการเรื่อง "ปี" (ค.ศ. และ พ.ศ.) และ "เดือน"
-                df_melted['Year_AD'] = df_melted['date'].dt.year  # ปี ค.ศ.
-                df_melted['Year_BE'] = df_melted['Year_AD'] + 543 # ปี พ.ศ.
-                df_melted['Month'] = df_melted['date'].dt.strftime('%b') # ชื่อเดือนย่อ (Jan, Feb...)
-                
-                all_data.append(df_melted)
-                print(f"✅ สำเร็จ!")
-            
-            # 4. 🛡️ ระบบป้องกันโดนแบน (Cooldown)
-            wait_time = random.uniform(5, 12)
-            if (i // chunk_size) % 3 == 0 and i > 0:
-                print("💤 พักเบรกยาว 20 วินาทีเพื่อความปลอดภัย...")
-                wait_time += 20
-                
-            time.sleep(wait_time)
-            
-        except Exception as e:
-            print(f"❌ Error กลุ่ม {chunk}: {e}")
-            print("💤 พัก 60 วินาทีแล้วจะลองใหม่...")
-            time.sleep(60)
-            continue
+    # ดึงรายชื่อจังหวัดทั้งไทยและอังกฤษ
+    provinces_th = provinces_df['ProvinceThai'].tolist()
+    provinces_en = provinces_df['ProvinceEN'].tolist()
 
-    if all_data:
-        # --- 🌟 ขั้นตอนการ Aggregation (ยุบเป็นรายเดือน) 🌟 ---
-        raw_df = pd.concat(all_data, ignore_index=True)
+    for i in range(0, len(provinces_th), chunk_size):
+        chunk_th = provinces_th[i : i + chunk_size]
+        chunk_en = provinces_en[i : i + chunk_size]
         
-        print("\n🔄 กำลังประมวลผลยุบข้อมูลสัปดาห์ -> รายเดือน...")
+        # สร้างชุด Keywords 2 แบบตามที่เราตบไอเดียกัน
+        # 1. สำหรับตลาดในประเทศ (Thai)
+        kw_thai = [f"เที่ยว{p}" for p in chunk_th]
+        # 2. สำหรับตลาดต่างประเทศ (Foreign)
+        kw_foreign = [f"{p} Tourism" for p in chunk_en]
+
+        # --- ส่วนที่ 1: ดึงข้อมูลฝั่งไทย ---
+        print(f"📡 [{i//chunk_size + 1}] กำลังดึงข้อมูลฝั่งไทย: {kw_thai}...")
+        df_thai = get_trends_data(pytrends, kw_thai, "Thai_Intent")
+        if df_thai is not None:
+            all_combined_data.append(df_thai)
         
-        # ยุบข้อมูลด้วยการหาค่าเฉลี่ย (Mean) แยกตามจังหวัดและช่วงเวลา
-        final_df = raw_df.groupby(
-            ['ProvinceThai', 'Year_AD', 'Year_BE', 'Month'], 
+        # พักเบรกสั้นๆ ระหว่างดึงชุดไทยกับต่างชาติ
+        time.sleep(random.uniform(3, 6))
+
+        # --- ส่วนที่ 2: ดึงข้อมูลฝั่งต่างชาติ ---
+        print(f"📡 [{i//chunk_size + 1}] กำลังดึงข้อมูลฝั่งต่างชาติ: {kw_foreign}...")
+        df_foreign = get_trends_data(pytrends, kw_foreign, "Foreign_Intent")
+        if df_foreign is not None:
+            # Map ชื่อภาษาอังกฤษกลับเป็นภาษาไทยเพื่อให้ Merge ง่าย
+            en_to_th = dict(zip(kw_foreign, chunk_th))
+            df_foreign['ProvinceThai'] = df_foreign['Keyword'].map(en_to_th)
+            all_combined_data.append(df_foreign)
+
+        # --- ระบบป้องกันโดนแบน (Cooldown) ---
+        wait_time = random.uniform(8, 15)
+        if (i // chunk_size) % 2 == 0 and i > 0:
+            print("💤 พักเบรกยาว 30 วินาที เพื่อหลบระบบตรวจจับบอท...")
+            wait_time += 20
+        
+        print(f"⏳ รอ {wait_time:.2f} วินาที... \n")
+        time.sleep(wait_time)
+
+    # --- รวมร่างและยุบข้อมูล (Aggregation) ---
+    if all_combined_data:
+        full_df = pd.concat(all_combined_data, ignore_index=True)
+        print("🔄 กำลังยุบข้อมูลรายสัปดาห์ -> รายเดือน และจัดการเรื่องปี พ.ศ./ค.ศ. ...")
+        
+        # 1. จัดการเรื่องวันที่
+        full_df['Year_AD'] = full_df['date'].dt.year
+        full_df['Year_BE'] = full_df['Year_AD'] + 543
+        full_df['Month'] = full_df['date'].dt.strftime('%b')
+
+        # 2. Groupby เพื่อหาค่าเฉลี่ยรายเดือน แยกตาม Category
+        final_df = full_df.groupby(
+            ['ProvinceThai', 'Year_AD', 'Year_BE', 'Month', 'Category'], 
             as_index=False
         )['Search_Interest'].mean()
-        
-        # ปัดเศษทศนิยม
+
         final_df['Search_Interest'] = final_df['Search_Interest'].round(2)
-        
         return final_df
+    
     return None
 
+def get_trends_data(pytrends_obj, keywords, category_name):
+    """ฟังก์ชันช่วยดึงข้อมูลและจัดการ Error"""
+    try:
+        pytrends_obj.build_payload(keywords, cat=67, timeframe='2023-01-01 2025-12-31', geo='TH')
+        df = pytrends_obj.interest_over_time()
+        
+        if not df.empty:
+            df = df.drop(columns=['isPartial']).reset_index()
+            # Melt ข้อมูลจากกว้างเป็นยาว
+            df_long = df.melt(id_vars=['date'], value_vars=keywords, 
+                              var_name='Keyword', value_name='Search_Interest')
+            df_long['Category'] = category_name
+            
+            # ถ้าเป็นฝั่งไทย ให้สกัดชื่อจังหวัดไว้เลย
+            if category_name == "Thai_Intent":
+                df_long['ProvinceThai'] = df_long['Keyword'].str.replace('เที่ยว', '', regex=False)
+            
+            return df_long
+    except Exception as e:
+        print(f"⚠️ Error ในหมวด {category_name}: {e}")
+        return None
+
 if __name__ == "__main__":
-    # ตรวจสอบ Path และโหลดรายชื่อจังหวัด
-    input_prov = 'data/processed/ProvinceThailandList.csv'
-    output_file = 'data/processed/Google_Trends_Data.csv'
-    
-    if os.path.exists(input_prov):
-        df_prov = pd.read_csv(input_prov)
-        # ตรวจสอบว่าใช้ชื่อคอลัมน์ ProvinceThai
-        provinces = df_prov['ProvinceThai'].unique().tolist()
-        
-        # รันการดึงข้อมูล
-        result_df = fetch_google_trends_thailand(provinces)
-        
-        if result_df is not None:
-            # สร้างโฟลเดอร์ถ้ายังไม่มี
-            os.makedirs(os.path.dirname(output_file), exist_ok=True)
-            # บันทึกไฟล์
-            result_df.to_csv(output_file, index=False, encoding='utf-8-sig')
-            print(f"\n🎉 เสร็จสมบูรณ์! บันทึกไฟล์ที่: {output_file}")
-            print(result_df.head())
+    input_path = 'data/processed/ProvinceThailandList.csv'
+    output_path = 'data/processed/Google_Trends_Data.csv'
+
+    if os.path.exists(input_path):
+        prov_df = pd.read_csv(input_path)
+        final_result = fetch_comprehensive_trends(prov_df)
+
+        if final_result is not None:
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            final_result.to_csv(output_path, index=False, encoding='utf-8-sig')
+            print(f"🎉 เสร็จสมบูรณ์! ข้อมูลถูกบันทึกไว้ที่: {output_path}")
+            print(final_result.sample(10)) # สุ่มตัวอย่างมาโชว์ 10 แถว
     else:
-        print(f"❌ ไม่พบไฟล์รายชื่อจังหวัดที่: {input_prov}")
+        print("❌ ไม่พบไฟล์รายชื่อจังหวัด!")
