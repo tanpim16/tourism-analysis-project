@@ -2,7 +2,7 @@
 
 ## **Data Source**
 
-## •	Tourism Revenue Data: https://www.mots.go.th/news/category/411
+# •	Tourism Revenue Data: https://www.mots.go.th/news/category/411
 ## •	Consumer Price Index (CPI) Data: https://index.tpso.go.th/document/cpip/post-month
 ## •	Google Trends Data: Search keywords such as "travel + province" (e.g., "travel + province name").
 
