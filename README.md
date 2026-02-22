@@ -17,7 +17,7 @@ This study addresses the following research questions:
 
 ---
 
-## **introduction** ##
+## **Introduction** ##
 
 Tourism is one of the most important drivers of Thailand’s economy, contributing significantly to national income, employment, and regional economic activity. Tourism revenue accounts for a substantial share of Thailand’s gross domestic product and plays a key role in supporting economic recovery through foreign exchange earnings and service-sector employment (World Bank, 2023). In addition to its direct contribution, tourism generates multiplier effects across related industries such as transportation, accommodation, food services, and local enterprises, thereby supporting community livelihoods and regional development (Lloyds Bank, 2024).
 
