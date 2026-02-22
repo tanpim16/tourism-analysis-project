@@ -43,7 +43,7 @@ Tourism income also increased over time; however, the magnitude of revenue growt
 
 The findings suggest that Thailand’s secondary-city tourism policy has been effective in stimulating tourist movement toward lesser-visited provinces. The similarity in seasonal patterns implies stronger integration of secondary cities into national tourism demand. Nevertheless, the weaker income response shown in Axes B indicates that increased visitor numbers alone may not ensure equivalent economic benefits. Differences in tourist spending behavior, service quality, and tourism infrastructure may limit revenue capture in secondary destinations. Therefore, tourism redistribution appears to occur primarily in terms of visitor volume rather than economic value.
 
-### **Tourism Income Growth Rate YoY** ###
+### **Tourism Income Growth Rate** ###
 
 
 #Figure 2 illustrates the monthly year-over-year (YoY) growth rate of tourism income in primary and secondary cities.#
@@ -58,12 +58,19 @@ The decline in YoY growth in primary cities is largely attributable to a base-ye
 ### **Compound Annual Growth Rate (CAGR)** ###
 The Compound Annual Growth Rate (CAGR) analysis is applied to examine the long-term growth pattern of tourism performance over the 2023–2025 period. Unlike monthly or year-over-year measures, which may be affected by seasonal fluctuations and short-term volatility, CAGR provides a smoothed estimate of average annual growth. This allows the analysis to capture the underlying trend in tourism expansion across the study period.
 
-##Figure 4. Compound Annual Growth Rate (CAGR) Comparison of Tourism Growth in Primary and Secondary Cities, 2023–2025##
+##Figure 3. Compound Annual Growth Rate (CAGR) Comparison of Tourism Growth in Primary and Secondary Cities, 2023–2025##
 
 The CAGR analysis for 2023–2025 shows sustained long-term growth in tourism activity for both city groups. Primary cities recorded a higher CAGR of 10.50%, compared with 6.57% for secondary cities. This indicates that although tourism expanded across regions during the study period, growth remained stronger in primary destinations. The results suggest that the expansion of tourism into secondary cities is evident but progressing at a slower pace, reflecting gradual rather than full convergence in long-term tourism growth patterns.
 
+## **Tourism Income Comparison Across Primary Cities** ##
 
+The comparison of tourism income across primary cities from 2023 to 2025 shows a consistent upward trend in revenue for most destinations. Income levels increased progressively across the three years, indicating continued recovery and expansion of tourism activity. Despite this growth, the relative ranking of cities remained largely unchanged, with a small number of major destinations maintaining significantly higher income levels than others.
 
+## Figure X. Tourism Income Comparison Across Primary Cities, 2023–2025 ##
+
+These results suggest that tourism growth has been broadly shared in terms of overall increase, but not in terms of redistribution among primary cities. From an analytical perspective, the stable ranking pattern indicates structural concentration in tourism income, where established destinations continue to dominate revenue generation. This implies that growth reflects expansion within existing tourism hubs rather than a shift in economic importance across locations.
+
+## 
 
 ### Reference ###
 Chulalongkorn University. (2020). Tourism development and secondary city policy in Thailand (Master’s thesis). Chulalongkorn University Institutional Repository. https://digital.car.chula.ac.th/chulaetd/6448/
