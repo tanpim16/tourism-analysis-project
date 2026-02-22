@@ -17,3 +17,5 @@ This study addresses the following research questions:
 3.\tDoes tourism development improve income quality, measured by revenue per tourist and international visitor share?
 4.\tCan online search interest predict tourism demand and tourism revenue?
 5.\tDoes tourism growth generate real income gains for local communities after adjusting for inflation?
+
+---
