@@ -33,4 +33,4 @@ Lloyds Bank. (2024). Thailand: Economic context and market overview. Lloyds Bank
 World Bank. (2023, December 14). Thai economy to recover in 2024 driven by tourism and exports recovery. World Bank. https://www.worldbank.org/en/news/press-release/2023/12/14/thai-economy-to-recover-in-2024-driven-by-tourism-exports-recovery
 
 ---
-## **Economic Contribution of Primary Cities vs Secondary Cities Turism** ##
+## **Economic Contribution of Primary Cities vs Secondary Cities Tourism** ##
