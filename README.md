@@ -35,11 +35,9 @@ World Bank. (2023, December 14). Thai economy to recover in 2024 driven by touri
 ---
 ## **Economic Contribution of Primary Cities vs Secondary Cities Tourism** ##
 
-Tourism represents an important source of economic activity across different regions of Thailand, yet its contribution may vary between primary and secondary destinations. Primary cities have traditionally served as the main tourism hubs due to established infrastructure, accessibility, and a concentration of tourism services, while secondary cities have increasingly been promoted as alternative destinations under national tourism policies.
+Tourism represents an important source of economic activity across provinces in Thailand, although its contribution may differ between primary and secondary destinations. While primary cities have traditionally served as established tourism centers, secondary cities have increasingly been promoted as alternative destinations under national tourism policies. 
 
-Examining the economic contribution of tourism across these two groups is important for understanding whether the expansion of tourism activity is accompanied by changes in the distribution of tourism-generated income. Differences may arise not only in visitor volumes but also in revenue generation, spending patterns, and the overall economic value created within local economies.
-
-Therefore, comparing tourism performance between primary and secondary cities provides a basis for assessing how tourism growth evolves across regions and whether shifts in tourist flows are associated with broader changes in economic outcomes. The following analysis explores these patterns using indicators of tourist arrivals and tourism income over time.
+Examining trends in tourism performance across these two groups is therefore important for identifying emerging patterns and assessing the potential for broader tourism development. Observing changes in both tourist arrivals and tourism income over time allows for an evaluation of whether growth in secondary cities signals expanding economic opportunities and increasing participation in the tourism economy. By comparing these trends, the analysis provides insight into how tourism dynamics evolve across provinces and helps reveal the potential for secondary destinations to strengthen their economic role within Thailand’s tourism sector.
 
 #Figure 1:#
 
