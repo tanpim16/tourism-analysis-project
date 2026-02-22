@@ -1,9 +1,9 @@
 # ✈️🌎 Analyzing the Impact of Secondary City Tourism on Real Income Generation for Local Communities in Thailand during 2023 - 2025
 
 ## **Data Source**
-1. Tourism Revenue Data: https://www.mots.go.th/news/category/411
-2. Consumer Price Index (CPI) Data: https://index.tpso.go.th/document/cpip/post-month
-3. API of Google Trends Data: Search keywords such as "travel + province" (e.g., "travel + province name").
+1. Tourism Revenue Data (2023 - 2025): https://www.mots.go.th/news/category/411
+2. Consumer Price Index (CPI) Data (2023 - 2025): https://index.tpso.go.th/document/cpip/post-month
+3. API of Google Trends Data (2023 - 2025): Search keywords such as "travel + province" (e.g., "travel + province name").
 
 ---
 
