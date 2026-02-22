@@ -66,11 +66,18 @@ The CAGR analysis for 2023–2025 shows sustained long-term growth in tourism ac
 
 The comparison of tourism income across primary cities from 2023 to 2025 shows a consistent upward trend in revenue for most destinations. Income levels increased progressively across the three years, indicating continued recovery and expansion of tourism activity. Despite this growth, the relative ranking of cities remained largely unchanged, with a small number of major destinations maintaining significantly higher income levels than others.
 
-## Figure X. Tourism Income Comparison Across Primary Cities, 2023–2025 ##
 
-These results suggest that tourism growth has been broadly shared in terms of overall increase, but not in terms of redistribution among primary cities. From an analytical perspective, the stable ranking pattern indicates structural concentration in tourism income, where established destinations continue to dominate revenue generation. This implies that growth reflects expansion within existing tourism hubs rather than a shift in economic importance across locations.
 
-## 
+
+## Tourism Income and Contribution to Local Income Distribution ##
+
+To evaluate the impact of inflation on tourism income, this study applies a real-value adjustment using the Consumer Price Index (CPI). Nominal tourism revenue is converted into real revenue by controlling for changes in price levels over time, allowing a comparison between observed income growth and actual purchasing power. The difference between nominal and CPI-adjusted revenue is used to measure the inflation illusion, which captures the extent to which revenue increases are driven by price effects rather than real economic expansion. This approach enables a clearer assessment of whether tourism growth translates into genuine income improvement across primary and secondary cities.
+
+## Figure X. Inflation Effect on Tourism Revenue: Nominal and Real Comparison ##
+
+Figure X illustrates the difference between nominal and CPI-adjusted tourism revenue, representing the inflation illusion in tourism income growth. The results show a persistent positive gap between nominal and real revenue across the study period, indicating that part of the observed increase in tourism income is attributable to rising price levels rather than real economic expansion. This gap is substantially larger in primary cities, particularly during periods of rapid revenue growth, suggesting stronger exposure to inflation effects in major tourism destinations.
+
+In contrast, secondary cities exhibit a smaller and more stable gap between nominal and real revenue, implying that income growth in these areas is more closely aligned with actual increases in tourism activity. The findings highlight that relying solely on nominal revenue may overestimate economic improvement, especially in primary cities. From a data analytics perspective, the inflation illusion demonstrates the importance of adjusting for CPI when evaluating tourism performance, as real income gains—and thus improvements in local purchasing power—are more moderate than nominal trends suggest.
 
 ### Reference ###
 Chulalongkorn University. (2020). Tourism development and secondary city policy in Thailand (Master’s thesis). Chulalongkorn University Institutional Repository. https://digital.car.chula.ac.th/chulaetd/6448/
