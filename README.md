@@ -34,8 +34,8 @@ Tourism represents an important source of economic activity across provinces in 
 
 Examining trends in tourism performance across these two groups is therefore important for identifying emerging patterns and assesing the potential for broader tourism development. Observing changes in both tourist arrivals and tourism income over time allows for an evaluation of whether growth in secondary cities signals expanding economic opportunities and increasing participation in the tourism economy. By comparing these trends, the analysis provides insight into how tourism dynamics evolve across provinces and helps reveal the potential for secondary destinations to strengthen their economic role within Thailand’s tourism sector.
 
-#Figure 1A: Monthly Tourist Arrivals Trend (2023–2025)
-#Figure 1B: Monthly Tourism Income Trend (2023–2025)
+#Figure 1A: Monthly Tourist Arrivals Trend (2023–2025)#
+#Figure 1B: Monthly Tourism Income Trend (2023–2025)#
 
 Figure 1 presents tourism dynamics through two dimensions: tourist arrivals (Figure 1A) and tourism income (Figure 1B). The results show a clear upward trend in tourist arrivals for both primary and secondary cities during 2023–2025. Secondary cities experienced steady growth and displayed seasonal patterns similar to primary destinations, particularly during peak tourism periods at the beginning and end of each year.
 
@@ -46,7 +46,7 @@ The findings suggest that Thailand’s secondary-city tourism policy has been ef
 ### **2025 Torism Income Growth Rate** ###
 
 
-#Figure 2 illustrates the monthly year-over-year (YoY) growth rate of tourism income in primary and secondary cities of 2025.
+#Figure 2 illustrates the monthly year-over-year (YoY) growth rate of tourism income in primary and secondary cities.#
 
 
 The Year-over-Year (YoY) tourism income growth in 2025 shows a clear moderation compared with the strong expansion observed in 2024. Tourism income growth in primary cities declined from approximately 15.00%–30.00% in early 2024 to levels close to 0.00% at the beginning of 2025. During the middle of the year, several months recorded negative growth ranging between –5.00% and –10.00%, indicating that monthly tourism revenue was slightly lower than in the corresponding months of the previous year.
