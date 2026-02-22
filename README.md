@@ -35,6 +35,14 @@ World Bank. (2023, December 14). Thai economy to recover in 2024 driven by touri
 ---
 ## **Economic Contribution of Primary Cities vs Secondary Cities Tourism** ##
 
+Tourism represents an important source of economic activity across different regions of Thailand, yet its contribution may vary between primary and secondary destinations. Primary cities have traditionally served as the main tourism hubs due to established infrastructure, accessibility, and a concentration of tourism services, while secondary cities have increasingly been promoted as alternative destinations under national tourism policies.
+
+Examining the economic contribution of tourism across these two groups is important for understanding whether the expansion of tourism activity is accompanied by changes in the distribution of tourism-generated income. Differences may arise not only in visitor volumes but also in revenue generation, spending patterns, and the overall economic value created within local economies.
+
+Therefore, comparing tourism performance between primary and secondary cities provides a basis for assessing how tourism growth evolves across regions and whether shifts in tourist flows are associated with broader changes in economic outcomes. The following analysis explores these patterns using indicators of tourist arrivals and tourism income over time.
+
+#Figure 1:#
+
 Figure 1 presents tourism dynamics through two dimensions: tourist arrivals (Axes A) and tourism income (Axes B). The results show a clear upward trend in tourist arrivals for both primary and secondary cities during 2023–2025. Secondary cities experienced steady growth and displayed seasonal patterns similar to primary destinations, particularly during peak tourism periods at the beginning and end of each year.
 
 Tourism income also increased over time; however, the magnitude of revenue growth in secondary cities remained considerably lower than in primary cities. While visitor numbers expanded in secondary destinations, income gains did not increase proportionally, indicating a persistent gap in tourism value generation.
