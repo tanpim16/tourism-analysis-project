@@ -15,7 +15,7 @@
 ##### 1. Do secondary cities experience higher tourist growth rates than primary destinations during 2023–2025?
 ##### 2. Has tourism policy contributed to the redistribution of tourists toward secondary cities?
 ##### 3. Does tourism development improve income quality, measured by revenue per tourist and international visitor share?
-##### 4. Can online search interest predict tourism demand and tourism revenue?
-5.Does tourism growth generate real income gains for local communities after adjusting for inflation?
+4. Can online search interest predict tourism demand and tourism revenue?
+5. Does tourism growth generate real income gains for local communities after adjusting for inflation?
 
 ---
