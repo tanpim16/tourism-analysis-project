@@ -43,23 +43,24 @@ Tourism income also increased over time; however, the magnitude of revenue growt
 
 The findings suggest that Thailand’s secondary-city tourism policy has been effective in stimulating tourist movement toward lesser-visited provinces. The similarity in seasonal patterns implies stronger integration of secondary cities into national tourism demand. Nevertheless, the weaker income response shown in Axes B indicates that increased visitor numbers alone may not ensure equivalent economic benefits. Differences in tourist spending behavior, service quality, and tourism infrastructure may limit revenue capture in secondary destinations. Therefore, tourism redistribution appears to occur primarily in terms of visitor volume rather than economic value.
 
-### **2025 Torism Income Growth Rate** ###
+### **Tourism Income Growth Rate YoY** ###
 
 
 #Figure 2 illustrates the monthly year-over-year (YoY) growth rate of tourism income in primary and secondary cities.#
 
 
-The Year-over-Year (YoY) tourism income growth in 2025 shows a clear moderation compared with the strong expansion observed in 2024. Tourism income growth in primary cities declined from approximately 15.00%–30.00% in early 2024 to levels close to 0.00% at the beginning of 2025. During the middle of the year, several months recorded negative growth ranging between –5.00% and –10.00%, indicating that monthly tourism revenue was slightly lower than in the corresponding months of the previous year.
+The Year-over-Year (YoY) tourism income growth in 2025 shows a clear moderation following the strong expansion observed in 2024. Growth in primary cities declined from approximately 15.00%–30.00% in early 2024 to around 0.00% at the beginning of 2025, with several mid-year months recording negative growth between –5.00% and –10.00%, indicating slightly lower revenue compared with the corresponding months of the previous year.
 
-In contrast, secondary cities maintained mostly positive YoY income growth throughout 2025, generally fluctuating between 3.00% and 10.00%. The variation in growth rates was smaller compared with primary cities, suggesting more stable changes in tourism income over time.
+In contrast, secondary cities maintained mostly positive YoY income growth throughout 2025, generally fluctuating between 3.00% and 10.00%, and exhibiting lower volatility than primary cities.
 
+The decline in YoY growth in primary cities is largely attributable to a base-year effect, as elevated revenue levels in 2024 increased the comparison benchmark. Consequently, lower YoY values reflect a normalization of growth rather than a contraction in tourism activity. The results indicate differing growth dynamics, with primary cities entering a stabilization phase while secondary cities continue to demonstrate gradual expansion, emphasizing the importance of interpreting YoY indicators within broader time-series trends.
 
-The observed slowdown in YoY income growth in primary cities can be explained mainly by a base-year effect. High tourism revenue recorded in 2024 raised the comparison benchmark, causing growth rates in 2025 to appear lower even when income levels remained relatively stable. Therefore, negative YoY values should be interpreted as a normalization of growth rather than a decline in tourism activity.
+### **Compound Annual Growth Rate (CAGR)** ###
+The Compound Annual Growth Rate (CAGR) analysis is applied to examine the long-term growth pattern of tourism performance over the 2023–2025 period. Unlike monthly or year-over-year measures, which may be affected by seasonal fluctuations and short-term volatility, CAGR provides a smoothed estimate of average annual growth. This allows the analysis to capture the underlying trend in tourism expansion across the study period.
 
-Meanwhile, the continued positive growth in secondary cities indicates ongoing expansion, although at a moderate pace. The lower volatility observed in these areas suggests gradual development rather than rapid fluctuation. From a data analytics perspective, the comparison highlights differences in growth stages between city groups: primary cities appear to be entering a stabilization phase, while secondary cities continue to show incremental growth potential. These results emphasize the importance of interpreting YoY indicators alongside trend behavior and baseline effects when analyzing time-series economic data.
+##Figure 4. Compound Annual Growth Rate (CAGR) Comparison of Tourism Growth in Primary and Secondary Cities, 2023–2025##
 
-
-
+The CAGR analysis for 2023–2025 shows sustained long-term growth in tourism activity for both city groups. Primary cities recorded a higher CAGR of 10.50%, compared with 6.57% for secondary cities. This indicates that although tourism expanded across regions during the study period, growth remained stronger in primary destinations. The results suggest that the expansion of tourism into secondary cities is evident but progressing at a slower pace, reflecting gradual rather than full convergence in long-term tourism growth patterns.
 
 
 
