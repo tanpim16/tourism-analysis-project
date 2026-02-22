@@ -5,7 +5,7 @@
 2. Consumer Price Index (CPI) Data (2023 - 2025): https://index.tpso.go.th/document/cpip/post-month
 3. API of Google Trends Data (2023 - 2025): Search keywords such as "travel + province" (e.g., "travel + province name").
 
----
+----
 
 ## **Research Questions**
 This study addresses the following research questions:
