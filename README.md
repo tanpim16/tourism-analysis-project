@@ -1,4 +1,4 @@
-# ✈️🌎 Analyzing the Impact of Secondary City Tourism on Real Income Generation for Local Communities in Thailand during 2023 - 2025
+# ✈️ Analyzing the Impact of Secondary City Tourism on Real Income Generation for Local Communities in Thailand during 2023 - 2025
 
 ## **Data Source**
 1. Tourism Revenue Data (2023 - 2025): https://www.mots.go.th/news/category/411
