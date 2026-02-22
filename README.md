@@ -1,9 +1,9 @@
 # Analyzing the Impact of Secondary City Tourism on Real Income Generation for Local Communities in Thailand
 
 ## **Data Source**
-•	Tourism Revenue Data: https://www.mots.go.th/news/category/411
-•	Consumer Price Index (CPI) Data: https://index.tpso.go.th/document/cpip/post-month
-•	Google Trends Data: Search keywords such as "travel + province" (e.g., "travel + province name").
+1. Tourism Revenue Data: https://www.mots.go.th/news/category/411
+2. Consumer Price Index (CPI) Data: https://index.tpso.go.th/document/cpip/post-month
+3. Google Trends Data: Search keywords such as "travel + province" (e.g., "travel + province name").
 
 ---
 
