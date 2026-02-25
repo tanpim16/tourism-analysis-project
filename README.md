@@ -42,6 +42,7 @@ Examining trends in tourism performance across these two groups is therefore imp
 
 #Figure 1A: Monthly Tourist Arrivals Trend (2023–2025)#
 ![Figure 1A](visualizations/figure_1A.png)
+
 #Figure 1B: Monthly Tourism Income Trend (2023–2025)#
 
 Figure 1 presents tourism dynamics through two dimensions: tourist arrivals (Figure 1A) and tourism income (Figure 1B). The results show a clear upward trend in tourist arrivals for both primary and secondary cities during 2023–2025. Secondary cities experienced steady growth and displayed seasonal patterns similar to primary destinations, particularly during peak tourism periods at the beginning and end of each year.
