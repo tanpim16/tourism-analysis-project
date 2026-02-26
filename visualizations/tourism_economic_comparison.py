@@ -63,21 +63,9 @@ CHART_CONFIGS = [
         'subtitle': 'Number of visitors  ·  Jan 2023 – Dec 2025',
         'ylabel':   'Visitors',
         'filename': 'Figure 1.png',
+    # Figure 4 moved to figure_4.py
     },
-    {
-        'col':      'total_revenue',
-        'title':    'Monthly Tourism Income (Nominal)',
-        'subtitle': 'Total revenue  ·  Jan 2023 – Dec 2025',
-        'ylabel':   'THB',
-        'filename': 'Figure 2.png',
-    },
-    {
-        'col':      'real_revenue',
-        'title':    'Real Local Income Generation',
-        'subtitle': 'Real revenue  ·  Jan 2023 – Dec 2025',
-        'ylabel':   'THB (Real)',
-        'filename': 'Figure 4.png',
-    },
+    # Figure 3 removed
 ]
 
 def create_chart(cfg):
@@ -164,5 +152,6 @@ def create_chart(cfg):
 
 for cfg in CHART_CONFIGS:
     create_chart(cfg)
+    # Figure 4 moved to figure_4.py
 
 print('\n🚀 ALL CHARTS DONE!')
