@@ -48,16 +48,12 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 * **The Milestones**: Major cities continue to lead, reaching a massive peak of **21.9 million visitors** in December 2024. Meanwhile, secondary cities proved their potential by climbing to a peak of **11.2 million** in December 2025.
 * **Key Insight**: National policies are effectively moving the needle in terms of volume, as more travelers explore beyond traditional destinations.
 
----
-
 ### **Figure 1B: Monthly Tourism Income Trend (Nominal)**
 ![Tourism Income Trend](visualizations/figure_1B.png)
 
 While more people are traveling, a closer look at the revenue (Figure 1B) reveals a different story:
 * **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
 * **The Missing Link**: Although visitor numbers in secondary cities are rising, the revenue has not grown at the same proportion. This reflects a persistent gap in the ability of emerging destinations to capture high economic value from increased foot traffic.
-
----
 
 ## 💡 Conclusion & Strategic Implications
 The results support the premise that Thailand’s secondary-city tourism policy has successfully stimulated tourist movement toward lesser-visited provinces. The similarity in seasonal patterns, as shown in **Figure 1A**, implies a stronger integration of secondary cities into national tourism demand.
