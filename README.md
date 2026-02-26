@@ -62,7 +62,7 @@ However, the **weaker income response** highlighted in **Figure 2** indicates th
 
 ---
 
-## **Tourism Redistribution Toward Secondary Cities** ##
+## **2. Tourism Redistribution Toward Secondary Cities** ##
 
 Figure 3: Share of National Tourist Arrivals in Secondary Cities
 ![Figure 3](visualizations/Figure%203.png)
