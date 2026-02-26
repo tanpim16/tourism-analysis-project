@@ -62,21 +62,21 @@ CHART_CONFIGS = [
         'title':    'Monthly Tourist Arrivals',
         'subtitle': 'Number of visitors  ·  Jan 2023 – Dec 2025',
         'ylabel':   'Visitors',
-        'filename': 'figure_1A.png',
+        'filename': 'Figure 1.png',
     },
     {
         'col':      'total_revenue',
         'title':    'Monthly Tourism Income (Nominal)',
         'subtitle': 'Total revenue  ·  Jan 2023 – Dec 2025',
         'ylabel':   'THB',
-        'filename': 'figure_1B.png',
+        'filename': 'Figure 2.png',
     },
     {
         'col':      'real_revenue',
         'title':    'Real Local Income Generation',
         'subtitle': 'Real revenue  ·  Jan 2023 – Dec 2025',
         'ylabel':   'THB (Real)',
-        'filename': 'figure_1C.png',
+        'filename': 'Figure 3.png',
     },
 ]
 

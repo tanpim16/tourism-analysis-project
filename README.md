@@ -40,16 +40,16 @@ Tourism represents an important source of economic activity across provinces in 
 
 Examining trends in tourism performance across these two groups is therefore important for identifying emerging patterns and assesing the potential for broader tourism development. Observing changes in both tourist arrivals and tourism income over time allows for an evaluation of whether growth in secondary cities signals expanding economic opportunities and increasing participation in the tourism economy. By comparing these trends, the analysis provides insight into how tourism dynamics evolve across provinces and helps reveal the potential for secondary destinations to strengthen their economic role within Thailand’s tourism sector.
 
-### **Figure 1A: Monthly Tourist Arrivals Trend**
-![Tourist Arrivals Trend](visualizations/figure_1A.png)
+### **Figure 1: Monthly Tourist Arrivals Trend**
+![Tourist Arrivals Trend](visualizations/Figure 1.png)
 
 The comparison of visitor arrivals (Figure 1A) reveals a promising shift in travel behavior:
 * **Success in Redistribution**: Secondary cities are showing a steady and reliable growth trend that mirrors the seasonal patterns of major hubs, particularly during the year-end "High Season."
 * **The Milestones**: Major cities continue to lead, reaching a massive peak of **21.9 million visitors** in December 2024. Meanwhile, secondary cities proved their potential by climbing to a peak of **11.2 million** in December 2025.
 * **Key Insight**: National policies are effectively moving the needle in terms of volume, as more travelers explore beyond traditional destinations.
 
-### **Figure 1B: Monthly Tourism Income Trend (Nominal)**
-![Tourism Income Trend](visualizations/figure_1B.png)
+### **Figure 2: Monthly Tourism Income Trend (Nominal)**
+![Tourism Income Trend](visualizations/Figure 2.png)
 
 While more people are traveling, a closer look at the revenue (Figure 1B) reveals a different story:
 * **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
@@ -64,9 +64,9 @@ However, the **weaker income response** highlighted in **Figure 1B** indicates t
 
 ## **Tourism Redistribution Toward Secondary Cities** ##
 
-Figure 2: Share of National Tourist Arrivals in Secondary Cities
+Figure 3: Share of National Tourist Arrivals in Secondary Cities
 
-Figure 2 illustrates the proportion of national tourism captured by secondary destinations. The upward trend demonstrates a gradual redistribution of tourist flows away from traditional hubs toward lesser-visited provinces. This pattern provides empirical support for the effectiveness of Thailand’s secondary-city tourism policy in influencing travel behavior.
+Figure 3 illustrates the proportion of national tourism captured by secondary destinations. The upward trend demonstrates a gradual redistribution of tourist flows away from traditional hubs toward lesser-visited provinces. This pattern provides empirical support for the effectiveness of Thailand’s secondary-city tourism policy in influencing travel behavior.
 
 However, while the share of visitors increased, the corresponding rise in tourism income remained comparatively modest. The visualization suggests that redistribution has primarily occurred in terms of activity volume rather than economic value.
 
@@ -93,8 +93,6 @@ The CAGR analysis for 2023–2025 shows sustained long-term growth in tourism ac
 ## **Tourism Income Comparison Across Primary Cities** ##
 
 The comparison of tourism income across primary cities from 2023 to 2025 shows a consistent upward trend in revenue for most destinations. Income levels increased progressively across the three years, indicating continued recovery and expansion of tourism activity. Despite this growth, the relative ranking of cities remained largely unchanged, with a small number of major destinations maintaining significantly higher income levels than others.
-
-
 
 
 ## Tourism Income and Contribution to Local Income Distribution ##
