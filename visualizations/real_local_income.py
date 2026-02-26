@@ -1,18 +1,79 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib.ticker import FuncFormatter
 import matplotlib.patches as mpatches
 
-# Import or define COLORS, FILL_ALPHA, moving_avg, fmt, df_plot as needed
-# ...existing code...
+# ─── Global Style ─────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
 
-FIGURE_4_CONFIG = {
+COLORS = {
+    'Major City':     '#1B4F8A',
+    'Secondary City': '#16A085',
+}
+
+FILL_ALPHA = 0.18
+
+
+def moving_avg(series, window: int = 3):
+    """Simple moving average with edge handling."""
+    return series.rolling(window=window, min_periods=1).median()
+
+
+def fmt(x: float) -> str:
+    """Format numbers in million THB with commas."""
+    if pd.isna(x):
+        return ""
+    return f"{x:,.0f}"
+
+
+def load_real_revenue_data():
+    """Load master data and aggregate real revenue by month and city type."""
+    data_path = "data/processed/master_tourism_analysis.csv"
+    df = pd.read_csv(data_path)
+
+    # Convert Thai BE → CE and build monthly date
+    df['Year_CE'] = df['Year'].astype(int) - 543
+    df['date'] = pd.to_datetime(
+        df['Year_CE'].astype(str) + '-' + df['Month'],
+        format='%Y-%b'
+    )
+
+    # Filter to study window
+    df = df.query("'2023-01-01' <= date <= '2025-12-01'")
+
+    # Aggregate real revenue by month and city type
+    df_agg = (
+        df.groupby(['date', 'City_type_EN'])['real_revenue']
+        .sum()
+        .reset_index()
+    )
+
+    return df_agg
+
+
+# Precompute plotting dataframe
+df_plot = load_real_revenue_data()
+
+
+FIGURE_6_CONFIG = {
     'col':      'real_revenue',
     'title':    'Real Local Income Generation',
-    'subtitle': 'Real revenue  ·  Jan 2023 – Dec 2025',
-    'ylabel':   'THB (Real)',
-    'filename': 'Figure 4.png',
+    'subtitle': 'Real tourism revenue (CPI-adjusted) · Jan 2023 – Dec 2025',
+    'ylabel':   'Revenue (Million THB, real)',
+    'filename': 'Figure 6.png',
 }
 
 def create_figure_4_chart(cfg):
@@ -24,6 +85,8 @@ def create_figure_4_chart(cfg):
         sub = df_plot[df_plot['City_type_EN'] == name].sort_values('date').copy()
         sub['ma'] = moving_avg(sub[col])
         groups[name] = sub
+
+    os.makedirs('visualizations', exist_ok=True)
 
     fig = plt.figure(figsize=(16, 8))
     gs  = GridSpec(1, 1, figure=fig, left=0.07, right=0.96, top=0.78, bottom=0.12)
@@ -86,6 +149,11 @@ def create_figure_4_chart(cfg):
     plt.close()
     print(f'✅ {filename}')
 
+
+def create_figure_6_chart(cfg):
+    """Alias to reuse the same chart logic for Figure 6."""
+    return create_figure_4_chart(cfg)
+
 if __name__ == "__main__":
-    create_figure_4_chart(FIGURE_4_CONFIG)
-    print('\n🚀 FIGURE 4 DONE!')
+    create_figure_6_chart(FIGURE_6_CONFIG)
+    print('\n🚀 FIGURE 6 DONE!')

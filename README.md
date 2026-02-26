@@ -67,14 +67,19 @@ However, the **weaker income response** highlighted in **Figure 2** indicates th
 ### **Figure 3: Annual Tourism Volume and Income in Secondary Cities**
 ![Figure 3](visualizations/Figure%203.png)
 
-Figure 3 summarizes how tourism volume and income evolve in secondary cities over 2023–2025. The orange line shows the total number of visitors to all secondary cities combined, while the blue line tracks total tourism revenue generated in these destinations (in million THB).
+Figure 3 shows that tourism activity in secondary cities is expanding in terms of both visitor numbers and income, but not at the same pace. Total arrivals to secondary destinations increase steadily between 2023 and 2025, confirming that more travelers are being drawn beyond traditional primary hubs. However, the revenue line grows more slowly and with smaller peaks than visitor volume, indicating that each additional tourist in secondary cities generates less income on average compared with tourists in major cities. This divergence suggests that while redistribution policies are successfully shifting tourism volume toward secondary provinces, these areas still face structural constraints—such as lower spending per trip, limited high-value services, or weaker pricing power—that prevent visitor growth from translating fully into proportional economic gains for local communities.
 
-The results indicate that although visitor numbers in secondary cities are steadily increasing, revenue grows at a slower pace. This widening gap between volume and income suggests that secondary destinations are attracting more travelers, but still struggle to convert this growth into proportionate economic value for local communities.
+### **Figure 4: Visitor Share of Secondary Cities in National Tourism**
+![Figure 4](visualizations/Figure%204.png)
+
+Figure 4 summarizes how tourism volume and income evolve in secondary cities over 2023–2025. The orange line shows the total number of visitors to all secondary cities combined, while the blue line tracks total tourism revenue generated in these destinations (in million THB).
+
+This pattern provides visual evidence that tourism redistribution policies are working in terms of volume: more travelers are being redirected toward secondary provinces. However, when read together with Figure 2, the chart also suggests that this increased share of visitors does not yet translate into proportionate tourism income, highlighting a gap between successful redistribution of tourists and the depth of economic benefits captured locally.
 
 ### **Growth Dynamics and Expansion Patterns** ###
 
-#Figure 4: Monthly year-over-year (YoY) Tourism Income Growth#
-![Figure 4](visualizations/Figure%204.png)
+#Figure 5: Monthly year-over-year (YoY) Tourism Income Growth#
+![Figure 5](visualizations/Figure%205.png)
 
 The Year-over-Year (YoY) tourism income growth in 2025 shows a clear moderation following the strong expansion observed in 2024. Growth in primary cities declined from approximately 15.00%–30.00% in early 2024 to around 0.00% at the beginning of 2025, with several mid-year months recording negative growth between –5.00% and –10.00%, indicating slightly lower revenue compared with the corresponding months of the previous year.
 
@@ -83,19 +88,16 @@ In contrast, secondary cities maintained mostly positive YoY income growth throu
 The decline in YoY growth in primary cities is largely attributable to a base-year effect, as elevated revenue levels in 2024 increased the comparison benchmark. Consequently, lower YoY values reflect a normalization of growth rather than a contraction in tourism activity. The results indicate differing growth dynamics, with primary cities entering a stabilization phase while secondary cities continue to demonstrate gradual expansion, emphasizing the importance of interpreting YoY indicators within broader time-series trends.
 
 
-
-## **Tourism Income Comparison Across Primary Cities** ##
-
-The comparison of tourism income across primary cities from 2023 to 2025 shows a consistent upward trend in revenue for most destinations. Income levels increased progressively across the three years, indicating continued recovery and expansion of tourism activity. Despite this growth, the relative ranking of cities remained largely unchanged, with a small number of major destinations maintaining significantly higher income levels than others.
-
-
 ## Tourism Income and Contribution to Local Income Distribution ##
 
 To evaluate the impact of inflation on tourism income, this study applies a real-value adjustment using the Consumer Price Index (CPI). Nominal tourism revenue is converted into real revenue by controlling for changes in price levels over time, allowing a comparison between observed income growth and actual purchasing power. The difference between nominal and CPI-adjusted revenue is used to measure the inflation illusion, which captures the extent to which revenue increases are driven by price effects rather than real economic expansion. This approach enables a clearer assessment of whether tourism growth translates into genuine income improvement across primary and secondary cities.
 
-## Figure X. Inflation Effect on Tourism Revenue: Nominal and Real Comparison ##
+## Figure 6. Inflation Effect on Tourism Revenue: Nominal and Real Comparison ##
 
-Figure X illustrates the difference between nominal and CPI-adjusted tourism revenue, representing the inflation illusion in tourism income growth. The results show a persistent positive gap between nominal and real revenue across the study period, indicating that part of the observed increase in tourism income is attributable to rising price levels rather than real economic expansion. This gap is substantially larger in primary cities, particularly during periods of rapid revenue growth, suggesting stronger exposure to inflation effects in major tourism destinations.
+#Figure 6: #
+![Figure 6](visualizations/Figure%205.png)
+
+Figure 6 illustrates the difference between nominal and CPI-adjusted tourism revenue, representing the inflation illusion in tourism income growth. The results show a persistent positive gap between nominal and real revenue across the study period, indicating that part of the observed increase in tourism income is attributable to rising price levels rather than real economic expansion. This gap is substantially larger in primary cities, particularly during periods of rapid revenue growth, suggesting stronger exposure to inflation effects in major tourism destinations.
 
 In contrast, secondary cities exhibit a smaller and more stable gap between nominal and real revenue, implying that income growth in these areas is more closely aligned with actual increases in tourism activity. The findings highlight that relying solely on nominal revenue may overestimate economic improvement, especially in primary cities. From a data analytics perspective, the inflation illusion demonstrates the importance of adjusting for CPI when evaluating tourism performance, as real income gains—and thus improvements in local purchasing power—are more moderate than nominal trends suggest.
 
