@@ -66,7 +66,7 @@ To ensure data-driven insights, this analysis employs a **3-Month Centered Movin
 The results support the premise that Thailand’s secondary-city tourism policy has successfully stimulated tourist movement toward lesser-visited provinces. The similarity in seasonal patterns, as shown in **Figure 1A**, implies a stronger integration of secondary cities into national tourism demand.
 
 However, the **weaker income response** highlighted in **Figure 1B** indicates that increased visitor numbers alone do not guarantee equivalent economic benefits. Future development should focus on enhancing infrastructure and service quality in secondary destinations to convert high visitor volumes into sustainable local economic value.
-
+-
 xx Figure 1 presents tourism dynamics through two dimensions: tourist arrivals (Figure 1A) and tourism income (Figure 1B). The results show a clear upward trend in tourist arrivals for both primary and secondary cities during 2023–2025. Secondary cities experienced steady growth and displayed seasonal patterns similar to primary destinations, particularly during peak tourism periods at the beginning and end of each year.
 
 Tourism income also increased over time; however, the magnitude of revenue growth in secondary cities remained considerably lower than in primary cities. While visitor numbers expanded in secondary destinations, income gains did not increase proportionally, indicating a persistent gap in tourism value generation.
