@@ -51,20 +51,21 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 ### **Figure 2: Monthly Tourism Income Trend (Nominal)**
 ![Figure 2](visualizations/Figure%202.png)
 
-While more people are traveling, a closer look at the revenue (Figure 1B) reveals a different story:
+While more people are traveling, a closer look at the revenue (Figure 2) reveals a different story:
 * **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
 * **The Missing Link**: Although visitor numbers in secondary cities are rising, the revenue has not grown at the same proportion. This reflects a persistent gap in the ability of emerging destinations to capture high economic value from increased foot traffic.
 
 ## 💡 Conclusion & Strategic Implications
 The results support the premise that Thailand’s secondary-city tourism policy has successfully stimulated tourist movement toward lesser-visited provinces. The similarity in seasonal patterns, as shown in **Figure 1A**, implies a stronger integration of secondary cities into national tourism demand.
 
-However, the **weaker income response** highlighted in **Figure 1B** indicates that increased visitor numbers alone do not guarantee equivalent economic benefits. Future development should focus on enhancing infrastructure and service quality in secondary destinations to convert high visitor volumes into sustainable local economic value.
+However, the **weaker income response** highlighted in **Figure 2** indicates that increased visitor numbers alone do not guarantee equivalent economic benefits. Future development should focus on enhancing infrastructure and service quality in secondary destinations to convert high visitor volumes into sustainable local economic value.
 
 ---
 
 ## **Tourism Redistribution Toward Secondary Cities** ##
 
 Figure 3: Share of National Tourist Arrivals in Secondary Cities
+![Figure 3](visualizations/Figure%203.png)
 
 Figure 3 illustrates the proportion of national tourism captured by secondary destinations. The upward trend demonstrates a gradual redistribution of tourist flows away from traditional hubs toward lesser-visited provinces. This pattern provides empirical support for the effectiveness of Thailand’s secondary-city tourism policy in influencing travel behavior.
 
@@ -72,7 +73,8 @@ However, while the share of visitors increased, the corresponding rise in touris
 
 ### **Growth Dynamics and Expansion Patterns** ###
 
-#Figure 3: Monthly year-over-year (YoY) Tourism Income Growth#
+#Figure 4: Monthly year-over-year (YoY) Tourism Income Growth#
+![Figure 4](visualizations/Figure%204.png)
 
 The Year-over-Year (YoY) tourism income growth in 2025 shows a clear moderation following the strong expansion observed in 2024. Growth in primary cities declined from approximately 15.00%–30.00% in early 2024 to around 0.00% at the beginning of 2025, with several mid-year months recording negative growth between –5.00% and –10.00%, indicating slightly lower revenue compared with the corresponding months of the previous year.
 
