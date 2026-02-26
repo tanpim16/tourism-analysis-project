@@ -40,11 +40,11 @@ Tourism represents an important source of economic activity across provinces in 
 
 Examining trends in tourism performance across these two groups is therefore important for identifying emerging patterns and assesing the potential for broader tourism development. Observing changes in both tourist arrivals and tourism income over time allows for an evaluation of whether growth in secondary cities signals expanding economic opportunities and increasing participation in the tourism economy. By comparing these trends, the analysis provides insight into how tourism dynamics evolve across provinces and helps reveal the potential for secondary destinations to strengthen their economic role within Thailand’s tourism sector.
 
-Figure 1A: Monthly Tourist Arrivals Trend (2023–2025)
+**Figure 1A: Monthly Tourist Arrivals Trend (2023–2025)**
 
 ![Tourist Arrivals Trend](visualizations/figure_1A.png)
 
-Figure 1B: Monthly Tourism Income Trend (2023–2025)
+**Figure 1B: Monthly Tourism Income Trend (2023–2025)**
 
 ![Tourism Income Trend](visualizations/figure_1B.png)
 
