@@ -1,93 +1,168 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-import os
 import matplotlib.dates as mdates
+import matplotlib.patches as mpatches
 from matplotlib.ticker import FuncFormatter
+from matplotlib.gridspec import GridSpec
+import numpy as np
+import os
 
-sns.set_theme(style="white", rc={"axes.grid": True, "grid.alpha": 0.2, "grid.linestyle": "--"})
-plt.rcParams['figure.facecolor'] = 'white'
-plt.rcParams['font.family'] = 'sans-serif'
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
 
-data_path = 'data/processed/master_tourism_analysis.csv'
-if os.path.exists(data_path):
-    df = pd.read_csv(data_path)
-    df['Year_CE'] = df['Year'].astype(int) - 543
-    df['date'] = pd.to_datetime(df['Year_CE'].astype(str) + '-' + df['Month'], format='%Y-%b')
-    df_plot = df.groupby(['date', 'City_type_EN'])[['total_visitors', 'total_revenue', 'real_revenue']].sum().reset_index()
-    df_plot = df_plot[(df_plot['date'] >= '2023-01-01') & (df_plot['date'] <= '2025-12-01')].sort_values('date')
-else:
-    print("❌ ไม่พบไฟล์ข้อมูล"); exit()
+COLORS = {
+    'Major City':     '#1B4F8A',
+    'Secondary City': '#16A085',
+}
+FILL_ALPHA = 0.12
 
-os.makedirs('visualizations', exist_ok=True)
-my_palette = {'Major City': '#2C3E50', 'Secondary City': '#16A085'}
-
+# ─── Helpers ──────────────────────────────────────────────────────────────────
 def fmt(x):
-    if x >= 1e9: return f'{x/1e9:.1f}B'
-    elif x >= 1e6: return f'{x/1e6:.1f}M'
+    if x >= 1e9:  return f'{x/1e9:.1f}B'
+    if x >= 1e6:  return f'{x/1e6:.1f}M'
+    if x >= 1e3:  return f'{x/1e3:.0f}K'
     return f'{x:,.0f}'
 
-def create_clean_chart(y_col, title, subtitle, ylabel, filename):
-    fig, ax = plt.subplots(figsize=(15, 7.5))
+def moving_avg(series, window=3):
+    return series.rolling(window, min_periods=1, center=True).mean()
 
-    sns.lineplot(data=df_plot, x='date', y=y_col, hue='City_type_EN',
-                 palette=my_palette, linewidth=3, marker='o',
-                 markersize=6, ax=ax, legend=False)
+# ─── Data Loading ─────────────────────────────────────────────────────────────
+data_path = 'data/processed/master_tourism_analysis.csv'
+if not os.path.exists(data_path):
+    print("❌ ไม่พบไฟล์ข้อมูล"); exit()
 
-    for line_name, color in my_palette.items():
-        subset = df_plot[df_plot['City_type_EN'] == line_name].sort_values('date')
-        first, last = subset.iloc[0], subset.iloc[-1]
+df = pd.read_csv(data_path)
+df['Year_CE'] = df['Year'].astype(int) - 543
+df['date'] = pd.to_datetime(df['Year_CE'].astype(str) + '-' + df['Month'], format='%Y-%b')
+df_plot = (
+    df.groupby(['date', 'City_type_EN'])[['total_visitors', 'total_revenue', 'real_revenue']]
+    .sum()
+    .reset_index()
+    .query("'2023-01-01' <= date <= '2025-12-01'")
+    .sort_values('date')
+)
 
-        # ✅ First label พร้อม background box
-        ax.annotate(fmt(first[y_col]), xy=(first['date'], first[y_col]),
-                    xytext=(0, 14), textcoords='offset points',
-                    ha='center', fontsize=9, color=color, fontweight='bold',
-                    bbox=dict(boxstyle='round,pad=0.25', fc='white', ec=color, alpha=0.85, lw=0.8))
+os.makedirs('visualizations', exist_ok=True)
 
-        # ✅ End label ใส่กรอบแบบเดียวกับตอนเริ่มต้น และเอา Growth ออก
-        ax.annotate(f'{line_name}\n{fmt(last[y_col])}',
-                    xy=(last['date'], last[y_col]),
-                    xytext=(15, 0), textcoords='offset points',
-                    color=color, fontweight='bold', fontsize=10, va='center',
-                    bbox=dict(boxstyle='round,pad=0.25', fc='white', ec=color, alpha=0.85, lw=0.8))
+# ─── Chart factory ────────────────────────────────────────────────────────────
+CHART_CONFIGS = [
+    {
+        'col':      'total_visitors',
+        'title':    'Monthly Tourist Arrivals',
+        'subtitle': 'Number of visitors  ·  Jan 2023 – Dec 2025',
+        'ylabel':   'Visitors',
+        'filename': 'figure_1A.png',
+    },
+    {
+        'col':      'total_revenue',
+        'title':    'Monthly Tourism Income (Nominal)',
+        'subtitle': 'Total revenue  ·  Jan 2023 – Dec 2025',
+        'ylabel':   'THB',
+        'filename': 'figure_1B.png',
+    },
+    {
+        'col':      'real_revenue',
+        'title':    'Real Local Income Generation',
+        'subtitle': 'Real revenue  ·  Jan 2023 – Dec 2025',
+        'ylabel':   'THB (Real)',
+        'filename': 'figure_1C.png',
+    },
+]
 
-    # Ticks สม่ำเสมอ ทุก Q ตั้งแต่ Jan 2023 ถึง Jan 2026
-    ticks = pd.date_range(start='2023-01-01', end='2026-01-01', freq='QS-JAN')
+def create_chart(cfg):
+    col      = cfg['col']
+    filename = cfg['filename']
+
+    groups = {}
+    for name in ['Major City', 'Secondary City']:
+        sub = df_plot[df_plot['City_type_EN'] == name].sort_values('date').copy()
+        sub['ma'] = moving_avg(sub[col])
+        groups[name] = sub
+
+    fig = plt.figure(figsize=(16, 8))
+    gs  = GridSpec(1, 1, figure=fig, left=0.07, right=0.96, top=0.78, bottom=0.12)
+    ax  = fig.add_subplot(gs[0, 0])
+
+    for name, color in [('Major City', COLORS['Major City']),
+                         ('Secondary City', COLORS['Secondary City'])]:
+        sub   = groups[name]
+        dates = sub['date']
+        raw   = sub[col]
+        ma    = sub['ma']
+
+        ax.fill_between(dates, raw, alpha=FILL_ALPHA, color=color, zorder=1)
+        # 1. ข้อมูลจริง (Actual) — ทำให้เด่นขึ้น (เส้นทึบ หนาปานกลาง)
+        ax.plot(dates, raw, color=color, alpha=0.8, linewidth=2.5, 
+                label='Monthly actual', zorder=3)
+        
+        # 2. เส้น MA — ทำให้เป็นตัวสนับสนุน (เส้นทึบ หนาขึ้นแต่จางลง)
+        ax.plot(dates, ma, color=color, linewidth=5, alpha=0.2, 
+                solid_capstyle='round', zorder=2)
+        
+        q_mask = dates.dt.month.isin([1, 4, 7, 10])
+        ax.scatter(dates[q_mask], ma[q_mask], color=color, s=45, zorder=4, edgecolors='white', linewidths=1.5)
+
+    for name, color in [('Major City', COLORS['Major City']),
+                         ('Secondary City', COLORS['Secondary City'])]:
+        sub  = groups[name]
+        peak = sub.loc[sub[col].idxmax()]
+        drop = sub.loc[sub[col].idxmin()]
+
+        ax.annotate(f'▲ {fmt(peak[col])}', xy=(peak['date'], peak[col]), xytext=(0, 16),
+                    textcoords='offset points', fontsize=9, color=color, ha='center', va='bottom', fontweight='bold',
+                    arrowprops=dict(arrowstyle='->', color=color, lw=1, mutation_scale=10))
+        
+        ax.annotate(f'▼ {fmt(drop[col])}', xy=(drop['date'], drop[col]), xytext=(0, -18),
+                    textcoords='offset points', fontsize=9, color=color, ha='center', va='top', fontweight='bold',
+                    arrowprops=dict(arrowstyle='->', color=color, lw=1, mutation_scale=10))
+
+    global_max = df_plot[col].max()
+    ax.set_ylim(0, global_max * 1.35)
+    ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: fmt(x)))
+    ax.tick_params(axis='y', labelsize=10, colors='#555')
+
+    ticks = pd.date_range('2023-01-01', '2026-01-01', freq='QS-JAN')
     ax.set_xticks(ticks)
-    ax.set_xticklabels([d.strftime('%b\n%Y') for d in ticks])
+    ax.set_xticklabels([d.strftime('%b\n%Y') for d in ticks], fontsize=9.5, color='#555')
+    ax.set_xlim(pd.Timestamp('2022-12-01'), pd.Timestamp('2025-12-31'))
+    ax.set_ylabel(cfg['ylabel'], fontsize=10, color='#666', labelpad=8)
 
-    ax.set_xlim(pd.Timestamp('2022-12-15'), pd.Timestamp('2026-03-01'))
-    ax.spines['bottom'].set_bounds(mdates.date2num(pd.Timestamp('2023-01-01')),
-                                   mdates.date2num(pd.Timestamp('2025-12-01')))
+   # ── Legend (ปรับให้ตรงกับเส้นที่เปลี่ยนไป) ──
+    handles = [
+        mpatches.Patch(color=COLORS['Major City'],     label='Major City'),
+        mpatches.Patch(color=COLORS['Secondary City'], label='Secondary City'),
+        
+        # 1. ปรับ Monthly actual ให้เป็นเส้นทึบตามกราฟใหม่
+        plt.Line2D([0], [0], color='#888', linewidth=2, linestyle='-', 
+                   alpha=0.8, label='Monthly actual'),
+        
+        # 2. ปรับ 3-mo moving avg ให้ดูหนาขึ้นแต่จางลง (เป็นเงาหลัง)
+        plt.Line2D([0], [0], color='#888', linewidth=4, 
+                   alpha=0.2, solid_capstyle='round', label='Trend (3-mo MA)'),
+    ]
+    ax.legend(handles=handles, loc='upper left', fontsize=9.5, framealpha=0.9, edgecolor='#DDD')
 
-    # top=1.2 แทน 1.3 เส้นไม่แบนเกิน
-    ax.set_ylim(bottom=0, top=df_plot[y_col].max() * 1.2)
-    ax.yaxis.set_major_formatter(FuncFormatter(lambda x, pos: fmt(x)))
+    fig.text(0.07, 0.92, cfg['title'], fontsize=20, fontweight='bold', color='#1A1A2E', va='bottom')
+    fig.text(0.07, 0.865, cfg['subtitle'], fontsize=11, color='#888', va='bottom')
 
-    # Minor grid รายเดือน
-    ax.xaxis.set_minor_locator(mdates.MonthLocator())
-    ax.grid(which='minor', axis='x', alpha=0.05, linestyle=':')
+    fig.text(0.07, 0.04, 'Source: Thailand Tourism Authority  ·  Shaded area = raw monthly data', fontsize=8.5, color='#AAA')
 
-    # แกน Y กลับมา (left=False)
-    sns.despine(left=False, bottom=False)
-    ax.spines['left'].set_color('#CCCCCC')
-    ax.spines['bottom'].set_color('#CCCCCC')
-    ax.tick_params(colors='#555555', which='both')
-    ax.tick_params(axis='x', which='major', labelsize=11, pad=5)
-
-    fig.text(0.01, 0.97, title, fontsize=18, fontweight='bold', color='#2C3E50', va='top')
-    fig.text(0.01, 0.92, subtitle, fontsize=11, color='#888888', va='top')
-    ax.set_ylabel(ylabel, fontsize=12, fontweight='bold', color='#555555', labelpad=15)
-    ax.set_xlabel('')
-
-    plt.subplots_adjust(right=0.88)
-    for text in ax.texts: text.set_clip_on(False)
     plt.savefig(f'visualizations/{filename}', dpi=300, facecolor='white', bbox_inches='tight')
     plt.close()
     print(f'✅ {filename}')
 
-create_clean_chart('total_visitors', 'Figure 1A: Monthly Tourist Arrivals (2023–2025)', 'Major City vs Secondary City', 'Arrivals (People)', 'figure_1A.png')
-create_clean_chart('total_revenue',  'Figure 1B: Monthly Tourism Income — Nominal (2023–2025)', 'Major City vs Secondary City', 'Income (THB)', 'figure_1B.png')
-create_clean_chart('real_revenue',   'Figure 1C: Real Local Income Generation (2023–2025)', 'CPI-adjusted revenue', 'Real Revenue (THB)', 'figure_1C.png')
+for cfg in CHART_CONFIGS:
+    create_chart(cfg)
 
-print("🚀 DONE!")
+print('\n🚀 ALL CHARTS DONE!')
