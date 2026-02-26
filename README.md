@@ -65,7 +65,7 @@ However, the **weaker income response** highlighted in **Figure 2** indicates th
 ## **2. Tourism Redistribution Toward Secondary Cities** ##
 
 ### **Figure 3: Annual Tourism Volume and Income in Secondary Cities**
-![Figure 3](visualizations/Figure3_secondary_cities.png)
+![Figure 3](visualizations/Figure%203.png)
 
 Figure 3 summarizes how tourism volume and income evolve in secondary cities over 2023–2025. The orange line shows the total number of visitors to all secondary cities combined, while the blue line tracks total tourism revenue generated in these destinations (in million THB).
 
