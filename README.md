@@ -43,22 +43,19 @@ Examining trends in tourism performance across these two groups is therefore imp
 ### **Figure 1A: Monthly Tourist Arrivals Trend**
 ![Tourist Arrivals Trend](visualizations/figure_1A.png)
 
-* **Synchronized Seasonality**: Both city tiers exhibit a highly correlated seasonal pattern, with peak performance during the year-end "High Season."
-* **Arrival Milestones**: Major cities reached a significant peak of **21.9M visitors** in December 2024, while secondary cities achieved a resilient peak of **11.2M** in December 2025.
-* **Trend Insight**: The **Trend (3-mo MA)** line (solid) reveals a steady recovery trajectory, confirming that visitor redistribution policies are effectively stimulating movement to lesser-visited provinces.
+The comparison of visitor arrivals (Figure 1A) reveals a promising shift in travel behavior:
+* **Success in Redistribution**: Secondary cities are showing a steady and reliable growth trend that mirrors the seasonal patterns of major hubs, particularly during the year-end "High Season."
+* **The Milestones**: Major cities continue to lead, reaching a massive peak of **21.9 million visitors** in December 2024. Meanwhile, secondary cities proved their potential by climbing to a peak of **11.2 million** in December 2025.
+* **Key Insight**: National policies are effectively moving the needle in terms of volume, as more travelers explore beyond traditional destinations.
 
 ---
 
 ### **Figure 1B: Monthly Tourism Income Trend (Nominal)**
 ![Tourism Income Trend](visualizations/figure_1B.png)
 
-* **The Persistent Value Gap**: Despite the rise in visitor volume, a substantial revenue gap remains. Major cities captured an income peak of **248K Million THB**, significantly outperforming secondary destinations.
-* **Monetization Lag**: The magnitude of revenue growth in secondary destinations does not yet match the growth in arrivals, indicating that visitor volume is being redistributed more rapidly than economic value.
-
-## 🔍 Methodology: Moving Average Smoothing
-To ensure data-driven insights, this analysis employs a **3-Month Centered Moving Average (3-mo MA)**:
-* **Noise Reduction**: Filters out monthly volatility to highlight the underlying momentum.
-* **Centered Alignment**: Ensures the trend line is perfectly synchronized with peak periods without statistical lag.
+While more people are traveling, a closer look at the revenue (Figure 1B) reveals a different story:
+* **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
+* **The Missing Link**: Although visitor numbers in secondary cities are rising, the revenue has not grown at the same proportion. This reflects a persistent gap in the ability of emerging destinations to capture high economic value from increased foot traffic.
 
 ---
 
