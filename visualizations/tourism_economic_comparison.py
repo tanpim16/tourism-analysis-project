@@ -76,7 +76,7 @@ CHART_CONFIGS = [
         'title':    'Real Local Income Generation',
         'subtitle': 'Real revenue  ·  Jan 2023 – Dec 2025',
         'ylabel':   'THB (Real)',
-        'filename': 'Figure 3.png',
+        'filename': 'Figure 4.png',
     },
 ]
 
