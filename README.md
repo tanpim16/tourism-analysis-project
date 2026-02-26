@@ -41,7 +41,7 @@ Tourism represents an important source of economic activity across provinces in 
 Examining trends in tourism performance across these two groups is therefore important for identifying emerging patterns and assesing the potential for broader tourism development. Observing changes in both tourist arrivals and tourism income over time allows for an evaluation of whether growth in secondary cities signals expanding economic opportunities and increasing participation in the tourism economy. By comparing these trends, the analysis provides insight into how tourism dynamics evolve across provinces and helps reveal the potential for secondary destinations to strengthen their economic role within Thailand’s tourism sector.
 
 ### **Figure 1: Monthly Tourist Arrivals Trend**
-![Tourist Arrivals Trend](visualizations/Figure 1.png)
+![Figure 1](visualizations/Figure%201.png)
 
 The comparison of visitor arrivals (Figure 1A) reveals a promising shift in travel behavior:
 * **Success in Redistribution**: Secondary cities are showing a steady and reliable growth trend that mirrors the seasonal patterns of major hubs, particularly during the year-end "High Season."
@@ -49,7 +49,7 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 * **Key Insight**: National policies are effectively moving the needle in terms of volume, as more travelers explore beyond traditional destinations.
 
 ### **Figure 2: Monthly Tourism Income Trend (Nominal)**
-![Tourism Income Trend](visualizations/Figure 2.png)
+![Figure 2](visualizations/Figure%202.png)
 
 While more people are traveling, a closer look at the revenue (Figure 1B) reveals a different story:
 * **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
