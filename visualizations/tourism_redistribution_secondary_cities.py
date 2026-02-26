@@ -1,0 +1,1 @@
+mv visualizations/new_script.py visualizations/tourism_redistribution_secondary_cities.py
