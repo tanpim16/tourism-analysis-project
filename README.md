@@ -52,8 +52,9 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 ![Figure 2](visualizations/total_revenue_trend.png)
 
 While more people are traveling, a closer look at the revenue (Figure 2) reveals a different story:
-* **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
-* **The Missing Link**: Although visitor numbers in secondary cities are rising, the revenue has not grown at the same proportion. This reflects a persistent gap in the ability of emerging destinations to capture high economic value from increased foot traffic.
+* **Revenue Disparity**: Despite having roughly half the visitor volume of major cities, secondary cities generate only a fraction of the total income.
+* **Peak Comparison**: Major cities captured **248,000 Million THB** at their peak, whereas secondary cities reached an income peak of approximately **35,000 Million THB**.
+* **The Spending Gap**: Correlation of the data shows that average spending per head in major cities remains approximately **3.6 times higher** than in secondary destinations.
 
 ## 💡 Conclusion & Strategic Implications
 The results support the premise that Thailand’s secondary-city tourism policy has successfully stimulated tourist movement toward lesser-visited provinces. The similarity in seasonal patterns, as shown in **Figure 1A**, implies a stronger integration of secondary cities into national tourism demand.
