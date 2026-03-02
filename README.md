@@ -103,9 +103,33 @@ While Figure 3 proves we have successfully shifted **"Where"** people go (Volume
 This leads us to the next chapter of our story: **The Action.**
 
 ---
-**Next in Series:** *03 : The Action — Momentum vs. Performance*
+
+# 03 : The Action — Momentum vs. Efficiency
+### *Predicting the Surge: Major vs. Secondary Decision Windows*
 
 ---
+
+## 🔍 The Digital Spark: Aggregated Intent
+To understand the conversion efficiency of tourism demand, we analyze the **Total Search Intent** (Thai + English) against actual arrivals.
+
+### **Figure 4: Digital Intent Patterns (Lag Aligned)**
+![Figure 4](visualizations/Figure%204_Lag_Aligned_Clean.png)
+
+By aligning search signals with physical arrivals, we uncover two distinct decision-making cultures:
+
+* **Major Cities (The Convenient Choice):** Exhibit a short **1-month lead time**. High familiarity allows for spontaneous trips and quick conversions.
+* **Secondary Cities (The Planned Adventure):** Exhibit a longer **2-month lead time**. Travelers require more time for "Discovery Research" before committing to an emerging destination.
+
+### **📈 Conversion Efficiency Insights**
+Using **Lag Alignment** (shifting the search intent to match arrival peaks), we can evaluate how effectively digital interest translates into local footprints:
+
+* **High Efficiency:** When the dashed intent line tightly tracks the solid visitor line, it indicates a high conversion rate.
+* **The Yield Gap:** Significant gaps between search peaks and arrival peaks in secondary cities suggest potential infrastructure bottlenecks (e.g., limited transport or accommodation) that prevent high interest from becoming actual visits.
+
+> **Strategy Note:** For secondary cities, marketing campaigns must be launched **at least 8 weeks** in advance to capture the peak planning phase.
+
+---
+**Next in Series:** *04 : The Reality — Real Wealth Generation & Purchasing Power*
 
 ## 🔍 The Digital Spark: Predicting the Next Wave
 Every physical trip begins with a digital search. By tracking Google Trends, we find that a city's **"Potential"** appears on a screen long before a traveler arrives at a hotel.
