@@ -1,5 +1,3 @@
-# Pimkanit Created
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -63,14 +61,14 @@ CHART_CONFIGS = [
         'title':    'Monthly Tourist Arrivals',
         'subtitle': 'Number of visitors  ·  Jan 2023 – Dec 2025',
         'ylabel':   'Visitors',
-        'filename': 'total_visitors_trend.png', # เปลี่ยนชื่อไฟล์ตามที่ขอ
+        'filename': 'total_visitors_trend.png',
     },
     {
         'col':      'total_revenue',
         'title':    'Monthly Tourism Income',
-        'subtitle': 'Total revenue  ·  Jan 2023 – Dec 2025',
-        'ylabel':   'Million THB',              # ระบุหน่วยเป็นล้านบาทตามข้อมูลจริง
-        'filename': 'total_revenue_trend.png',  # เปลี่ยนชื่อไฟล์ตามที่ขอ
+        'subtitle': 'Total revenue (Million THB)  ·  Jan 2023 – Dec 2025', # ใส่หน่วยใน Subtitle เพื่อความชัดเจน
+        'ylabel':   'Million THB',
+        'filename': 'total_revenue_trend.png',
     },
 ]
 
@@ -95,29 +93,34 @@ def create_chart(cfg):
         raw   = sub[col]
         ma    = sub['ma']
 
-        # Draw Style: Actual (Solid) & Trend (Soft Shadow)
+        # 1. พื้นที่สีจางด้านล่าง
         ax.fill_between(dates, raw, alpha=FILL_ALPHA, color=color, zorder=1)
-        ax.plot(dates, ma, color=color, linewidth=5, alpha=0.2, solid_capstyle='round', zorder=2)
-        ax.plot(dates, raw, color=color, alpha=0.8, linewidth=2.5, zorder=3)
+        # 2. เส้น Trend (MA) เป็นเงาหนาและจางอยู่ด้านหลัง
+        ax.plot(dates, ma, color=color, linewidth=5, alpha=0.15, solid_capstyle='round', zorder=2)
+        # 3. เส้นข้อมูลจริง (Actual) เป็นเส้นทึบเด่นอยู่ด้านหน้า
+        ax.plot(dates, raw, color=color, alpha=0.85, linewidth=2.5, zorder=3)
         
+        # จุด Marker รายไตรมาส
         q_mask = dates.dt.month.isin([1, 4, 7, 10])
         ax.scatter(dates[q_mask], raw[q_mask], color=color, s=35, zorder=4, edgecolors='white', linewidths=1.2)
 
-    # Annotations
+    # การใส่ตัวเลข Peak & Drop
     for name, color in [('Major City', COLORS['Major City']),
                          ('Secondary City', COLORS['Secondary City'])]:
         sub  = groups[name]
         peak = sub.loc[sub[col].idxmax()]
         drop = sub.loc[sub[col].idxmin()]
 
+        # Peak
         ax.annotate(f'▲ {fmt(peak[col])}', xy=(peak['date'], peak[col]), xytext=(0, 16),
                     textcoords='offset points', fontsize=9, color=color, ha='center', va='bottom', fontweight='bold',
                     arrowprops=dict(arrowstyle='->', color=color, lw=1, mutation_scale=10))
-        
+        # Drop
         ax.annotate(f'▼ {fmt(drop[col])}', xy=(drop['date'], drop[col]), xytext=(0, -18),
                     textcoords='offset points', fontsize=9, color=color, ha='center', va='top', fontweight='bold',
                     arrowprops=dict(arrowstyle='->', color=color, lw=1, mutation_scale=10))
 
+    # จัดการแกน Y และ X
     global_max = df_plot[col].max()
     ax.set_ylim(0, global_max * 1.35)
     ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: fmt(x)))
@@ -127,9 +130,11 @@ def create_chart(cfg):
     ax.set_xticks(ticks)
     ax.set_xticklabels([d.strftime('%b\n%Y') for d in ticks], fontsize=9.5, color='#555')
     ax.set_xlim(pd.Timestamp('2022-12-01'), pd.Timestamp('2025-12-31'))
-    ax.set_ylabel(cfg['ylabel'], fontsize=10, color='#666', labelpad=8)
+    
+    # ปรับ Label แกน Y ให้ชัดเจน
+    ax.set_ylabel(cfg['ylabel'], fontsize=11, color='#444', fontweight='bold', labelpad=10)
 
-    # Legend
+    # คำอธิบายสัญลักษณ์ (Legend)
     handles = [
         mpatches.Patch(color=COLORS['Major City'],     label='Major City'),
         mpatches.Patch(color=COLORS['Secondary City'], label='Secondary City'),
@@ -138,16 +143,16 @@ def create_chart(cfg):
     ]
     ax.legend(handles=handles, loc='upper left', fontsize=9.5, framealpha=0.9, edgecolor='#DDD')
 
-    fig.text(0.07, 0.92, cfg['title'], fontsize=20, fontweight='bold', color='#1A1A2E', va='bottom')
-    fig.text(0.07, 0.865, cfg['subtitle'], fontsize=11, color='#888', va='bottom')
+    # ข้อความหัวกราฟและที่มา
+    fig.text(0.07, 0.92, cfg['title'], fontsize=22, fontweight='bold', color='#1A1A2E', va='bottom')
+    fig.text(0.07, 0.865, cfg['subtitle'], fontsize=12, color='#666', va='bottom')
     fig.text(0.07, 0.04, 'Source: Thailand Tourism Authority  ·  Shaded area = raw monthly data', fontsize=8.5, color='#AAA')
 
     plt.savefig(f'visualizations/{filename}', dpi=300, facecolor='white', bbox_inches='tight')
     plt.close()
-    print(f'✅ Generated: {filename}')
+    print(f'✅ Successfully generated: {filename}')
 
 for cfg in CHART_CONFIGS:
     create_chart(cfg)
 
-print('\n🚀 ALL CHARTS UPDATED!')
-
+print('\n🚀 CHARTS ARE READY FOR YOUR REPORT!')
