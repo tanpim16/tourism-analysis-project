@@ -78,44 +78,40 @@ However, the **weaker income response** highlighted in Figure 2 indicates that h
 
 ---
 
-# 02 : The Potential: Evaluating Market Share Shifts and Digital Interest
-### *Act 1: Assessing Growth Capacity and Emerging Strategic Opportunities*
+# 02 : The Potential — Growing Footprints in a Changing Market
+### *Analyzing the Steady Rise and the Digital Spark*
 
 ---
 
-## 📈 Market Share: The Structural Shift
-To determine if the redistribution to secondary cities is a sustainable transformation, we analyze the shifting market share and the relationship between volume and value.
+## 📈 The Great Market Redistribution
+To see if the "Paradox of Plenty" is a permanent shift, we must look at the monthly market share. The story here is one of **gradual territory conquest** by secondary destinations.
 
-### **Figure 3: Annual Tourism Volume and Income in Secondary Cities**
+### **Figure 3: Tourism Redistribution Share**
 ![Figure 3](visualizations/Figure%203.png)
 
-Figure 3 confirms that while tourism activity in secondary cities is expanding, it is currently experiencing an **"Economic Decoupling"** where volume growth outpaces income growth:
+This 100% stacked area chart tracks how secondary cities are slowly claiming their space in the national tourism landscape:
 
-* **Consistent Volume Expansion:** Total arrivals to secondary destinations have increased steadily between 2023 and 2025, validating that travelers are successfully moving beyond traditional primary hubs.
-* **The Revenue Lag:** Despite the rise in visitors, the revenue line grows at a slower trajectory with significantly smaller peaks.
-* **Monetization Challenges:** Each additional tourist in a secondary city generates less income on average compared to those in major hubs, suggesting a lower "yield per visitor".
-* **Structural Constraints:** This divergence highlights barriers such as shorter lengths of stay, a lack of high-value local services, or weaker pricing power in emerging destinations.
-
----
-
-## 🔍 Insight: Digital Demand as a Leading Indicator
-Beyond actual footprints, we must analyze **"Visitor Intent."** By leveraging Google Trends (Search Interest), we can identify where the next wave of growth will occur before it manifests in arrival data.
-
-
-
-### **The Digital Heatmap (Search Interest)**
-* **Leading Indicators:** Digital search data for "Secondary City Travel" serves as a predictive proxy, typically leading actual arrivals by a 1–2 month window.
-* **Identifying Rising Stars:** By mapping search growth against current arrival numbers, we can pinpoint "Rising Star" provinces—destinations with high interest but untapped arrival potential.
-* **Actionable Windows:** Analyzing these digital ripples allows local businesses and policymakers to prepare infrastructure and marketing efforts ahead of the peak travel season.
+* **Expanding Territories:** The "Green Area" (Secondary Cities) is not just fluctuating; it is expanding its baseline, capturing a consistently larger share of visitors compared to previous years.
+* **Winning on Volume:** This confirms that national policies have successfully changed travel mindsets. Secondary cities are no longer outliers—they are becoming mainstream choices.
+* **The Hidden Conflict:** While the green territory grows in visitors, the "Gold" (Income) remains concentrated in primary hubs. This reveals that we have won the battle for **Quantity**, but the struggle for **Value** is just beginning.
 
 ---
 
-## 💡 Preliminary Verdict
-The "Potential" for secondary cities is mathematically evident. We have transitioned from a hub-centric market to a more distributed model. However, this Act proves that **Volume redistribution is only half the battle.** The "Revenue Lag" must be addressed through targeted value-chain enhancements to ensure these cities become sustainable economic engines.
+## 🔍 The Digital Spark: Predicting the Next Wave
+Every physical trip begins with a digital search. By tracking Google Trends, we find that a city's **"Potential"** appears on a screen long before a traveler arrives at a hotel.
+
+* **The 2-Month Warning:** Search interest for secondary cities often spikes **1–2 months** before actual arrivals peak. 
+* **Actionable Windows:** This "Digital Ripple" serves as an early warning system. It proves that the potential is there, waiting for local businesses to "capture" the value before the tourists physically arrive.
 
 ---
-**Next in Series:** *03 : The Action — Measuring Conversion Efficiency and Tourist Diversity*
+
+## 🎭 The Narrative Bridge
+The market share is shifting, and digital interest is surging. The **Potential** is undeniable. However, having people "interested" and having them "arrive" are two different challenges. This leads us to the next chapter of our story: **The Action.**
+
+How efficient are these cities at turning a "Google Search" into a "Real Visitor"? And who is driving this growth—domestic travelers or international guests?
+
 ---
+**Next in Series:** *03 : The Action — Conversion Efficiency and Tourist Diversity*
 
 ### **Figure 4: Visitor Share of Secondary Cities in National Tourism**
 ![Figure 4](visualizations/Figure%204.png)
