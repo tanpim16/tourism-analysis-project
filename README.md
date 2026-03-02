@@ -49,7 +49,7 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 * **Key Insight**: National policies are effectively moving the needle in terms of volume, as more travelers explore beyond traditional destinations.
 
 ### **Figure 2: Monthly Tourism Income Trend (Nominal)**
-![Figure 2](visualizations/Figure%202.png)
+![Figure 2](visualizations/total_revenue_trend.png)
 
 While more people are traveling, a closer look at the revenue (Figure 2) reveals a different story:
 * **The Value Disparity**: Income in major cities soared to **248 Billion THB** during peak periods. In contrast, secondary cities reached an income peak of approximately **35 Billion THB**.
