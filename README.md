@@ -53,7 +53,7 @@ The comparison of visitor arrivals (Figure 1A) reveals a promising shift in trav
 
 While more people are traveling, a closer look at the revenue (Figure 2) reveals a different story:
 * **Revenue Disparity**: Despite having roughly half the visitor volume of major cities, secondary cities generate only a fraction of the total income.
-* **Peak Comparison**: Major cities captured **248,000 Million THB** at their peak, whereas secondary cities reached an income peak of approximately **35,000 Million THB**.
+* **Peak Comparison**: Major cities captured a peak of **248K Million THB** (approximately 248 Billion THB), whereas secondary cities reached an income peak of approximately **35K Million THB**.
 * **The Spending Gap**: Correlation of the data shows that average spending per head in major cities remains approximately **3.6 times higher** than in secondary destinations.
 
 ## 💡 Conclusion & Strategic Implications
