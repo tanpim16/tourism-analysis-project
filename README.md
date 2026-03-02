@@ -32,7 +32,7 @@ However, tourism development in Thailand has historically been concentrated in m
 Despite increasing tourism promotion and visitor growth in secondary cities, it remains unclear whether tourism expansion translates into real economic improvement for local communities. Increased tourist arrivals may not necessarily lead to higher real income if benefits are unevenly distributed or offset by rising living costs. Therefore, this study examines whether secondary-city tourism contributes to real income generation and more balanced regional development in Thailand.
 
 ---
-## **1. Tourism Expansion: Growth Comparison ** ##
+## **1. Tourism Expansion: Growth Comparison** ##
 
 ### **Tourism Trends** ###
 
