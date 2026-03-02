@@ -78,22 +78,32 @@ However, the **weaker income response** highlighted in Figure 2 indicates that h
 
 ---
 
-# 02 : The Potential — Growing Footprints in a Changing Market
-### *Analyzing the Steady Rise and the Digital Spark*
+# 02 : The Potential — The Structural Shift
+### *Establishing a New Baseline for Thai Tourism*
 
 ---
 
-## 📈 The Great Market Redistribution
-To see if the "Paradox of Plenty" is a permanent shift, we must look at the monthly market share. The story here is one of **gradual territory conquest** by secondary destinations.
+## 📈 Market Share: The Structural Conquest
+To determine if the redistribution to secondary cities is a sustainable transformation, we analyze the shifting market share of physical tourist footprints across Thailand.
 
 ### **Figure 3: Tourism Redistribution Share**
-![Figure 3](visualizations/Figure%203.png)
+![Figure 3](visualizations/Figure%203_updated.png)
 
-This 100% stacked area chart tracks how secondary cities are slowly claiming their space in the national tourism landscape:
+This 100% stacked distribution tracks the monthly visitor share between January 2023 and December 2025. The data provides visual evidence of a genuine structural shift:
 
-* **Expanding Territories:** The "Green Area" (Secondary Cities) is not just fluctuating; it is expanding its baseline, capturing a consistently larger share of visitors compared to previous years.
-* **Winning on Volume:** This confirms that national policies have successfully changed travel mindsets. Secondary cities are no longer outliers—they are becoming mainstream choices.
-* **The Hidden Conflict:** While the green territory grows in visitors, the "Gold" (Income) remains concentrated in primary hubs. This reveals that we have won the battle for **Quantity**, but the struggle for **Value** is just beginning.
+* **Expanding Baseline (Secondary Cities):** The green area represents secondary destinations, which are consistently expanding their baseline share rather than just experiencing seasonal spikes.
+* **Winning on Volume:** The steady growth of the secondary city share validates that tourism redistribution policies are effectively decentralizing traveler footprints beyond traditional primary hubs.
+* **Strategic Advantage:** By establishing a presence in these emerging markets, local communities are capturing a larger portion of the national tourism market each year.
+
+---
+
+## 🎭 The Narrative Bridge
+While Figure 3 proves we have successfully shifted **"Where"** people go (Volume), it also hints at the next challenge: **Value**. To understand why people are choosing these cities and how to optimize their economic impact, we must look at their digital behavior and growth momentum.
+
+This leads us to the next chapter of our story: **The Action.**
+
+---
+**Next in Series:** *03 : The Action — Momentum vs. Performance*
 
 ---
 
