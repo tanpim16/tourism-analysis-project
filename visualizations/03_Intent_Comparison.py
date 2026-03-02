@@ -68,7 +68,7 @@ for ax, city_type, lag, city_color in configs:
     ax.set_ylim(-0.05, 1.15)
 
 plt.xlabel("Timeline (Adjusted for Planning Lead Time)", fontsize=12, labelpad=15)
-fig.suptitle("Comparison of Conversion Efficiency (Lag Aligned)", fontsize=24, fontweight='bold', y=0.98)
+fig.suptitle("Bridging the Gap: Digital Planning vs. Physical Footprints", fontsize=24, fontweight='bold', y=0.98)
 
 os.makedirs('visualizations', exist_ok=True)
 plt.savefig("visualizations/Figure 4_Lag_Aligned_Clean.png", dpi=300, bbox_inches='tight')

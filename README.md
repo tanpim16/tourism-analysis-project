@@ -105,47 +105,49 @@ This leads us to the next chapter of our story: **The Action.**
 ---
 
 # 03 : The Action — Momentum vs. Efficiency
-### *Predicting the Surge: Major vs. Secondary Decision Windows*
+### *Predicting the Surge: Decision Windows & Planning Cultures*
 
 ---
 
 ## 🔍 The Digital Spark: Aggregated Intent
-To understand the conversion efficiency of tourism demand, we analyze the **Total Search Intent** (Thai + English) against actual arrivals.
+In this chapter, we transition from observing historical arrivals to analyzing predictive behavior. By measuring **Total Search Intent** (combined Thai and English search volumes), we evaluate how effectively "Digital Interest" translates into "Physical Presence".
 
-### **Figure 4: Digital Intent Patterns (Lag Aligned)**
+### **Figure 4: Bridging the Gap: Digital Planning vs. Physical Footprints**
 ![Figure 4](visualizations/Figure%204_Lag_Aligned_Clean.png)
 
-By aligning search signals with physical arrivals, we uncover two distinct decision-making cultures:
+By performing **Lag Analysis** to find temporal correlations, we uncover two distinct decision-making cultures based on destination type:
 
-* **Major Cities (The Convenient Choice):** Exhibit a short **1-month lead time**. High familiarity allows for spontaneous trips and quick conversions.
-* **Secondary Cities (The Planned Adventure):** Exhibit a longer **2-month lead time**. Travelers require more time for "Discovery Research" before committing to an emerging destination.
-
-### **📈 Conversion Efficiency Insights**
-Using **Lag Alignment** (shifting the search intent to match arrival peaks), we can evaluate how effectively digital interest translates into local footprints:
-
-* **High Efficiency:** When the dashed intent line tightly tracks the solid visitor line, it indicates a high conversion rate.
-* **The Yield Gap:** Significant gaps between search peaks and arrival peaks in secondary cities suggest potential infrastructure bottlenecks (e.g., limited transport or accommodation) that prevent high interest from becoming actual visits.
-
-> **Strategy Note:** For secondary cities, marketing campaigns must be launched **at least 8 weeks** in advance to capture the peak planning phase.
+* **Major Cities (The Convenient Choice):** Exhibit a short **1-month lead time**. High familiarity and robust transportation infrastructure allow travelers to be "Spontaneous," traveling almost immediately after their initial digital search.
+* **Secondary Cities (The Planned Adventure):** Exhibit a longer **2-month lead time**. Travelers to emerging destinations act as "Explorers," requiring a significantly longer *Discovery Research* phase to plan logistics and experiences compared to established hubs.
 
 ---
-**Next in Series:** *04 : The Reality — Real Wealth Generation & Purchasing Power*
 
-## 🔍 The Digital Spark: Predicting the Next Wave
-Every physical trip begins with a digital search. By tracking Google Trends, we find that a city's **"Potential"** appears on a screen long before a traveler arrives at a hotel.
+## 📈 Conversion Efficiency & The Yield Gap
+We utilize **Lag Alignment** (shifting the search intent timeline to match arrival peaks) to measure true marketing efficiency:
 
-* **The 2-Month Warning:** Search interest for secondary cities often spikes **1–2 months** before actual arrivals peak. 
-* **Actionable Windows:** This "Digital Ripple" serves as an early warning system. It proves that the potential is there, waiting for local businesses to "capture" the value before the tourists physically arrive.
+* **High Efficiency:** When the dashed intent line tightly tracks the solid visitor line, it indicates a high-quality conversion rate—meaning digital interest is successfully turning into local footprints.
+* **The Yield Gap:** Significant gaps between search peaks and arrival peaks in secondary cities serve as a proxy for **"Lost Opportunities"** (Potential Bottlenecks). This suggests that while interest is high, factors like limited accommodation or difficult access may be preventing potential tourists from visiting.
+
+> **💡 Strategic Window:** To effectively capture the secondary city market, marketing campaigns must be launched **at least 8 weeks (2 months)** in advance to influence the peak planning phase.
+
+---
+
+## 🛠️ Technical Logic: The Planning Lag
+To ensure the accuracy of the insights in Figure 4, we applied the following data science principles:
+
+1.  **Differentiated Lags:** We assigned specific lag values (1 month for Major / 2 months for Secondary) to reflect the real-world complexity of planning different types of trips.
+2.  **Forward Shift Alignment:** By applying a **Forward Shift** to the Search Intent data, we move the "Digital Signal" to align with "Arrival Peaks". This allows us to analyze **Conversion Quality** by removing the time variable from the comparison.
 
 ---
 
 ## 🎭 The Narrative Bridge
-The market share is shifting, and digital interest is surging. The **Potential** is undeniable. However, having people "interested" and having them "arrive" are two different challenges. This leads us to the next chapter of our story: **The Action.**
+We have proven that the **"Potential"** for secondary cities is real and measurable through Digital Search. However, the ultimate question for local economies remains: **Does this surge in visitors generate real, sustainable wealth?**
 
-How efficient are these cities at turning a "Google Search" into a "Real Visitor"? And who is driving this growth—domestic travelers or international guests?
+How does this revenue hold up against rising inflation and the cost of living? We find the answer in our final chapter: **04 : The Reality — Real Wealth Generation.**
 
 ---
-**Next in Series:** *03 : The Action — Conversion Efficiency and Tourist Diversity*
+**Next in Series:** *04 : The Reality — Real Wealth Generation & Purchasing Power*
+---
 
 ### **Figure 4: Visitor Share of Secondary Cities in National Tourism**
 ![Figure 4](visualizations/Figure%204.png)
