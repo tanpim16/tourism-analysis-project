@@ -221,6 +221,41 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 
 ---
 
+### **Part 5: Strategic Positioning of Secondary Cities (Quadrant Analysis)**
+
+In this final phase, we transition from volume-based analysis to **performance-based evaluation**. By intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**, we categorize the 55 secondary provinces into four strategic quadrants using the median as the benchmark.
+
+<p align="center">
+  <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Secondary City Quadrant Analysis" width="800">
+</p>
+
+<p align="center">
+  <strong>Figure 8. Strategic Quadrant Analysis: Efficiency (Yield per Head) vs. Market Share for 55 Secondary Cities (2023–2025)</strong>
+</p>
+
+#### **Strategic Insights & Key Findings**
+
+The analysis reveals distinct economic behaviors among secondary cities, allowing for tailored tourism development strategies:
+
+1. **🌟 STARS (High Yield, High Share):** - **Characteristics:** Provinces that excel in both attracting volume and generating high spending per visitor.
+   - **Key Players:** **Chiang Rai** stands out as a primary example, effectively managing large crowds while maintaining high service value.
+   - **Strategy:** Scale-up infrastructure and position as "Second-to-Main" destinations.
+
+2. **📈 MASS MARKET (Low Yield, High Share):** - **Characteristics:** High total revenue driven by sheer volume, but low spending per individual.
+   - **Key Players:** **Chanthaburi** and **Rayong**. These are popular destinations often visited by excursionists or short-stay travelers.
+   - **Strategy:** Introduce high-value activities, overnight stay incentives, and premium local products to increase "Yield per Head."
+
+3. **💎 PREMIUM NICHE (High Yield, Low Share):** - **Characteristics:** Efficient revenue generation from fewer visitors; these provinces attract "high-spenders."
+   - **Key Players:** **Trat** and **Mae Hong Son**. Often characterized by unique geography or high-end boutique tourism.
+   - **Strategy:** Increase accessibility and brand awareness to grow volume without compromising exclusivity.
+
+4. **🌱 EMERGING (Low Yield, Low Share):** - **Characteristics:** The majority of secondary cities. High potential but currently low in both volume and spending.
+   - **Strategy:** Identify local "Hidden Gems," develop basic tourism infrastructure, and build a distinct provincial identity.
+
+---
+
+
+## BackUp ##
 **Next in Series:** *05 : Forecasting & Future Growth Targets*
 
 ### **Figure 4: Visitor Share of Secondary Cities in National Tourism**
