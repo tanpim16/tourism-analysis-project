@@ -52,8 +52,13 @@ This analysis begins by addressing the core conflict: the successful redistribut
 ## 📉 Growth Comparison: Volume vs. Value
 
 ### **Figure 1: Monthly Tourist Arrivals (Volume Analysis)**
-![Tourist Arrivals Trend](visualizations/total_visitors_trend.png)
-*Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)*  
+<p align="center">
+  <img src="visualizations/total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
+</p>
+
+<p align="center">
+  <em>Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)</em>
+</p>
 
 
 The comparison of visitor arrivals (Figure 1) reveals a promising shift in travel behavior:
@@ -64,8 +69,13 @@ The comparison of visitor arrivals (Figure 1) reveals a promising shift in trave
 ---
 
 ### **Figure 2: Monthly Tourism Income (Value Analysis)**
-![Tourism Income Trend](visualizations/total_revenue_trend.png)
-*Figure 2. Monthly Tourism Revenue in Primary and Secondary Cities, Thailand (January 2023–December 2025)*  
+<p align="center">
+  <img src="visualizations/total_revenue_trend.png" alt="Tourism Income Trend" width="800">
+</p>
+
+<p align="center">
+  <em>Figure 2. Monthly Tourism Revenue in Primary and Secondary Cities, Thailand (January 2023–December 2025)</em>
+</p>
 
 While visitor numbers are rising, Figure 2 reveals a more challenging reality regarding the actual economic impact:
 * **Revenue Disparity:** Despite attracting roughly half the visitor volume of primary cities, secondary cities generate only a small fraction of the total national tourism income.
@@ -90,8 +100,13 @@ However, the **weaker income response** highlighted in Figure 2 indicates that h
 To determine if the redistribution to secondary cities is a sustainable transformation, we analyze the shifting market share of physical tourist footprints across Thailand.
 
 ### **Figure 3: Tourism Redistribution Share**
-![Figure 3](visualizations/Figure%203_updated.png)
-*Figure 3. Market Share Distribution of Tourist Arrivals Between Primary and Secondary Cities (2023–2025)*  
+<p align="center">
+  <img src="visualizations/Figure%203_updated.png" alt="Market Share Distribution" width="800">
+</p>
+
+<p align="center">
+  <em>Figure 3. Market Share Distribution of Tourist Arrivals Between Primary and Secondary Cities (2023–2025)</em>
+</p> 
 
 This 100% stacked distribution tracks the monthly visitor share between January 2023 and December 2025. The data provides visual evidence of a genuine structural shift:
 
@@ -117,8 +132,13 @@ This leads us to the next chapter of our story: **The Action.**
 In this chapter, we transition from observing historical arrivals to analyzing predictive behavior. By measuring **Total Search Intent** (combined Thai and English search volumes), we evaluate how effectively "Digital Interest" translates into "Physical Presence".
 
 ### **Figure 4: Bridging the Gap: Digital Planning vs. Physical Footprints**
-![Figure 4](visualizations/Figure%204_Lag_Aligned_Clean.png)
-*Figure 4. Online Search Interest and Observed Tourist Arrivals in Primary and Secondary Cities (2023–2025)*  
+<p align="center">
+  <img src="visualizations/Figure%204_Lag_Aligned_Clean.png" alt="Online Search and Tourist Arrivals" width="800">
+</p>
+
+<p align="center">
+  <em>Figure 4. Online Search Interest and Observed Tourist Arrivals in Primary and Secondary Cities (2023–2025)</em>
+</p>
 
 By performing **Lag Analysis** to find temporal correlations, we uncover two distinct decision-making cultures based on destination type:
 
@@ -167,10 +187,13 @@ The comprehensive map below provides a macro-level view of how tourism income is
 * **Wealth Intensity**: Using a specialized logarithmic scale (100 to 100,000+ Million Baht), the map highlights the massive revenue gap while ensuring the potential of smaller secondary markets remains visible.
 * **Revenue Hotspots**: Income is heavily concentrated in the Central and Southern coastal regions, which serve as the primary engines of the nation's tourism economy.
 
-<div align="center">
+<p align="center">
   <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="450">
-</div>
-*Figure 5. Geographic Distribution of Real Tourism Revenue Across Thailand’s 77 Provinces (Average 2023–2025)*  
+</p>
+
+<p align="center">
+  <em>Figure 5. Geographic Distribution of Real Tourism Revenue Across Thailand’s 77 Provinces (Average 2023–2025)</em>
+</p>
 
 ---
 
@@ -181,10 +204,13 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Secondary City Leaders**: **Chiang Rai** emerges as the clear frontrunner among emerging destinations, outperforming other secondary cities by a significant margin.
 * **Emerging Strength**: Following Chiang Rai, provinces like **Trat**, **Chanthaburi**, and **Nakhon Si Thammarat** show the strongest secondary-tier growth potential.
 
-<div align="center">
+<p align="center">
   <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="800">
-</div>
-*Figure 6. Average Annual Tourism Revenue Ranking by Province: Major and Secondary Cities (2023–2025)*  
+</p>
+
+<p align="center">
+  <em>Figure 6. Average Annual Tourism Revenue Ranking by Province: Major and Secondary Cities (2023–2025)</em>
+</p>
 
 ---
 
