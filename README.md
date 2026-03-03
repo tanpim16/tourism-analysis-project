@@ -53,6 +53,8 @@ This analysis begins by addressing the core conflict: the successful redistribut
 
 ### **Figure 1: Monthly Tourist Arrivals (Volume Analysis)**
 ![Tourist Arrivals Trend](visualizations/total_visitors_trend.png)
+**Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)**  
+*This figure presents the comparative monthly trend of tourist arrivals across destination categories. The results indicate sustained growth in secondary city visitation alongside continued dominance of primary destinations, reflecting an ongoing structural redistribution of tourism flows.*
 
 The comparison of visitor arrivals (Figure 1) reveals a promising shift in travel behavior:
 * **Successful Redistribution:** Secondary cities show a steady growth trend that mirrors the seasonal patterns of major hubs, specifically during the year-end "High Season."
