@@ -256,7 +256,6 @@ The analysis reveals distinct economic behaviors among secondary cities, allowin
 
 
 ## BackUp ##
-**Next in Series:** *05 : Forecasting & Future Growth Targets*
 
 ### **Figure 4: Visitor Share of Secondary Cities in National Tourism**
 ![Figure 4](visualizations/Figure%204.png)
