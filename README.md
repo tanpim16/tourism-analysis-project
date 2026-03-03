@@ -145,39 +145,42 @@ We have proven that the **"Potential"** for secondary cities is real and measura
 
 How does this revenue hold up against rising inflation and the cost of living? We find the answer in our final chapter: **04 : The Reality — Real Wealth Generation.**
 
+---
+
 # 04 : Thailand Tourism Analysis 🗺️
-## **The Reality — Real Wealth Generation & Purchasing Power**
-
-This module moves beyond "arrival numbers" to reveal the **true economic impact** of tourism across Thailand. We focus on **Real Revenue** to identify where the wealth is actually generated and which provinces hold the strongest purchasing power.
+### *The Reality — Real Wealth Generation & Purchasing Power*
 
 ---
 
-### **📍 The Big Picture: 77 Provinces Complete**
-We have successfully visualized a complete economic map of Thailand, ensuring every province is accounted for. 
 
-* **Complete Data**: Critical gaps for major hubs like **Bangkok** and **Nakhon Ratchasima** have been fixed to provide a 100% accurate national view.
-* **Strategic Mapping**: The map uses a clear **Blue (Major City)** vs. **Green (Secondary City)** color scheme to help distinguish between established hubs and emerging markets.
-* **Logarithmic Scale**: We used a specialized scale (100 to 100,000+ Million Baht) so that even the smaller "Secondary Cities" are visible alongside the massive revenue of the capital.
+This module presents the **economic results** of tourism across all 77 provinces of Thailand. By analyzing **Real Revenue**, we identify the actual concentration of wealth and the true purchasing power of each region.
 
----
+### **📍 National Wealth Distribution**
+The comprehensive map below provides a macro-level view of how tourism income is distributed across the country:
 
-### **🏆 Top 5 Performance Ranking**
-Our analysis ranks the top provinces based on their average annual tourism revenue:
+* **Strategic Segmentation**: Established tourism hubs are clearly identified as **Major Cities (Blue)**, while emerging markets are categorized as **Secondary Cities (Green)**.
+* **Wealth Intensity**: Using a specialized logarithmic scale (100 to 100,000+ Million Baht), the map highlights the massive revenue gap while ensuring the potential of smaller secondary markets remains visible.
+* **Revenue Hotspots**: Income is heavily concentrated in the Central and Southern coastal regions, which serve as the primary engines of the nation's tourism economy.
 
-| Rank | **Major City (Blue)** | **Secondary City (Green)** |
-| :--- | :--- | :--- |
-| 1 | **Bangkok** (74,643 M.Baht) | **Chiang Rai** (4,102 M.Baht) |
-| 2 | **Phuket** (43,387 M.Baht) | **Trat** (1,406 M.Baht) |
-| 3 | **Chon Buri** (26,471 M.Baht) | **Chanthaburi** (1,370 M.Baht) |
-| 4 | **Surat Thani** (10,469 M.Baht) | **Nakhon Si Thammarat** (1,281 M.Baht) |
-| 5 | **Chiang Mai** (8,709 M.Baht) | **Udon Thani** (1,095 M.Baht) |
+![Thailand Tourism Wealth Map](visualizations/Figure_4_Final_Classic_Clean.png)
 
 ---
 
-### **💡 Key Insights (The "So What?")**
-* **The Huge Revenue Gap**: **Bangkok** generates over **18 times** the revenue of the top secondary city (Chiang Rai), showing how heavily tourism wealth is concentrated in the capital.
-* **The Coastal Powerhouse**: Beyond Bangkok, the "Southern and Eastern Coasts" (Phuket, Chon Buri, Surat Thani) remain the undisputed engines of tourism income.
-* **Chiang Rai: The Next Giant**: Among secondary cities, **Chiang Rai** is the clear leader, outperforming its peers by a significant margin and signaling its readiness for major investment.
+### **🏆 Tourism Revenue Ranking Highlights**
+Our analysis of average annual revenue reveals the top economic performers in both categories:
+
+* **Major City Leaders**: **Bangkok** maintains absolute dominance, followed by high-revenue coastal hubs including **Phuket**, **Chon Buri**, and **Surat Thani**.
+* **Secondary City Leaders**: **Chiang Rai** emerges as the clear frontrunner among emerging destinations, outperforming other secondary cities by a significant margin.
+* **Emerging Strength**: Following Chiang Rai, provinces like **Trat**, **Chanthaburi**, and **Nakhon Si Thammarat** show the strongest secondary-tier growth potential.
+
+![Tourism Revenue Ranking](visualizations/Figure_5_Ranking_Tight.png)
+
+---
+
+### **💡 Executive Insights**
+* **The Concentration of Wealth**: **Bangkok** (74,643 M.Baht) generates approximately **18 times** the revenue of the top secondary city, **Chiang Rai** (4,102 M.Baht), illustrating the heavy centralization of tourism wealth in the capital.
+* **The Southern Seaboard Advantage**: The southern cluster (Phuket, Surat Thani) and eastern seaboard (Chon Buri) remain the most consistent wealth generators outside of the central region.
+* **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
 
