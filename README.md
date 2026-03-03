@@ -162,7 +162,9 @@ The comprehensive map below provides a macro-level view of how tourism income is
 * **Wealth Intensity**: Using a specialized logarithmic scale (100 to 100,000+ Million Baht), the map highlights the massive revenue gap while ensuring the potential of smaller secondary markets remains visible.
 * **Revenue Hotspots**: Income is heavily concentrated in the Central and Southern coastal regions, which serve as the primary engines of the nation's tourism economy.
 
-<img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="450">
+<div align="center">
+  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="600">
+</div>
 
 ---
 
@@ -173,7 +175,10 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Secondary City Leaders**: **Chiang Rai** emerges as the clear frontrunner among emerging destinations, outperforming other secondary cities by a significant margin.
 * **Emerging Strength**: Following Chiang Rai, provinces like **Trat**, **Chanthaburi**, and **Nakhon Si Thammarat** show the strongest secondary-tier growth potential.
 
-<img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="800">
+<div align="center">
+  <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="800">
+</div>
+
 ---
 
 ### **💡 Executive Insights**
