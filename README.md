@@ -220,9 +220,9 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
-# 05 : Strategic Positioning of Secondary Cities
+### 05 : Strategic Positioning of Secondary Cities
 
-In this final phase, we transition from volume-based analysis to **performance-based evaluation**. By intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**, we categorize the 55 secondary provinces into four strategic quadrants using the median as the benchmark.
+This phase evaluates the performance of 55 secondary cities by intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**. We use the **Median** of each axis as a benchmark to ensure objective, data-driven classification.
 
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Secondary City Quadrant Analysis" width="800">
@@ -232,27 +232,15 @@ In this final phase, we transition from volume-based analysis to **performance-b
   <strong>Figure 7. Strategic Quadrant Analysis: Efficiency (Yield per Head) vs. Market Share for 55 Secondary Cities (2023–2025)</strong>
 </p>
 
-#### **Strategic Insights & Key Findings**
 
-The analysis reveals distinct economic behaviors among secondary cities, allowing for tailored tourism development strategies:
+#### **Strategic Insights**
 
-1. **🌟 STARS (High Yield, High Share):** - **Characteristics:** Provinces that excel in both attracting volume and generating high spending per visitor.
-   - **Key Players:** **Chiang Rai** stands out as a primary example, effectively managing large crowds while maintaining high service value.
-   - **Strategy:** Scale-up infrastructure and position as "Second-to-Main" destinations.
-
-2. **📈 MASS MARKET (Low Yield, High Share):** - **Characteristics:** High total revenue driven by sheer volume, but low spending per individual.
-   - **Key Players:** **Chanthaburi** and **Rayong**. These are popular destinations often visited by excursionists or short-stay travelers.
-   - **Strategy:** Introduce high-value activities, overnight stay incentives, and premium local products to increase "Yield per Head."
-
-3. **💎 PREMIUM NICHE (High Yield, Low Share):** - **Characteristics:** Efficient revenue generation from fewer visitors; these provinces attract "high-spenders."
-   - **Key Players:** **Trat** and **Mae Hong Son**. Often characterized by unique geography or high-end boutique tourism.
-   - **Strategy:** Increase accessibility and brand awareness to grow volume without compromising exclusivity.
-
-4. **🌱 EMERGING (Low Yield, Low Share):** - **Characteristics:** The majority of secondary cities. High potential but currently low in both volume and spending.
-   - **Strategy:** Identify local "Hidden Gems," develop basic tourism infrastructure, and build a distinct provincial identity.
+* **🌟 STARS (High Yield | High Share):** **Market Leaders.** Exceptional balance of tourist volume and spending. These cities serve as the benchmark for secondary city development.
+* **📈 MASS MARKET (Low Yield | High Share):** **Volume-Driven.** High revenue contribution driven by sheer numbers, but with low per-head spending. *Strategy: Focus on increasing "Length of Stay" and value-added services.*
+* **💎 PREMIUM NICHE (High Yield | Low Share):** **High-Efficiency.** Low overall volume but attracts high-spenders. *Strategy: Enhance accessibility and marketing awareness while maintaining exclusivity.*
+* **🌱 EMERGING (Low Yield | Low Share):** **Developing Potential.** The largest group among secondary cities. *Strategy: Develop unique provincial identities and foundational tourism infrastructure.*
 
 ---
-
 
 ## BackUp ##
 
