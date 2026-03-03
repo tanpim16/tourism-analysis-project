@@ -57,7 +57,7 @@ This analysis begins by addressing the core conflict: the successful redistribut
 </p>
 
 <p align="center">
-  <em>**Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)**</em>
+  <strong>**Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)**</strong>
 </p>
 
 
@@ -74,7 +74,7 @@ The comparison of visitor arrivals (Figure 1) reveals a promising shift in trave
 </p>
 
 <p align="center">
-  <em>Figure 2. Monthly Tourism Revenue in Primary and Secondary Cities, Thailand (January 2023–December 2025)</em>
+  <strong>Figure 2. Monthly Tourism Revenue in Primary and Secondary Cities, Thailand (January 2023–December 2025)</strong>
 </p>
 
 While visitor numbers are rising, Figure 2 reveals a more challenging reality regarding the actual economic impact:
@@ -105,7 +105,7 @@ To determine if the redistribution to secondary cities is a sustainable transfor
 </p>
 
 <p align="center">
-  <em>Figure 3. Market Share Distribution of Tourist Arrivals Between Primary and Secondary Cities (2023–2025)</em>
+  <strong>Figure 3. Market Share Distribution of Tourist Arrivals Between Primary and Secondary Cities (2023–2025)</strong>
 </p> 
 
 This 100% stacked distribution tracks the monthly visitor share between January 2023 and December 2025. The data provides visual evidence of a genuine structural shift:
@@ -137,7 +137,7 @@ In this chapter, we transition from observing historical arrivals to analyzing p
 </p>
 
 <p align="center">
-  <em>Figure 4. Online Search Interest and Observed Tourist Arrivals in Primary and Secondary Cities (2023–2025)</em>
+  <strong>Figure 4. Online Search Interest and Observed Tourist Arrivals in Primary and Secondary Cities (2023–2025)</strong>
 </p>
 
 By performing **Lag Analysis** to find temporal correlations, we uncover two distinct decision-making cultures based on destination type:
@@ -192,7 +192,7 @@ The comprehensive map below provides a macro-level view of how tourism income is
 </p>
 
 <p align="center">
-  <em>Figure 5. Geographic Distribution of Real Tourism Revenue Across Thailand’s 77 Provinces (Average 2023–2025)</em>
+  <strong>Figure 5. Geographic Distribution of Real Tourism Revenue Across Thailand’s 77 Provinces (Average 2023–2025)</strong>
 </p>
 
 ---
@@ -209,7 +209,7 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 </p>
 
 <p align="center">
-  <em>Figure 6. Average Annual Tourism Revenue Ranking by Province: Major and Secondary Cities (2023–2025)</em>
+  <strong>Figure 6. Average Annual Tourism Revenue Ranking by Province: Major and Secondary Cities (2023–2025)</strong>
 </p>
 
 ---
