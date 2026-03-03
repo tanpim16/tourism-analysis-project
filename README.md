@@ -57,7 +57,7 @@ This analysis begins by addressing the core conflict: the successful redistribut
 </p>
 
 <p align="center">
-  <em>*Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)*</em>
+  <em>**Figure 1. Monthly Tourist Arrivals in Primary and Secondary Cities, Thailand (January 2023–December 2025)**</em>
 </p>
 
 
