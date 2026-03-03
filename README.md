@@ -220,8 +220,7 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
-
-### **Part 5: Strategic Positioning of Secondary Cities (Quadrant Analysis)**
+# 05 : Strategic Positioning of Secondary Cities
 
 In this final phase, we transition from volume-based analysis to **performance-based evaluation**. By intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**, we categorize the 55 secondary provinces into four strategic quadrants using the median as the benchmark.
 
@@ -230,7 +229,7 @@ In this final phase, we transition from volume-based analysis to **performance-b
 </p>
 
 <p align="center">
-  <strong>Figure 8. Strategic Quadrant Analysis: Efficiency (Yield per Head) vs. Market Share for 55 Secondary Cities (2023–2025)</strong>
+  <strong>Figure 7. Strategic Quadrant Analysis: Efficiency (Yield per Head) vs. Market Share for 55 Secondary Cities (2023–2025)</strong>
 </p>
 
 #### **Strategic Insights & Key Findings**
