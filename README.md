@@ -173,8 +173,7 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Secondary City Leaders**: **Chiang Rai** emerges as the clear frontrunner among emerging destinations, outperforming other secondary cities by a significant margin.
 * **Emerging Strength**: Following Chiang Rai, provinces like **Trat**, **Chanthaburi**, and **Nakhon Si Thammarat** show the strongest secondary-tier growth potential.
 
-![Tourism Revenue Ranking](visualizations/Figure_5_Ranking_Tight.png)
-
+<img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="800">
 ---
 
 ### **💡 Executive Insights**
