@@ -163,7 +163,7 @@ The comprehensive map below provides a macro-level view of how tourism income is
 * **Revenue Hotspots**: Income is heavily concentrated in the Central and Southern coastal regions, which serve as the primary engines of the nation's tourism economy.
 
 <div align="center">
-  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="600">
+  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="450">
 </div>
 
 ---
