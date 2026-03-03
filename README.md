@@ -220,7 +220,7 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
-### 05 : Strategic Positioning of Secondary Cities
+# 05 : Strategic Positioning of Secondary Cities
 
 This phase evaluates the performance of 55 secondary cities by intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**. We use the **Median** of each axis as a benchmark to ensure objective, data-driven classification.
 
