@@ -162,7 +162,8 @@ The comprehensive map below provides a macro-level view of how tourism income is
 * **Wealth Intensity**: Using a specialized logarithmic scale (100 to 100,000+ Million Baht), the map highlights the massive revenue gap while ensuring the potential of smaller secondary markets remains visible.
 * **Revenue Hotspots**: Income is heavily concentrated in the Central and Southern coastal regions, which serve as the primary engines of the nation's tourism economy.
 
-<img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="400">
+<img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="450">
+
 ---
 
 ### **🏆 Tourism Revenue Ranking Highlights**
