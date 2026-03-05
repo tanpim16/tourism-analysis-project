@@ -1,4 +1,4 @@
-# 🗺️ Beyond Footprints: A Strategic Analysis of Tourism Efficiency and Real Wealth Generation in Thailand (2023–2025)
+# 🗺️ Strategic Performance and Real Wealth Generation: A Data-Driven Portfolio Analysis of Thailand’s 55 Secondary Cities (2023–2025)
 
 ## **Executive Summary**
 This research investigates a pivotal economic challenge: **"Can the redistribution of tourist volume effectively generate real wealth for local communities?"** By utilizing **CPI-adjusted Real Revenue**, this project bypasses inflationary noise to uncover the true economic DNA of 55 secondary cities. We transition from simple descriptive statistics to **Predictive Intent Modeling** and **Strategic Portfolio Benchmarking**.
