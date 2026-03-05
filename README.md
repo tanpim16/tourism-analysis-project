@@ -225,9 +225,14 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 This section presents the strategic classification of **55 Secondary Tourism Cities** in Thailand. The analysis evaluates each province's competitive position based on two critical performance dimensions: **Efficiency (Yield per Head)** and **Market Share (Revenue Contribution)**.
 
 ### 📌 Analytical Framework
-To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the entire secondary city dataset were utilized as the strategic thresholds:
-1. **Efficiency (Yield):** Represents the revenue-generating capability per visitor ($\frac{Real\ Revenue \times 10^6}{Total\ Visitors}$).
-2. **Market Share:** Represents the economic weight of each province within the secondary tourism sector.
+To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
+
+1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
+   > *Note: Since the source data records Revenue in millions, the value is converted to Baht ($1,000,000$) to provide a standardized 'Baht per Person' metric for clearer economic interpretation.*
+
+   $$Yield = \frac{Real\ Revenue\ (\text{Millions}) \times 1,000,000}{Total\ Visitors\ (\text{Persons})}$$
+
+2. **Market Share:** Represents the **Economic Weight** of each province, measured by its percentage of total revenue contribution within the secondary tourism sector.
 
 ---
 
