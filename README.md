@@ -228,14 +228,6 @@ This phase of the analysis provides a strategic classification of **55 Secondary
 To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
 
 1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
-   > *Note: Since the source data records Revenue in millions, values are converted to Baht (multiplied by 1,000,000) to provide a standardized 'Baht per Person' metric for clearer economic interpretation.*
-
-$$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
-
-### 📌 Analytical Framework
-To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
-
-1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
    > *Note: Revenue data recorded in millions is converted to Baht by multiplying by 1,000,000 to provide a standard 'Baht per Person' metric.*
 
 $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
