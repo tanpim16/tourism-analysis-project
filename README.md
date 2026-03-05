@@ -228,12 +228,11 @@ This section presents the strategic classification of **55 Secondary Tourism Cit
 To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
 
 1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
-   > *Note: Since the source data records Revenue in millions, the value is converted to Baht ($1,000,000$) to provide a standardized 'Baht per Person' metric for clearer economic interpretation.*
+   > *Note: Since the source data records Revenue in millions, the value is converted to Baht by multiplying by 1,000,000. This provides a standardized 'Baht per Person' metric, allowing for a clearer economic interpretation of tourist spending.*
 
    $$Yield = \frac{Real\ Revenue\ (\text{Millions}) \times 1,000,000}{Total\ Visitors\ (\text{Persons})}$$
 
-2. **Market Share:** Represents the **Economic Weight** of each province, measured by its percentage of total revenue contribution within the secondary tourism sector.
-
+2. **Market Share:** Represents the **Economic Weight** of each province, measured by its percentage of total revenue contribution within the secondary tourism sector. This indicates the province's capacity to capture a share of the overall secondary tourism market.
 ---
 
 ### **Figure 8: Strategic Position Quadrants**
