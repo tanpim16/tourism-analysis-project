@@ -225,17 +225,19 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 This phase of the analysis provides a strategic classification of **55 Secondary Tourism Cities** in Thailand. Provinces are evaluated based on their competitive positioning across two performance dimensions: **Efficiency (Spending per Visitor)** and **Market Share (Economic Weight)**.
 
 ### 📌 Analytical Framework
-To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the dataset were utilized as the strategic thresholds for classification:
+To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
 
 1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
    > *Note: Since the source data records Revenue in millions, values are converted to Baht (multiplied by 1,000,000) to provide a standardized 'Baht per Person' metric for clearer economic interpretation.*
 
-   $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
+$$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
 
 2. **Market Share:** Represents the **Economic Weight** of each province within the secondary tourism sector. It measures a province's ability to capture tourism expenditure relative to the entire market of 55 secondary cities.
 
-   $$Market\ Share\ (\%)\ = \frac{\text{Real Revenue of Province}}{\text{Total Real Revenue of 55 Secondary Cities}} \times 100$$
-   
+$$Market\ Share\ (\%)\ = \frac{\text{Real\ Revenue\ of\ Province}}{\text{Total\ Real\ Revenue\ of\ 55\ Secondary\ Cities}} \times 100$$
+
+   > *Note: This KPI identifies the primary 'revenue drivers' among secondary cities. A higher market share indicates a stronger competitive position within this specific segment.*
+
 ---
 
 ### **Figure 8: Strategic Position Quadrants**
