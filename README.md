@@ -220,14 +220,14 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
-## 📊 Part 5: Strategic Portfolio Analysis
+# 05: Strategic Portfolio Analysis Results 📊
 
-This phase of the analysis involves the strategic classification of **55 Secondary Tourism Cities** in Thailand. By utilizing a 2x2 matrix, we evaluate each province's performance through two primary dimensions: **Efficiency (Yield per Head)** and **Market Share (Revenue Contribution)**.
+This section presents the strategic classification of **55 Secondary Tourism Cities** in Thailand. The analysis evaluates each province's competitive position based on two critical performance dimensions: **Efficiency (Yield per Head)** and **Market Share (Revenue Contribution)**.
 
-### 📌 Methodology & KPIs
-To establish a balanced benchmark, we use the **Median** values of the dataset as the quadrant dividers:
-1. **Efficiency (Yield):** Calculated as $\frac{Real\ Revenue \times 10^6}{Total\ Visitors}$. This represents the ability of a city to generate high value from each tourist.
-2. **Market Share:** The percentage of total revenue contribution from the 55 secondary cities.
+### 📌 Analytical Framework
+To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the entire secondary city dataset were utilized as the strategic thresholds:
+1. **Efficiency (Yield):** Represents the revenue-generating capability per visitor ($\frac{Real\ Revenue \times 10^6}{Total\ Visitors}$).
+2. **Market Share:** Represents the economic weight of each province within the secondary tourism sector.
 
 ---
 
@@ -240,8 +240,8 @@ To establish a balanced benchmark, we use the **Median** values of the dataset a
   <strong>Figure 8. Strategic Positioning of 55 Secondary Cities based on Yield and Market Share (2023–2025)</strong>
 </p>
 
-* **Objective:** To visualize the competitive landscape and identify leading hubs versus emerging potential areas.
-* **Key Insight:** This scatter plot identifies provinces that successfully maintain high yield despite varying visitor volumes.
+* **Analysis:** This scatter plot identifies the distribution of provinces across the four strategic zones. It highlights which cities are performing above the national median in terms of value creation (Yield) and volume (Market Share).
+* **Key Observations:** The clustering in specific quadrants reveals regional trends and identifies high-potential outliers that deviate from the standard secondary city performance.
 
 ---
 
@@ -254,20 +254,16 @@ To establish a balanced benchmark, we use the **Median** values of the dataset a
   <strong>Figure 9. Strategic Classification and Regional Grouping of Secondary Tourism Cities</strong>
 </p>
 
-* **Objective:** To provide a clear executive summary of all 55 cities grouped by their strategic quadrant and region.
-* **Classification Summary:**
-    * **STARS:** High Yield & High Share (e.g., **Buri Ram**, **Sra Kaeo**). Targets for continued investment and scaling.
-    * **PREMIUM NICHE:** High Yield & Low Share. Targets for targeted marketing to increase awareness.
-    * **MASS MARKET:** Low Yield & High Share. Targets for value-added tourism products to increase per-head spending.
-    * **EMERGING:** Low Yield & Low Share. Targets for infrastructure development and unique destination branding.
+* **Objective:** This scorecard provides a detailed breakdown of all 55 cities, categorized into four actionable strategic segments:
+    * **⭐ STARS (High Yield, High Share):** Premium destinations with strong market presence (e.g., **Buri Ram**, **Sra Kaeo**). These are the benchmarks for secondary tourism success.
+    * **💎 PREMIUM NICHE (High Yield, Low Share):** Destinations that attract high-spending visitors but have a smaller overall footprint.
+    * **🚜 MASS MARKET (Low Yield, High Share):** Volume-driven destinations with high visitor arrivals but lower revenue efficiency per person.
+    * **🌱 EMERGING (Low Yield, Low Share):** Potential growth areas requiring targeted infrastructure and branding support.
 
 ---
 
-### 🛠️ Technical Implementation
-* **Dynamic Layout:** Figure 9 uses custom coordinate logic and `textwrap` to ensure all 55 provinces are displayed symmetrically with zero whitespace.
-* **Data Integrity:** Implemented a robust `name_map` to bridge inconsistencies in province English spellings across multiple data sources.
-* **Aesthetics:** Optimized with a soft-contrast palette (`#F8F9FA`) and rounded UI elements for maximum readability.
-
+### 📈 Executive Summary of Findings
+The analysis demonstrates that secondary tourism in Thailand is not uniform. The clear distinction between **Yield-driven** and **Volume-driven** provinces allows for more tailored policy recommendations, ensuring that government and private investments are directed toward the specific needs of each province's strategic quadrant.
 ---
 
 ## BackUp ##
