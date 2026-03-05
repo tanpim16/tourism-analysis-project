@@ -90,10 +90,10 @@ for q in QUADS:
             T(cx+IPAD,yc,ln,ha='left',va='top',fontsize=10.5,color='#2C3E50',zorder=3); yc-=LH_P
         yc-=GAP_R
 
-T(FIG_W/2,0.18,'Source: Thailand Tourism Statistics  ·  Classified by yield per visitor vs. revenue contribution median',
+T(FIG_W/2,0.08,'Source: Thailand Tourism Statistics  ·  Classified by yield per visitor vs. revenue contribution median',
   ha='center',va='bottom',fontsize=8,color='#C0C7CE')
 
 os.makedirs('visualizations',exist_ok=True)
-plt.savefig('visualizations/Figure_9_Strategic_Summary.png',dpi=150,bbox_inches='tight',pad_inches=0.1,facecolor='#F8F9FA')
+plt.savefig('visualizations/Figure_9_Strategic_Summary.png',dpi=300,bbox_inches='tight',pad_inches=0.1,facecolor='#F8F9FA')
 plt.close()
 print("Done")

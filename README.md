@@ -220,25 +220,53 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 * **Investment Potential**: **Chiang Rai** stands as a major outlier in the secondary tier, generating nearly **3x more** revenue than its closest competitors in the "Green" category, signaling its readiness for high-level infrastructure and commercial investment.
 
 ---
-# 05 : Strategic Positioning of Secondary Cities
+## 📊 Part 5: Strategic Portfolio Analysis
 
-This phase evaluates the performance of 55 secondary cities by intersecting **Efficiency (Yield per Head)** with **Market Share (% Revenue Contribution)**. We use the **Median** of each axis as a benchmark to ensure objective, data-driven classification.
+This phase of the analysis involves the strategic classification of **55 Secondary Tourism Cities** in Thailand. By utilizing a 2x2 matrix, we evaluate each province's performance through two primary dimensions: **Efficiency (Yield per Head)** and **Market Share (Revenue Contribution)**.
 
+### 📌 Methodology & KPIs
+To establish a balanced benchmark, we use the **Median** values of the dataset as the quadrant dividers:
+1. **Efficiency (Yield):** Calculated as $\frac{Real\ Revenue \times 10^6}{Total\ Visitors}$. This represents the ability of a city to generate high value from each tourist.
+2. **Market Share:** The percentage of total revenue contribution from the 55 secondary cities.
+
+---
+
+### **Figure 8: Strategic Position Quadrants**
 <p align="center">
-  <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Secondary City Quadrant Analysis" width="800">
+  <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
 </p>
 
 <p align="center">
-  <strong>Figure 7. Strategic Quadrant Analysis: Efficiency (Yield per Head) vs. Market Share for 55 Secondary Cities (2023–2025)</strong>
+  <strong>Figure 8. Strategic Positioning of 55 Secondary Cities based on Yield and Market Share (2023–2025)</strong>
 </p>
 
+* **Objective:** To visualize the competitive landscape and identify leading hubs versus emerging potential areas.
+* **Key Insight:** This scatter plot identifies provinces that successfully maintain high yield despite varying visitor volumes.
 
-#### **Strategic Insights**
+---
 
-* **🌟 STARS (High Yield | High Share):** **Market Leaders.** Exceptional balance of tourist volume and spending. These cities serve as the benchmark for secondary city development.
-* **📈 MASS MARKET (Low Yield | High Share):** **Volume-Driven.** High revenue contribution driven by sheer numbers, but with low per-head spending. *Strategy: Focus on increasing "Length of Stay" and value-added services.*
-* **💎 PREMIUM NICHE (High Yield | Low Share):** **High-Efficiency.** Low overall volume but attracts high-spenders. *Strategy: Enhance accessibility and marketing awareness while maintaining exclusivity.*
-* **🌱 EMERGING (Low Yield | Low Share):** **Developing Potential.** The largest group among secondary cities. *Strategy: Develop unique provincial identities and foundational tourism infrastructure.*
+### **Figure 9: Strategic Portfolio Scorecard**
+<p align="center">
+  <img src="visualizations/Figure_9_Strategic_Summary.png" alt="Strategic Portfolio Summary" width="850">
+</p>
+
+<p align="center">
+  <strong>Figure 9. Strategic Classification and Regional Grouping of Secondary Tourism Cities</strong>
+</p>
+
+* **Objective:** To provide a clear executive summary of all 55 cities grouped by their strategic quadrant and region.
+* **Classification Summary:**
+    * **STARS:** High Yield & High Share (e.g., **Buri Ram**, **Sra Kaeo**). Targets for continued investment and scaling.
+    * **PREMIUM NICHE:** High Yield & Low Share. Targets for targeted marketing to increase awareness.
+    * **MASS MARKET:** Low Yield & High Share. Targets for value-added tourism products to increase per-head spending.
+    * **EMERGING:** Low Yield & Low Share. Targets for infrastructure development and unique destination branding.
+
+---
+
+### 🛠️ Technical Implementation
+* **Dynamic Layout:** Figure 9 uses custom coordinate logic and `textwrap` to ensure all 55 provinces are displayed symmetrically with zero whitespace.
+* **Data Integrity:** Implemented a robust `name_map` to bridge inconsistencies in province English spellings across multiple data sources.
+* **Aesthetics:** Optimized with a soft-contrast palette (`#F8F9FA`) and rounded UI elements for maximum readability.
 
 ---
 
