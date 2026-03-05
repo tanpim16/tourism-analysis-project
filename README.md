@@ -222,21 +222,20 @@ Our analysis of average annual revenue reveals the top economic performers in bo
 ---
 # 05: Strategic Portfolio Analysis Results 📊
 
-This section presents the strategic classification of **55 Secondary Tourism Cities** in Thailand. The analysis evaluates each province's competitive position based on two critical performance dimensions: **Efficiency (Yield per Head)** and **Market Share (Revenue Contribution)**.
+This phase of the analysis provides a strategic classification of **55 Secondary Tourism Cities** in Thailand. Provinces are evaluated based on their competitive positioning across two performance dimensions: **Efficiency (Spending per Visitor)** and **Market Share (Economic Weight)**.
 
 ### 📌 Analytical Framework
-To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the 55 secondary cities were utilized as strategic thresholds for classification:
+To establish a rigorous benchmark for the 2023–2025 period, the **Median** values of the dataset were utilized as the strategic thresholds for classification:
 
 1. **Efficiency (Yield):** Represents the **Average Spending per Visitor (Baht)**. 
-   > *Note: Since the source data records Revenue in millions, the value is converted to Baht by multiplying by 1,000,000. This provides a standardized 'Baht per Person' metric, allowing for a clearer economic interpretation of tourist spending.*
+   > *Note: Since the source data records Revenue in millions, values are converted to Baht (multiplied by 1,000,000) to provide a standardized 'Baht per Person' metric for clearer economic interpretation.*
 
-   $$Yield = \frac{Real\ Revenue\ (\text{Millions}) \times 1,000,000}{Total\ Visitors\ (\text{Persons})}$$
+   $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
 
-2. **Market Share:** Represents the **Economic Weight** of each province within the secondary tourism sector. It measures a province's ability to capture tourism spending relative to the entire market of 55 secondary cities.
+2. **Market Share:** Represents the **Economic Weight** of each province within the secondary tourism sector. It measures a province's ability to capture tourism expenditure relative to the entire market.
 
-   $$Market\ Share\ (\%)\ = \frac{\text{Real\ Revenue\ of\ Province}}{\text{Total\ Real\ Revenue\ of\ 55\ Secondary\ Cities}} \times 100$$
+   $$Market\ Share\ (\%)\ = \frac{\text{Real Revenue of Province}}{\text{Total Real Revenue of 55 Secondary Cities}} \times 100$$
 
-   > *Note: This KPI identifies which provinces are the primary 'revenue drivers' for the secondary tourism market. A higher market share indicates a stronger competitive position and higher economic impact.*
 ---
 
 ### **Figure 8: Strategic Position Quadrants**
@@ -248,8 +247,8 @@ To establish a rigorous benchmark for the 2023–2025 period, the **Median** val
   <strong>Figure 8. Strategic Positioning of 55 Secondary Cities based on Yield and Market Share (2023–2025)</strong>
 </p>
 
-* **Analysis:** This scatter plot identifies the distribution of provinces across the four strategic zones. It highlights which cities are performing above the national median in terms of value creation (Yield) and volume (Market Share).
-* **Key Observations:** The clustering in specific quadrants reveals regional trends and identifies high-potential outliers that deviate from the standard secondary city performance.
+* **Analysis:** This scatter plot visualizes the distribution of provinces relative to the national median. It identifies performance clusters and distinguishes provinces that drive high economic value per arrival.
+* **Strategic Observation:** High-potential outliers are clearly visible, identifying destinations that deviate from standard secondary city performance and require specific management strategies.
 
 ---
 
@@ -262,16 +261,17 @@ To establish a rigorous benchmark for the 2023–2025 period, the **Median** val
   <strong>Figure 9. Strategic Classification and Regional Grouping of Secondary Tourism Cities</strong>
 </p>
 
-* **Objective:** This scorecard provides a detailed breakdown of all 55 cities, categorized into four actionable strategic segments:
-    * **⭐ STARS (High Yield, High Share):** Premium destinations with strong market presence (e.g., **Buri Ram**, **Sra Kaeo**). These are the benchmarks for secondary tourism success.
-    * **💎 PREMIUM NICHE (High Yield, Low Share):** Destinations that attract high-spending visitors but have a smaller overall footprint.
-    * **🚜 MASS MARKET (Low Yield, High Share):** Volume-driven destinations with high visitor arrivals but lower revenue efficiency per person.
-    * **🌱 EMERGING (Low Yield, Low Share):** Potential growth areas requiring targeted infrastructure and branding support.
+* **Objective:** This scorecard categorizes all 55 cities into four actionable strategic segments to guide policy and investment:
+    * **⭐ STARS (High Yield, High Share):** High-performing destinations with strong market presence (e.g., **Buri Ram**, **Sra Kaeo**). These serve as national benchmarks.
+    * **💎 PREMIUM NICHE (High Yield, Low Share):** Destinations attracting high-value visitors but maintaining a smaller market footprint.
+    * **🚜 MASS MARKET (Low Yield, High Share):** Volume-driven hubs with significant arrivals but lower revenue efficiency per visitor.
+    * **🌱 EMERGING (Low Yield, Low Share):** Potential growth areas requiring targeted infrastructure and destination branding.
 
 ---
 
 ### 📈 Executive Summary of Findings
-The analysis demonstrates that secondary tourism in Thailand is not uniform. The clear distinction between **Yield-driven** and **Volume-driven** provinces allows for more tailored policy recommendations, ensuring that government and private investments are directed toward the specific needs of each province's strategic quadrant.
+The analysis reveals that secondary tourism in Thailand is highly diverse. The distinction between **Yield-driven** (Efficiency) and **Volume-driven** (Share) provinces allows for precision-based policy recommendations. This framework ensures that future investments—whether in infrastructure or marketing—are aligned with the specific economic nature of each strategic quadrant.
+
 ---
 
 ## BackUp ##
