@@ -232,7 +232,11 @@ To establish a rigorous benchmark for the 2023–2025 period, the **Median** val
 
    $$Yield = \frac{Real\ Revenue\ (\text{Millions}) \times 1,000,000}{Total\ Visitors\ (\text{Persons})}$$
 
-2. **Market Share:** Represents the **Economic Weight** of each province, measured by its percentage of total revenue contribution within the secondary tourism sector. This indicates the province's capacity to capture a share of the overall secondary tourism market.
+2. **Market Share:** Represents the **Economic Weight** of each province within the secondary tourism sector. It measures a province's ability to capture tourism spending relative to the entire market of 55 secondary cities.
+
+   $$Market\ Share\ (\%)\ = \frac{\text{Real\ Revenue\ of\ Province}}{\text{Total\ Real\ Revenue\ of\ 55\ Secondary\ Cities}} \times 100$$
+
+   > *Note: This KPI identifies which provinces are the primary 'revenue drivers' for the secondary tourism market. A higher market share indicates a stronger competitive position and higher economic impact.*
 ---
 
 ### **Figure 8: Strategic Position Quadrants**
