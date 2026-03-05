@@ -111,7 +111,7 @@ $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Vis
 
 2. **Market Share:** Economic Weight within the secondary tourism sector.
 
-$$\text{Market Share (\%)} = \frac{\text{Real Revenue of Province}}{\text{Total Real Revenue of 55 Secondary Cities}} \times 100$$
+$$\text{Market Share (%)} = \frac{\text{Real Revenue of Province}}{\text{Total Real Revenue of 55 Secondary Cities}} \times 100$$
 
 ### **Figure 7: Strategic Position Quadrants**
 <p align="center">
