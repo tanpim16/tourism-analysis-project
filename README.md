@@ -1,5 +1,31 @@
 # 🗺️ Strategic Performance and Real Wealth Generation: A Data-Driven Portfolio Analysis of Thailand’s 55 Secondary Cities (2023–2025)
 
+## **Data Source**
+1. **Tourism Revenue Data (2023 - 2025):** [Ministry of Tourism and Sports](https://www.mots.go.th/news/category/411)
+2. **Consumer Price Index (CPI) Data (2023 - 2025):** [Trade Policy and Strategy Office](https://index.tpso.go.th/document/cpip/post-month)
+3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords.
+
+---
+
+## **Objectives**
+This project examines tourism expansion, redistribution effects, and income quality across Thailand. By utilizing static visual analytics and strategic benchmarking, we translate raw tourism data into actionable economic insights to evaluate the real impact on local communities.
+
+---
+
+## **Research Questions**
+1. Do secondary cities experience higher tourist growth rates than primary destinations during 2023–2025?
+2. Has tourism policy contributed to a genuine redistribution of tourists toward secondary cities?
+3. Does tourism development improve income quality (Revenue per tourist)?
+4. Can online search interest predict physical tourism demand and revenue?
+5. Does tourism growth generate **Real Income** gains for local communities after adjusting for inflation?
+
+---
+
+## **Introduction**
+Tourism is a vital driver of Thailand's GDP, but wealth has historically been concentrated in major hubs. While national policies now promote **Secondary Cities** to reduce regional disparities, it remains unclear if visitor growth translates into sustainable economic wealth. This study utilizes **CPI-adjusted Real Revenue** to evaluate whether the "Secondary City Policy" actually improves the purchasing power and livelihoods of local communities.
+
+---
+
 ## **Executive Summary**
 This research investigates a pivotal economic challenge: **"Can the redistribution of tourist volume effectively generate real wealth for local communities?"** By utilizing **CPI-adjusted Real Revenue**, this project bypasses inflationary noise to uncover the true economic DNA of 55 secondary cities. We transition from simple descriptive statistics to **Predictive Intent Modeling** and **Strategic Portfolio Benchmarking**.
 
