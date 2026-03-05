@@ -106,9 +106,11 @@ This phase classifies **55 Secondary Cities** based on **Efficiency (Yield)** an
 > **💡 Key Economic Adjustment:** To ensure accuracy, all revenue data has been adjusted using the **Consumer Price Index (CPI)**. This eliminates inflation distortion and reflects the **Real Income** gained by local communities.
 
 1. **Efficiency (Yield):** Average Spending per Visitor (Baht).
+
 $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
 
 2. **Market Share:** Economic Weight within the secondary tourism sector.
+
 $$\text{Market Share (\%)} = \frac{\text{Real Revenue of Province}}{\text{Total Real Revenue of 55 Secondary Cities}} \times 100$$
 
 ### **Figure 7: Strategic Position Quadrants**
