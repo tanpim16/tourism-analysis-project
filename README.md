@@ -8,26 +8,29 @@ This research investigates a pivotal economic challenge: **"Can the redistributi
 ## **01 : The Volume-Value Paradox**
 ### *Success in Arrivals, Struggle in Appropriation*
 
-We successfully moved the "Footprints," but the "Wealth" remains concentrated. 
+The first phase of our study addresses the "Paradox of Plenty." While the national policy has successfully decentralized visitor footprints, the economic benefits remain largely anchored in primary hubs.
 
-* **The Success (Volume):** Secondary cities reached a peak of **11.2 million visitors** by late 2025.
-* **The Struggle (Value):** Secondary city revenue peaked at **35 Billion THB**, while primary hubs captured **248 Billion THB**.
-
-### **Figure 1 & 2: The Macro Trend Comparison**
+### **Figure 1: Monthly Tourist Arrivals (Volume Analysis)**
 <p align="center">
   <img src="visualizations/total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
-  <br>
+</p>
+<p align="center"><strong>Figure 1. Monthly Tourist Arrivals: Primary vs. Secondary Cities (2023–2025)</strong></p>
+
+> **🔍 Analytical Deep-Dive: Successful Redistribution**
+> Figure 1 proves that the "Secondary City" policy is working in terms of volume. Secondary cities (Green line) now mirror the seasonal spikes of major hubs (Blue line) perfectly. This indicates that travelers are increasingly willing to explore emerging destinations during national "High Seasons." We have successfully moved the "Footprints."
+
+### **Figure 2: Monthly Tourism Income (Value Analysis)**
+<p align="center">
   <img src="visualizations/total_revenue_trend.png" alt="Tourism Income Trend" width="800">
 </p>
-<p align="center"><strong>Figure 1 & 2. Monthly Arrivals vs. Real Revenue (2023–2025)</strong></p>
+<p align="center"><strong>Figure 2. Monthly Tourism Revenue: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
-
-
-> **Strategic Insight:** While secondary cities now mirror the seasonal spikes of major hubs, a **3.6x Yield Gap** persists. Tourists in major cities spend significantly more per arrival, indicating a lack of "spending touchpoints" in secondary destinations.
+> **🔍 Analytical Deep-Dive: The Stagnant Wealth Gap**
+> Despite the arrival growth, Figure 2 reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** They lack the high-value service chains (premium dining, curated experiences) needed to capture deeper tourist spending.
 
 ---
 
-## **02 : The Structural Shift**
+## **02 : The Potential — The Structural Shift**
 ### *Market Share: Establishing a New Economic Baseline*
 
 ### **Figure 3: Tourism Redistribution Share**
@@ -36,14 +39,15 @@ We successfully moved the "Footprints," but the "Wealth" remains concentrated.
 </p>
 <p align="center"><strong>Figure 3. Market Share Distribution of Tourist Arrivals</strong></p>
 
-> **Analysis:** The steady expansion of the "Secondary City" share (Green) proves this is not a temporary trend. We are witnessing a **Structural Decentralization** of Thai tourism.
+> **🔍 Analytical Deep-Dive: A Permanent Shift**
+> Unlike temporary seasonal spikes, Figure 3 displays a **Steady Expansion** of the secondary city baseline (Green Area). This is evidence of a **Structural Decentralization** in Thai tourism. Secondary cities are becoming a permanent part of the national travel "habit," creating a stable long-term opportunity for local infrastructure investment.
 
 ---
 
 ## **03 : The Action — The Digital Planning Cycle**
 ### *Lag Analysis: Decoding the Discovery Window*
 
-This is the core of our behavioral analysis. We synchronized **Search Intent** with **Arrivals** to find the "Marketing Sweet Spot."
+We synchronized **Search Intent** with **Physical Arrivals** to identify the "Marketing Sweet Spot."
 
 ### **Figure 4: Time-Aligned Intent vs. Physical Footprints**
 <p align="center">
@@ -51,39 +55,42 @@ This is the core of our behavioral analysis. We synchronized **Search Intent** w
 </p>
 <p align="center"><strong>Figure 4. Predictive Lead-Time Analysis for Major and Secondary Destinations</strong></p>
 
-
-
-#### **🔍 Analytical Deep-Dive: The "2-Month Discovery Phase"**
-* **Major Cities (1-Month Lag):** Reflects "Convenience Travel." High information availability allows for spontaneous decision-making.
-* **Secondary Cities (2-Month Lag):** Reflects an **"Explorer Culture."** Travelers require a significantly longer **Discovery Window** (approx. 60 days) to research logistics, local experiences, and hidden gems.
-* **The "Conversion Gap":** Note the points where Search Intent is high but Arrivals do not peak. This identifies **Capacity Bottlenecks** (e.g., limited transport/hotels) that prevent digital interest from becoming local income.
+> **🔍 Analytical Deep-Dive: The "Explorer" Lead Time**
+> * **Major Cities (1-Month Lag):** Reflects **"Spontaneous Travel."** High accessibility and familiarity allow travelers to search and visit almost immediately.
+> * **Secondary Cities (2-Month Lag):** Reflects an **"Explorer Culture."** Travelers require a significantly longer **Discovery Window** (approx. 60 days) to research logistics and hidden gems. 
+> * **Conclusion:** Marketing campaigns for secondary cities must be launched **at least 8 weeks** before the peak season to align with this planning cycle.
 
 ---
 
 ## **04 : The Reality — Real Wealth Generation**
 ### *Purchasing Power: The Inflation-Adjusted Truth*
 
-To evaluate the impact on local communities, we utilize **Real Revenue** ($Real\ Revenue = \frac{Nominal\ Revenue}{CPI} \times 100$), ensuring our wealth metrics reflect actual purchasing power.
+To measure the true impact on local livelihoods, we utilize **Real Revenue** ($Real\ Revenue = \frac{Nominal\ Revenue}{CPI} \times 100$), ensuring our wealth metrics reflect actual purchasing power.
 
-### **Figure 5 & 6: National Wealth Mapping and Benchmarking**
+### **Figure 5: National Wealth Distribution (The Real Revenue Map)**
 <p align="center">
-  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="450">
-  <br>
-  <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="800">
+  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="550">
 </p>
-<p align="center"><strong>Figure 5 & 6. Geographic Distribution and Performance Ranking of Real Revenue</strong></p>
+<p align="center"><strong>Figure 5. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
 
+> **🔍 Analytical Deep-Dive: Mapping the "Connectivity Gap"**
+> The map reveals that tourism wealth follows established **"Economic Corridors"** (Central, Southern, and Eastern Seaboards). Many secondary cities in the North-East and deep North remain in "Revenue Cold-Spots." To uplift these regions, policy must shift from mere promotion to building physical connectivity to major hubs.
 
+### **Figure 6: Tourism Performance Benchmarking (Real Revenue Ranking)**
+<p align="center">
+  <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
+</p>
+<p align="center"><strong>Figure 6. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
+
+> **🔍 Analytical Deep-Dive: The "Outlier" Analysis**
+> **Bangkok** generates **18 times** the revenue of the top secondary city, showing extreme centralization. However, **Chiang Rai** emerges as a **"Strategic Blueprint."** It outperforms its secondary-tier peers by 3x, proving that a secondary city can achieve significant scale by leveraging unique cultural and cross-border positioning.
 
 ---
 
 ## **05: Strategic Portfolio Analysis 📊**
 ### *Benchmarking the Economic DNA of 55 Cities*
 
-We utilized **Median-based Thresholds** to categorize cities into actionable strategic segments. 
-
-### 📌 Analytical Framework
-$$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Visitors (Persons)}}$$
+We utilized **Median-based Thresholds** to categorize cities into actionable strategic segments.
 
 ### **Figure 7: The Strategic Positioning Matrix**
 <p align="center">
@@ -91,24 +98,22 @@ $$Yield = \frac{\text{Real Revenue (Millions)} \times 1,000,000}{\text{Total Vis
 </p>
 <p align="center"><strong>Figure 7. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
 
-
-
-#### **🔍 Analytical Deep-Dive: Decoding the Quadrants**
-* **⭐ STARS (High Yield, High Share):** The "Economic Drivers" (e.g., **Buri Ram**, **Sra Kaeo**). These cities have successfully scaled their tourism without losing value-per-head.
-* **💎 PREMIUM NICHE (High Yield, Low Share):** The "Quality Leaders." They prove that high visitor volume isn't necessary for economic success if you attract high-spending explorers.
-* **🚜 MASS MARKET (Low Yield, High Share):** The "Volume Hubs." High footprints but low local capture. Strategy: Increase local spending opportunities.
-* **🌱 EMERGING (Low Yield, Low Share):** The "Growth Frontier." Focus on foundational awareness and basic infrastructure.
+> **🔍 Analytical Deep-Dive: Decoding the Quadrants**
+> * **⭐ STARS:** Success stories like **Buri Ram** and **Sra Kaeo** have scaled volume while maintaining high value-per-head. 
+> * **💎 PREMIUM NICHE:** The "Quality Leaders." They prove that high visitor volume is not necessary for economic success if you attract high-spending explorers.
+> * **🚜 MASS MARKET:** High footprints but low local capture. Strategy: These cities must increase local "spending touchpoints" to convert volume into real value.
+> * **🌱 EMERGING:** The "Growth Frontier." Focus on foundational infrastructure and branding.
 
 ---
 
-## **🏁 Research Conclusions & Roadmap**
+## **🏁 Final Research Conclusions**
 
-| Research Question (RQ) | Final Finding | Strategic Implication |
+| Research Question (RQ) | Final Findings | Strategic Implication |
 | :--- | :--- | :--- |
-| **1. Growth Rates?** | **YES.** Consistent with Primary cities. | Secondary cities are now part of the national travel "habit." |
-| **2. Redistribution?** | **SUCCESSFUL.** Market share is expanding. | Policy has moved the people; now we must move the value. |
-| **3. Income Quality?** | **LAGGING.** 3.6x Gap remains. | Infrastructure must focus on "Revenue Capture," not just arrivals. |
-| **4. Digital Predictability?** | **YES.** With a 2-month lag. | Marketing must launch **60 days** before the target peak season. |
-| **5. Real Income Gains?** | **SELECTIVE.** Concentrated in Stars. | Use Stars as a "Blueprint" for other emerging provinces. |
+| **1. Growth Rates?** | **YES.** Consistent with Primary cities. | Secondary cities are now a national travel habit. |
+| **2. Redistribution?** | **SUCCESSFUL.** Market share is expanding. | We have the people; now we need the value. |
+| **3. Income Quality?** | **LAGGING.** 3.6x Gap remains. | Focus on "Revenue Capture," not just arrivals. |
+| **4. Digital Predictability?** | **YES.** With a 2-month lag. | Marketing must launch **60 days** in advance. |
+| **5. Real Income Gains?** | **SELECTIVE.** Concentrated in Stars. | Use "Stars" as a blueprint for other provinces. |
 
 ---
