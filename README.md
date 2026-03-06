@@ -6,6 +6,11 @@
 3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords.
 
 ---
+## **Executive Summary**
+
+This research evaluates the economic impact of tourism on 55 secondary cities using **CPI-adjusted Real Revenue**. We identified a significant **"Digital-to-Physical Gap"** and a **critical 8-week planning window** for strategic intervention. By shifting to a **"Stability-first" policy**, we aim to transform volatile seasonal spikes into **resilient and sustainable local wealth.**
+
+---
 
 ## **Objectives**
 This project examines tourism expansion, redistribution effects, and income quality across Thailand. By utilizing static visual analytics and strategic benchmarking, we translate raw tourism data into actionable economic insights to evaluate the real impact on local communities.
@@ -29,10 +34,6 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 
 Tourism is a vital driver of Thailand's GDP, but wealth has historically been concentrated in major hubs. While national policies now promote **Secondary Cities** to reduce regional disparities, it remains unclear if visitor growth translates into sustainable economic wealth. This study utilizes **CPI-adjusted Real Revenue** to evaluate whether the "Secondary City Policy" actually improves the purchasing power and livelihoods of local communities.
 
----
-
-## **Executive Summary**
-This research investigates a pivotal economic challenge: **"Can the redistribution of tourist volume effectively generate real wealth for local communities?"** By utilizing **CPI-adjusted Real Revenue**, this project bypasses inflationary noise to uncover the true economic DNA of 55 secondary cities. We transition from simple descriptive statistics to **Predictive Intent Modeling** and **Strategic Portfolio Benchmarking**.
 
 ---
 
