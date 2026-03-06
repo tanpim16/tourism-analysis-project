@@ -1,14 +1,18 @@
 # 🗺️ Strategic Performance and Real Wealth Generation: A Data-Driven Portfolio Analysis of Thailand’s 55 Secondary Cities (2023–2025)
 
-## **Data Source**
-1. **Tourism Revenue Data (2023 - 2025):** [Ministry of Tourism and Sports](https://www.mots.go.th/news/category/411)
-2. **Consumer Price Index (CPI) Data (2023 - 2025):** [Trade Policy and Strategy Office](https://index.tpso.go.th/document/cpip/post-month)
-3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords.
-
----
 ## **Executive Summary**
 
 This research evaluates the economic impact of tourism on 55 secondary cities using **CPI-adjusted Real Revenue**. We identified a significant **"Digital-to-Physical Gap"** and a **critical 8-week planning window** for strategic intervention. By shifting to a **"Stability-first" policy**, we aim to transform volatile seasonal spikes into **resilient and sustainable local wealth.**
+
+---
+
+## **Introduction**
+
+Tourism is a vital driver of Thailand's GDP, but wealth has historically been concentrated in major hubs. While national policies now promote **Secondary Cities** to reduce regional disparities, it remains unclear if visitor growth translates into sustainable economic wealth. 
+
+This study utilizes **CPI-adjusted Real Revenue** to evaluate whether the "Secondary City Policy" actually improves the purchasing power and livelihoods of local communities by filtering out inflationary noise:
+
+$$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
 ---
 
@@ -30,10 +34,10 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 
 ---
 
-## **Introduction**
-
-Tourism is a vital driver of Thailand's GDP, but wealth has historically been concentrated in major hubs. While national policies now promote **Secondary Cities** to reduce regional disparities, it remains unclear if visitor growth translates into sustainable economic wealth. This study utilizes **CPI-adjusted Real Revenue** to evaluate whether the "Secondary City Policy" actually improves the purchasing power and livelihoods of local communities.
-
+## **Data Source**
+1. **Tourism Revenue Data (2023 - 2025):** [Ministry of Tourism and Sports](https://www.mots.go.th/news/category/411)
+2. **Consumer Price Index (CPI) Data (2023 - 2025):** [Trade Policy and Strategy Office](https://index.tpso.go.th/document/cpip/post-month)
+3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords.
 
 ---
 
