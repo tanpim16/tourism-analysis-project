@@ -158,14 +158,13 @@ $$CV = \frac{\sigma}{\mu} \times 100$$
 ## **05 : Regional Seasonality — The Precision Window**
 ### *Timing by Geography: When to Intervene?*
 
-To optimize the national budget, we move beyond averages to identify the **"Golden Windows"** unique to each region. This ensures that marketing spend aligns with the actual planning cycle of travelers.
+To optimize the national budget, we move beyond averages to identify the **"Golden Windows"** unique to each region. This ensures that marketing spend aligns with the actual planning cycle of travelers identified in Section 03.
 
-| Region | Peak Window | Stability Profile | Strategic Action |
-| :--- | :--- | :--- | :--- |
-| **North** | **Nov — Jan** | **Seasonal Sprint:** Intense 3-month peak with high volatility. | Front-load 70% of budget into Q3 to hit the 8-week planning window. |
-| **South** | **Year-round** | **Resilient Marathon:** More stable arrivals; lower income variance. | Maintain consistent "Always-on" digital presence. |
-| **Northeast** | **Festival Driven** | **Cultural Pulsing:** High spikes during traditional events. | Use "Short-burst" high-impact ads 6 weeks before key festivals. |
-
+| 🌏 Region | 🗓️ Peak Window | 📊 Stability Profile | 🎯 Strategic Action |
+| :--- | :---: | :--- | :--- |
+| **North** | `Nov — Jan` | **Seasonal Sprint** | `Front-load 70%` of budget into Q3 |
+| **South** | `Year-round` | **Resilient Marathon** | Maintain `Always-on` digital presence |
+| **Northeast** | `Festival Peaks` | **Cultural Pulsing** | `Short-burst` ads (6-week lead) |
 ---
 
 ## **06 : The Reality — Real Wealth Generation**
@@ -220,14 +219,16 @@ By synthesizing **Yield, Conversion, and Stability**, we move from observation t
 
 ## **🏁 Final Research Conclusions**
 
-| Research Question (RQ) | Final Findings | Strategic Implication |
+| 🔍 Research Question (RQ) | 📝 Final Findings | 💡 Strategic Implication |
 | :--- | :--- | :--- |
-| **1. Growth Rates?** | **YES.** Matches Primary cities. | Secondary cities are now a stable national travel habit. |
-| **2. Redistribution?** | **SUCCESSFUL.** Market share is expanding. | We have the footprints; now we must capture the **Value**. |
-| **3. Income Quality?** | **LAGGING.** 3.6x Gap remains. | Policy must shift from "Arrivals" to **"Revenue per Head"**. |
-| **4. Digital Predictability?** | **YES.** Confirmed 2-month lag. | Marketing campaigns must launch **60 days** in advance. |
-| **5. Real Income Gains?** | **SELECTIVE.** Risk varies by region. | Use **"Stable Cash Cows"** as blueprints to reduce volatility. |
+| **1. Growth Rates?** | `YES` (Matches Primary) | Secondary cities are now a **stable national travel habit**. |
+| **2. Redistribution?** | `SUCCESSFUL` | Market share is expanding; focus on **Value Capture**. |
+| **3. Income Quality?** | `LAGGING` (3.6x Gap) | Policy must shift from "Arrivals" to **"Revenue per Head"**. |
+| **4. Digital Predictability?** | `YES` (2-month lag) | Marketing campaigns must launch **60 days** in advance. |
+| **5. Real Income Gains?** | `SELECTIVE` (Risk-based) | Use **"Stable Cash Cows"** as blueprints to reduce volatility. |
 
-**Final Conclusion:** The success of Thailand’s tourism policy should not be measured by arrival numbers alone, but by the **Real Wealth** generated and the **Economic Stability** provided to local communities. 
+---
+
+**Final Conclusion:** Thailand’s tourism success must be measured not by the *number of arrivals*, but by the **Real Wealth** generated and the **Economic Stability** provided to its local communities.
 
 ---
