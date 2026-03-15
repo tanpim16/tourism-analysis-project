@@ -79,7 +79,8 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 <p align="center"><strong>Figure 1B. Monthly Tourism Revenue: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
 > **🔍 Analytical Deep-Dive: The Stagnant Wealth Gap**
-> Despite the arrival growth, Figure 1B reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** ### **Figure 1C: Yield Efficiency Analysis (Real Revenue per Visitor)**
+> Despite the arrival growth, Figure 1B reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** 
+### **Figure 1C: Yield Efficiency Analysis (Real Revenue per Visitor)**
 <p align="center">
   <img src="visualizations/Figure_Yield_Efficiency_Final.png" alt="Yield Efficiency Analysis" width="800">
 </p>
