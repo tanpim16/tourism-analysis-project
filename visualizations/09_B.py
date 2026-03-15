@@ -85,10 +85,6 @@ sm = plt.cm.ScalarMappable(cmap='YlOrRd', norm=plt.Normalize(vmin=vmin, vmax=vma
 sm.set_array([])
 fig.colorbar(sm, cax=cbar_ax, label='Number of Visitors')
 
-fig.suptitle('Monthly Foreign Tourist Arrivals – Top 10 Countries',
-             fontsize=16, fontweight='bold', color='#2C3E50', y=0.98)
-fig.text(0.5, 0.955, 'Jan 2023 – Dec 2025 (MOTS data)',
-         ha='center', fontsize=10, color='#7F8C8D', style='italic')
 
 plt.subplots_adjust(top=0.93)
 os.makedirs('visualizations', exist_ok=True)

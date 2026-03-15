@@ -72,10 +72,7 @@ ax.invert_yaxis()
 ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: fmt(x)))
 ax.set_xlim(0, yearly.values.max() * 1.15)
 
-fig.suptitle('Top 10 Countries with Highest Foreign Tourist Arrivals to Thailand',
-             fontsize=16, fontweight='bold', color='#2C3E50', y=0.96)
-fig.text(0.5, 0.885, 'Annual breakdown 2023–2025 (MOTS data)',
-         ha='center', fontsize=10, color='#7F8C8D', style='italic')
+
 
 ax.legend(loc='lower right', fontsize=11, framealpha=0.9, title='Year', title_fontsize=11)
 
