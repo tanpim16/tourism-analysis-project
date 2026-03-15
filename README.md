@@ -18,6 +18,7 @@ This research evaluates the economic impact of tourism on 55 secondary cities us
 * [04 : Economic Resilience — Income Stability & Risk](#04--economic-resilience--income-stability--risk)
 * [05 : Regional Seasonality — The Precision Window](#05--regional-seasonality--the-precision-window)
 * [06 : The Reality — Real Wealth Generation](#06--the-reality--real-wealth-generation)
+* [07 : Macro-Micro Comparison — The Great Divide ⚖️](#07--macro-micro-comparison--the-great-divide-)
 * [08 : Strategic Portfolio Analysis 📊](#08--strategic-portfolio-analysis-)
 * [09 : Foreign Tourist Analysis 🌍](#09--foreign-tourist-analysis-)
 * [Final Research Conclusions](#-final-research-conclusions)
