@@ -27,11 +27,11 @@ This research evaluates the economic impact of tourism on 55 secondary cities us
 
 ## **Introduction**
 
-Tourism is a vital driver of Thailand's GDP, but wealth has historically been concentrated in major hubs. While national policies now promote **Secondary Cities** to reduce regional disparities, it remains unclear if visitor growth translates into sustainable economic wealth. 
+Tourism remains one of Thailand's most powerful economic engines, yet the wealth it generates has long been concentrated in a small number of primary hubs — Bangkok, Phuket, and Chonburi alone command revenue that dwarfs the entire secondary tier by a factor of **8.2x**. To address this imbalance, the Thai government launched its **"Secondary City" policy**, redirecting tourist footprints toward 55 lesser-known provinces. The initial results appear promising: visitor volumes to secondary cities now mirror the seasonal rhythms of major destinations, and their market share is steadily expanding — evidence of a genuine **structural decentralization** in national travel behavior.
 
-This study utilizes **CPI-adjusted Real Revenue** to evaluate whether the "Secondary City Policy" actually improves the purchasing power and livelihoods of local communities by filtering out inflationary noise:
+However, **more visitors do not automatically mean more prosperity.** Our analysis reveals a persistent **3.6x yield gap** — it takes nearly four tourists in a secondary city to generate the economic contribution of a single visitor in a primary hub. Secondary cities currently function as **transit points** rather than destination hubs, capturing footfall but failing to capture spending. Meanwhile, a significant **"Digital-to-Physical Gap"** shows that many provinces attract strong online search interest yet struggle to convert that intent into actual arrivals, pointing to structural bottlenecks in accessibility rather than a lack of awareness. Even where revenue does flow in, its quality varies sharply: provinces with income volatility above **50% CV** expose local SMEs to dangerous boom-and-bust cycles that undermine long-term livelihoods.
 
-$$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
+Through a nine-part analytical framework — spanning the **Volume-Value Paradox**, **digital-to-physical conversion dynamics**, **income stability modeling**, **regional seasonality mapping**, **macro-micro benchmarking**, **strategic portfolio segmentation**, and **foreign tourist source analysis** — we trace the full journey from policy intent to economic reality. The findings converge on a central conclusion: Thailand's tourism success must be measured not by the number of arrivals, but by the **real wealth generated** and the **economic stability** provided to its local communities.
 
 ---
 
