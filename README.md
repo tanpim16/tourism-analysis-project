@@ -212,17 +212,50 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 > While **Bangkok** generates **18 times** the revenue of the top secondary city, **Chiang Rai** emerges as a **"Strategic Blueprint."** It outperforms its secondary-tier peers by 3x, proving that a secondary city can achieve significant economic scale by effectively leveraging unique cultural assets and cross-border positioning.
 
 ---
+## 07 : Macro-Micro Comparison — The Great Divide ⚖️
+### *Benchmarking Secondary Cities against National Hubs*
 
-## **07 : Strategic Portfolio Analysis 📊**
+To understand the true potential and challenges of secondary cities, we must benchmark them against Thailand's primary tourism hubs (Major Cities). This section reveals the stark contrast in both economic scale and market composition.
+
+#### **Figure 8: Market Structure Analysis (Primary vs. Secondary)**
+<p align="center">
+  <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="800">
+</p>
+
+> **🔍 Structural Insight: The Foreigner Gap**
+>
+> * **Primary Hubs (Global Magnets):** Major cities are heavily powered by **International Revenue (67.7%)**. They are the main gateway for high-spending foreign explorers.
+> * **Secondary Cities (Domestic Backbone):** Conversely, secondary cities rely almost entirely on **Domestic Travelers (89.2%)**. This highlights a "Branding Gap" where secondary cities have yet to penetrate the global market.
+
+---
+
+#### **Figure 9: Revenue Powerhouses vs. Emerging Potential**
+<p align="center">
+  <img src="visualizations/Figure_12_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
+</p>
+
+> **🔍 Scale Insight: The 8x Multiplier**
+>
+> * **Economic Dominance:** The top primary cities (Bangkok, Phuket, Chonburi) generate revenue on a scale that dwarfs the entire secondary tier. The absolute revenue gap between the two tiers is approximately **8.2x**.
+> * **The "Chiang Rai" Benchmark:** Chiang Rai stands as the leading secondary city, with a revenue structure that begins to mimic primary cities. It serves as a **"Success Template"** for other secondary provinces to follow.
+
+---
+
+### **🎯 Strategic Takeaway**
+Development should not aim to make secondary cities "miniature versions" of Bangkok, but rather to **increase their Foreign Revenue Share** to ensure economic resilience and higher yield per head.
+
+---
+
+## **08 : Strategic Portfolio Analysis 📊**
 ### *Benchmarking the Economic DNA of 55 Cities*
 
 By synthesizing **Yield, Conversion, and Stability**, we move from observation to action. We categorize Thailand’s provinces into a strategic portfolio using **Median-based Thresholds** to guide national investment and policy decisions.
 
-### **Figure 8: The Strategic Positioning Matrix**
+### **Figure 10: The Strategic Positioning Matrix**
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
 </p>
-<p align="center"><strong>Figure 8. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
+<p align="center"><strong>Figure 10. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
 
 
 
