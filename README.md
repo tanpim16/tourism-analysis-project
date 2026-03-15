@@ -214,6 +214,7 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 ---
 
 <h2 id="macro-micro">07 : Macro-Micro Comparison — The Great Divide ⚖️</h2>
+
 ### *Benchmarking Secondary Cities against National Hubs*
 
 After conducting a deep dive into the economic performance of the 55 secondary provinces, it is essential to contextualize these findings within the national landscape. By benchmarking them against Thailand’s primary tourism hubs (Major Cities), we can clearly visualize the "Great Divide" in terms of revenue scale and market composition.
