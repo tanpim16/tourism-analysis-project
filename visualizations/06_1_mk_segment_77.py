@@ -2,187 +2,106 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 import os
+from matplotlib.patches import Patch
 
 # 1. LOAD DATA
 file_path = 'data/processed/final_master_with_trends.csv'
 if not os.path.exists(file_path):
-    print(f"❌ Error: ไม่พบไฟล์ที่ {file_path}")
-    exit()
+    # กรณีรันจาก root โดยไม่มีโฟลเดอร์ data
+    file_path = 'final_master_with_trends.csv'
 
 df = pd.read_csv(file_path)
 
-# --- ฟังก์ชันช่วยหาชื่อคอลัมน์ ---
-def find_col(keywords, columns):
-    for col in columns:
-        if all(k.lower() in col.lower() for k in keywords):
-            return col
-    return None
+# ────────────────────────────────────────────────────────────
+# 2. [PATCH] Fix Nakhon Ratchasima & Data Cleaning
+# ────────────────────────────────────────────────────────────
+# ตัดช่องว่างแฝงในคอลัมน์ภาษาไทย (ถ้ามี)
+df['ProvinceThai'] = df['ProvinceThai'].astype(str).str.strip()
 
-col_thai_rev  = find_col(['thai', 'revenue'], df.columns)
-col_fore_rev  = find_col(['foreign', 'revenue'], df.columns)
-col_prov      = find_col(['prov', 'en'], df.columns) or find_col(['province'], df.columns)
-col_city_type = find_col(['city', 'type'], df.columns)
+# เติมข้อมูลที่หายไปสำหรับนครราชสีมา (ตัวการที่ทำให้เหลือ 21 จังหวัด)
+mask_korat = df['ProvinceThai'] == 'นครราชสีมา'
+df.loc[mask_korat, 'ProvinceEN'] = 'Nakhon Ratchasima'
+df.loc[mask_korat, 'City_type_TH'] = 'เมืองหลัก'
+df.loc[mask_korat, 'City_type_EN'] = 'Primary City'
 
-print(f"📌 คอลัมน์ที่ใช้: {col_prov}, {col_city_type}, {col_thai_rev}, {col_fore_rev}")
+# ล้างค่าว่างในส่วนของรายได้และ Price Index
+df['thai_revenue'] = df['thai_revenue'].fillna(0)
+df['foreign_revenue'] = df['foreign_revenue'].fillna(0)
+df['Price_Index'] = df['Price_Index'].fillna(100)
 
-# 2. AGGREGATION (รวมรายได้รายจังหวัด)
+# 3. CALCULATE REAL REVENUE (ปรับค่าเงินเฟ้อ)
+df['thai_rev_real'] = df['thai_revenue'] / (df['Price_Index'] / 100)
+df['fore_rev_real'] = df['foreign_revenue'] / (df['Price_Index'] / 100)
+
+# 4. AGGREGATION (รวมรายได้รายจังหวัด)
+# ใช้ 'City_type_TH' เป็นตัวแบ่งเพราะเราแก้ค่า 'เมืองหลัก' ไว้แล้ว
 agg_df = (
-    df.groupby([col_prov, col_city_type])[[col_thai_rev, col_fore_rev]]
+    df.groupby(['ProvinceEN', 'City_type_TH'])[['thai_rev_real', 'fore_rev_real']]
     .sum()
     .reset_index()
 )
-agg_df['total_rev'] = agg_df[col_thai_rev] + agg_df[col_fore_rev]
+agg_df['total_rev'] = agg_df['thai_rev_real'] + agg_df['fore_rev_real']
 
-# 3. SPLIT: Primary vs Secondary
+# 5. SPLIT: Primary (22) vs Secondary (55)
 primary_df = agg_df[
-    agg_df[col_city_type].str.contains('Primary|หลัก', case=False, na=False)
-].copy().sort_values('total_rev', ascending=False)
+    agg_df['City_type_TH'].str.contains('หลัก', na=False)
+].copy().sort_values('total_rev', ascending=True) # เรียงน้อยไปมากเพื่อ barh
 
 secondary_df = agg_df[
-    agg_df[col_city_type].str.contains('Secondary|รอง', case=False, na=False)
-].copy().sort_values('total_rev', ascending=False)
+    agg_df['City_type_TH'].str.contains('รอง', na=False)
+].copy().sort_values('total_rev', ascending=True)
 
-if primary_df.empty:
-    print("❌ Error: ไม่พบข้อมูลเมืองหลัก (Primary)!")
-    exit()
-if secondary_df.empty:
-    print("❌ Error: ไม่พบข้อมูลเมืองรอง (Secondary)!")
-    exit()
+print(f"✅ ตรวจสอบจำนวนจังหวัด: Primary = {len(primary_df)} | Secondary = {len(secondary_df)}")
 
-print(f"📊 Primary cities: {len(primary_df)}, Secondary cities: {len(secondary_df)}")
+# ────────────────────────────────────────────────────────────
+# 6. VISUALIZATION (Side-by-Side)
+# ────────────────────────────────────────────────────────────
+# คำนวณความสูงให้เหมาะสมกับจำนวนจังหวัด
+row_height = 0.35
+fig_height = max(len(primary_df), len(secondary_df)) * row_height + 3
+fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(22, fig_height), facecolor='white')
 
-# 4. STYLING
-plt.style.use('seaborn-v0_8-whitegrid')
-plt.rcParams.update({
-    'font.family': 'sans-serif',
-    'font.sans-serif': ['DejaVu Sans', 'Arial', 'Liberation Sans'],
-    'axes.edgecolor': '#333333',
-    'axes.linewidth': 0.8,
-    'axes.labelcolor': '#333333',
-    'xtick.color': '#333333',
-    'ytick.color': '#333333',
-    'legend.frameon': True,
-    'legend.framealpha': 0.9,
-    'legend.edgecolor': '#cccccc',
-})
+bg_color = '#fcfcfc'
 
-# คำนวณความสูงของแต่ละ panel ตามจำนวนแถว
-# ให้ความสูงต่อแถวเท่ากัน → figure จะสูงพอสำหรับ panel ที่มีแถวมากกว่า
-row_height = 0.38   # นิ้วต่อแถว
-n_primary   = len(primary_df)
-n_secondary = len(secondary_df)
-fig_height  = max(n_primary, n_secondary) * row_height + 4  # +4 สำหรับ title/legend
-
-fig, (ax_left, ax_right) = plt.subplots(
-    1, 2,
-    figsize=(22, fig_height),
-    facecolor='white'
-)
-
-bg_color = '#f7f7f7'
-
-# ─────────────────────────────────────────────
-# 5A. LEFT PANEL — Major Cities (Primary)
-# ─────────────────────────────────────────────
+# --- LEFT PANEL: Major Cities (Blue) ---
 ax_left.set_facecolor(bg_color)
+ax_left.barh(primary_df['ProvinceEN'], primary_df['thai_rev_real'], color='#89c4e1', label='Domestic (Thai)')
+ax_left.barh(primary_df['ProvinceEN'], primary_df['fore_rev_real'], left=primary_df['thai_rev_real'], color='#1a6fa8', label='International (Foreign)')
 
-primary_df.set_index(col_prov)[[col_thai_rev, col_fore_rev]].plot(
-    kind='barh',
-    stacked=True,
-    color=['#89c4e1', '#1a6fa8'],   # สีฟ้าอ่อน / เข้ม
-    ax=ax_left,
-    width=0.8,
-    legend=False
-)
-
-# Data labels ฝั่งซ้าย
-offset_l = primary_df['total_rev'].max() * 0.01
+# ใส่ Data Labels ฝั่งซ้าย
+max_l = primary_df['total_rev'].max()
 for i, total in enumerate(primary_df['total_rev']):
-    ax_left.text(
-        total + offset_l, i,
-        f'{total:,.0f}',
-        va='center', fontsize=8.5,
-        color='#2e2e2e', fontweight='semibold'
-    )
+    ax_left.text(total + (max_l * 0.01), i, f'{total:,.0f}', va='center', fontsize=9, fontweight='bold')
 
-ax_left.invert_yaxis()
-ax_left.set_title('Major Cities: Revenue Powerhouses',
-                   fontsize=14, fontweight='bold', pad=12, color='#333333')
-ax_left.set_xlabel('Total Real Revenue (Million THB)', fontsize=11, fontweight='bold')
-ax_left.set_ylabel('Province', fontsize=11, fontweight='bold')
+ax_left.set_title('Major Cities: Revenue Powerhouses', fontsize=16, fontweight='bold', pad=20)
 ax_left.xaxis.set_major_formatter(mtick.StrMethodFormatter('{x:,.0f}'))
-ax_left.grid(axis='x', linestyle='--', alpha=0.35)
-ax_left.grid(axis='y', linestyle=':', alpha=0.15)
-ax_left.spines['top'].set_visible(False)
-ax_left.spines['right'].set_visible(False)
-ax_left.spines['left'].set_color('#bbbbbb')
-ax_left.spines['bottom'].set_color('#bbbbbb')
+ax_left.grid(axis='x', linestyle='--', alpha=0.4)
+ax_left.legend(loc='lower right', frameon=True)
 
-# Legend ฝั่งซ้าย
-from matplotlib.patches import Patch
-legend_left = [
-    Patch(facecolor='#89c4e1', label='Domestic (Thai)'),
-    Patch(facecolor='#1a6fa8', label='International (Foreign)'),
-]
-ax_left.legend(handles=legend_left, loc='lower right', fontsize=10)
-
-# ─────────────────────────────────────────────
-# 5B. RIGHT PANEL — Secondary Cities
-# ─────────────────────────────────────────────
+# --- RIGHT PANEL: Secondary Cities (Green) ---
 ax_right.set_facecolor(bg_color)
+ax_right.barh(secondary_df['ProvinceEN'], secondary_df['thai_rev_real'], color='#a8ddb5', label='Domestic (Thai)')
+ax_right.barh(secondary_df['ProvinceEN'], secondary_df['fore_rev_real'], left=secondary_df['thai_rev_real'], color='#2a8f48', label='International (Foreign)')
 
-secondary_df.set_index(col_prov)[[col_thai_rev, col_fore_rev]].plot(
-    kind='barh',
-    stacked=True,
-    color=['#a8ddb5', '#2a8f48'],   # สีเขียวอ่อน / เข้ม
-    ax=ax_right,
-    width=0.8,
-    legend=False
-)
-
-# Data labels ฝั่งขวา
-offset_r = secondary_df['total_rev'].max() * 0.01
+# ใส่ Data Labels ฝั่งขวา
+max_r = secondary_df['total_rev'].max()
 for i, total in enumerate(secondary_df['total_rev']):
-    ax_right.text(
-        total + offset_r, i,
-        f'{total:,.0f}',
-        va='center', fontsize=8.5,
-        color='#2e2e2e', fontweight='semibold'
-    )
+    ax_right.text(total + (max_r * 0.01), i, f'{total:,.0f}', va='center', fontsize=9, fontweight='bold')
 
-ax_right.invert_yaxis()
-ax_right.set_title('Secondary Cities: Emerging Potential',
-                    fontsize=14, fontweight='bold', pad=12, color='#333333')
-ax_right.set_xlabel('Total Real Revenue (Million THB)', fontsize=11, fontweight='bold')
-ax_right.set_ylabel('')
+ax_right.set_title('Secondary Cities: Emerging Potential', fontsize=16, fontweight='bold', pad=20)
 ax_right.xaxis.set_major_formatter(mtick.StrMethodFormatter('{x:,.0f}'))
-ax_right.grid(axis='x', linestyle='--', alpha=0.35)
-ax_right.grid(axis='y', linestyle=':', alpha=0.15)
-ax_right.spines['top'].set_visible(False)
-ax_right.spines['right'].set_visible(False)
-ax_right.spines['left'].set_color('#bbbbbb')
-ax_right.spines['bottom'].set_color('#bbbbbb')
+ax_right.grid(axis='x', linestyle='--', alpha=0.4)
+ax_right.legend(loc='lower right', frameon=True)
 
-# Legend ฝั่งขวา
-legend_right = [
-    Patch(facecolor='#a8ddb5', label='Domestic (Thai)'),
-    Patch(facecolor='#2a8f48', label='International (Foreign)'),
-]
-ax_right.legend(handles=legend_right, loc='lower right', fontsize=10)
+# 7. FINAL TOUCHES
+plt.suptitle('Figure 12: Comparison of Revenue Structure between Primary and Secondary Tiers', 
+             fontsize=24, fontweight='bold', y=0.98)
+plt.tight_layout(rect=[0, 0.03, 1, 0.95], w_pad=8)
 
-# 6. SUPER TITLE
-fig.suptitle(
-    'Figure 9: Comparison of Revenue Structure between Primary and Secondary Tiers',
-    fontsize=18, fontweight='bold', y=1.005, color='#222222'
-)
-
-plt.tight_layout(rect=[0, 0, 1, 1])
-
-# 7. SAVE
+# SAVE
 os.makedirs('visualizations', exist_ok=True)
 output_path = 'visualizations/Figure_12_Revenue_Comparison.png'
-plt.savefig(output_path, dpi=300, bbox_inches='tight', facecolor='white')
+plt.savefig(output_path, dpi=300, bbox_inches='tight')
 plt.show()
 
-print(f"✅ สำเร็จ! บันทึกที่: {output_path}")
-print(f"📊 Primary: {n_primary} จังหวัด | Secondary: {n_secondary} จังหวัด")
+print(f"🚀 กราฟถูกสร้างสำเร็จและบันทึกไว้ที่: {output_path}")
