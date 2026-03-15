@@ -29,7 +29,7 @@ This research evaluates the economic impact of tourism on 55 secondary cities us
 
 Thailand's tourism sector is a cornerstone of the national economy, yet its wealth has long been captured by a few dominant hubs while the rest of the country sees little return. In response, the government's **"Secondary City" policy** has actively channeled travelers toward 55 lesser-known provinces — and the visitor numbers are rising. But higher footfall does not guarantee higher prosperity. Without examining how much real purchasing power each tourist generates, how stable that income is across seasons, and whether online travel interest actually converts into physical arrivals, rising statistics can mask a deeper structural inequality.
 
-This study applies **CPI-adjusted Real Revenue** to cut through inflationary noise and measure the true economic value reaching local communities across Thailand's 55 secondary cities (2023–2025). Drawing on official tourism revenue, consumer price index data, and Google Trends digital intent signals, we evaluate growth performance, geographic redistribution, yield efficiency, the digital-to-physical conversion gap, and income stability — providing an evidence-based assessment of whether Thailand's tourism expansion is building lasting local wealth or merely moving numbers on a dashboard.
+ Drawing on official tourism revenue, consumer price index data, and Google Trends digital intent signals, we evaluate growth performance, geographic redistribution, yield efficiency, the digital-to-physical conversion gap, and income stability — providing an evidence-based assessment of whether Thailand's tourism expansion is building lasting local wealth or merely moving numbers on a dashboard.
 
 ---
 
