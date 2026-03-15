@@ -121,6 +121,9 @@ This section bridges the gap between digital discovery and physical arrival. We 
 > * **Strategic Takeaway:** Marketing spend for secondary cities must be front-loaded **at least 8 weeks** prior to peak seasons to capture this initial search intent.
 
 ---
+### *From Search to Arrival: Measuring the Efficiency of Intent*
+
+Knowing *when* travelers search is only half the equation — the other half is whether that interest actually converts into a physical visit. This section maps each province's **digital search intensity** against its **actual arrival volume** to expose critical conversion gaps. By identifying where intent breaks down, we can pinpoint the structural barriers that prevent online interest from becoming real economic activity.
 
 <p align="center">
   <img src="visualizations/Figure_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
