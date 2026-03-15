@@ -20,7 +20,7 @@ plt.rcParams.update({
     'axes.spines.bottom': False,
 })
 
-YEAR_COLORS = {2023: '#95A5A6', 2024: '#3498DB', 2025: '#E74C3C'}
+YEAR_COLORS = {2023: '#C8D6E5', 2024: '#5B9BD5', 2025: '#1B3A5C'}
 
 def fmt(x):
     if x >= 1e6: return f'{x/1e6:.1f}M'
