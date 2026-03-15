@@ -63,7 +63,6 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 
 The first phase of our study addresses the "Paradox of Plenty." While the national policy has successfully decentralized visitor footprints, the economic benefits remain largely anchored in primary hubs.
 
-### **Figure 1A: Monthly Tourist Arrivals (Volume Analysis)**
 <p align="center">
   <img src="visualizations/total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
 </p>
@@ -72,7 +71,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 > **🔍 Analytical Deep-Dive: Successful Redistribution**
 > Figure 1 proves that the "Secondary City" policy is working in terms of volume. Secondary cities (Green line) now mirror the seasonal spikes of major hubs (Blue line) perfectly. This indicates that travelers are increasingly willing to explore emerging destinations during national "High Seasons." We have successfully moved the "Footprints."
 
-### **Figure 1B: Monthly Tourism Income (Value Analysis)**
+
 <p align="center">
   <img src="visualizations/total_revenue_trend.png" alt="Tourism Income Trend" width="800">
 </p>
@@ -80,7 +79,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 > **🔍 Analytical Deep-Dive: The Stagnant Wealth Gap**
 > Despite the arrival growth, Figure 1B reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** 
-### **Figure 1C: Yield Efficiency Analysis (Real Revenue per Visitor)**
+
 <p align="center">
   <img src="visualizations/Figure_Yield_Efficiency_Final.png" alt="Yield Efficiency Analysis" width="800">
 </p>
@@ -94,7 +93,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 ## **02 : The Potential — The Structural Shift**
 ### *Market Share: Establishing a New Economic Baseline*
 
-### **Figure 2: Tourism Redistribution Share**
+
 <p align="center">
   <img src="visualizations/Figure%203_updated.png" alt="Market Share Distribution" width="800">
 </p>
@@ -110,7 +109,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 This section bridges the gap between digital discovery and physical arrival. We analyze the **Discovery Window** (Timing) and the **Conversion Matrix** (Efficiency) to identify structural bottlenecks in the traveler's journey.
 
-### **Figure 2A: Time-Aligned Intent vs. Physical Footprints**
+
 <p align="center">
   <img src="visualizations/Figure%204_Lag_Aligned_Clean.png" alt="Lag Analysis" width="800">
 </p>
@@ -123,7 +122,6 @@ This section bridges the gap between digital discovery and physical arrival. We 
 
 ---
 
-### **Figure 3B: Tourism Conversion Matrix**
 <p align="center">
   <img src="visualizations/Figure_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
 </p>
@@ -154,7 +152,7 @@ Beyond tourist volume, the **Quality of Income** is defined by its consistency. 
 
 $$CV = \frac{\sigma}{\mu} \times 100$$
 
-### **Figure 4: Income Stability vs. Performance Matrix**
+
 <p align="center">
   <img src="visualizations/Figure_Income_Stability.png" alt="Income Stability Analysis" width="850">
 </p>
@@ -192,7 +190,6 @@ To evaluate the actual economic impact on local communities, we look beyond nomi
 
 $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
-### **Figure 6A: National Wealth Distribution (The Real Revenue Map)**
 <p align="center">
   <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="550">
 </p>
@@ -203,7 +200,6 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 > **🔍 Analytical Deep-Dive: Mapping the "Connectivity Gap"**
 > The heatmap reveals that tourism wealth is heavily concentrated within established **"Economic Corridors"** (Central, Southern, and Eastern Seaboards). Many secondary cities in the North-East and deep North remain in **"Revenue Cold-Spots."** To uplift these regions, policy must shift from *mere digital promotion* to building **physical connectivity** and accessibility to major tourism hubs.
 
-### **Figure 6B: Tourism Performance Benchmarking (Real Revenue Ranking)**
 <p align="center">
   <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
 </p>
@@ -219,7 +215,7 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
 After conducting a deep dive into the economic performance of the 55 secondary provinces, it is essential to contextualize these findings within the national landscape. By benchmarking them against Thailand’s primary tourism hubs (Major Cities), we can clearly visualize the "Great Divide" in terms of revenue scale and market composition.
 
-#### **Figure 7A: Market Structure Analysis (Primary vs. Secondary)**
+
 <p align="center">
   <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="850">
 </p>
@@ -233,11 +229,10 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 ---
 
-#### **Figure 7B: Revenue Powerhouses vs. Emerging Potential**
 <p align="center">
   <img src="visualizations/Figure_12_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
 </p>
-<p align="center"><strong>Revenue Powerhouses vs. Emerging Potential
+<p align="center"><strong>Figure 7B. Revenue Powerhouses vs. Emerging Potential
 
 </strong></p>
 
@@ -258,7 +253,6 @@ Development policies should not aim to transform secondary cities into "miniatur
 
 By synthesizing **Yield, Conversion, and Stability**, we move from observation to action. We categorize Thailand’s provinces into a strategic portfolio using **Median-based Thresholds** to guide national investment and policy decisions.
 
-### **Figure 8: The Strategic Positioning Matrix**
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
 </p>
@@ -279,7 +273,7 @@ By synthesizing **Yield, Conversion, and Stability**, we move from observation t
 
 Understanding **where Thailand's international visitors come from** is essential for shaping targeted marketing, bilateral agreements, and capacity planning. This section examines the Top 10 source countries by total foreign tourist arrivals from 2023 to 2025.
 
-### **Figure 9A: Top 10 Countries with Highest Foreign Tourist Arrivals**
+
 <p align="center">
   <img src="visualizations/Figure_9A_Top10_Foreigners.png" alt="Top 10 Foreign Tourist Countries" width="900">
 </p>
@@ -291,7 +285,7 @@ Understanding **where Thailand's international visitors come from** is essential
 > * **Malaysia** and **India** consistently rank in the top tier, driven by geographic proximity and growing middle-class travel demand.
 > * **South Korea** and **Russia** show significant seasonal patterns that can be leveraged for targeted campaign timing.
 
-### **Figure 9B: Monthly Heatmap — Foreign Tourist Arrivals by Country**
+
 <p align="center">
   <img src="visualizations/Figure_9B_Heatmap_Foreign_Visitors.png" alt="Heatmap Top 10 Foreign Tourists" width="900">
 </p>
