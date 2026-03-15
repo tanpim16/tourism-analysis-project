@@ -81,6 +81,6 @@ ax.legend(loc='lower right', fontsize=11, framealpha=0.9, title='Year', title_fo
 
 plt.tight_layout(rect=[0, 0, 1, 0.95])
 os.makedirs('visualizations', exist_ok=True)
-fig.savefig('visualizations/F8.1_Top10_Foreigners.png', dpi=300, bbox_inches='tight')
+fig.savefig('visualizations/Figure_9A_Top10_Foreigners.png', dpi=300, bbox_inches='tight')
 plt.show()
-print('✓ Saved: visualizations/Figure9A_Top10_Foreigners.png')
+print('✓ Saved: visualizations/Figure_9A_Top10_Foreigners.png')

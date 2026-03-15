@@ -282,7 +282,7 @@ Understanding **where Thailand's international visitors come from** is essential
 
 ### **Figure 9A: Top 10 Countries with Highest Foreign Tourist Arrivals**
 <p align="center">
-  <img src="visualizations/F8.1_Top10_Foreigners.png" alt="Top 10 Foreign Tourist Countries" width="900">
+  <img src="visualizations/Figure_9A_Top10_Foreigners.png" alt="Top 10 Foreign Tourist Countries" width="900">
 </p>
 <p align="center"><strong>Figure 9A. Annual breakdown of the Top 10 source countries (2023–2025)</strong></p>
 
@@ -294,7 +294,7 @@ Understanding **where Thailand's international visitors come from** is essential
 
 ### **Figure 9B: Monthly Heatmap — Foreign Tourist Arrivals by Country**
 <p align="center">
-  <img src="visualizations/F8.2_Heatmap_Top10_Foreigners.png" alt="Heatmap Top 10 Foreign Tourists" width="900">
+  <img src="visualizations/Figure_9B_Heatmap_Foreign_Visitors.png" alt="Heatmap Top 10 Foreign Tourists" width="900">
 </p>
 <p align="center"><strong>Figure 9B. Monthly visitor intensity for the Top 10 countries (2023–2025)</strong></p>
 

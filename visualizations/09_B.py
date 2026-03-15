@@ -92,6 +92,6 @@ fig.text(0.5, 0.955, 'Jan 2023 – Dec 2025 (MOTS data)',
 
 plt.subplots_adjust(top=0.93)
 os.makedirs('visualizations', exist_ok=True)
-fig.savefig('visualizations/F8.2_Heatmap_Top10_Foreigners.png', dpi=300, bbox_inches='tight')
+fig.savefig('visualizations/Figure_9B_Heatmap_Foreign_Visitors.png', dpi=300, bbox_inches='tight')
 plt.show()
-print('✓ Saved: visualizations/F8.2_Heatmap_Top10_Foreigners.png')
+print('✓ Saved: visualizations/Figure_9B_Heatmap_Foreign_Visitors.png')
