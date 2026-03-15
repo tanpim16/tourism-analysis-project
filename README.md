@@ -297,6 +297,14 @@ Understanding **where Thailand's international visitors come from** is essential
 > * The heatmap reveals clear **seasonal clustering** — Chinese visitors peak during Q1 (Lunar New Year) and Q4 (Golden Week), while European markets peak during the Northern Hemisphere winter months (Nov–Feb).
 > * **Year-over-year growth** is visible across most countries from 2023 to 2025, confirming the sustained recovery trajectory of Thailand's international tourism sector.
 
+### **🎯 Policy Implications**
+
+> * **Market Diversification:** Reduce China dependency by accelerating **India, South Korea, and ASEAN** growth to mitigate single-market risk.
+> * **Seasonal Campaign Timing:** Launch country-specific campaigns **60–90 days** before peak windows (Q1 for China, Nov–Feb for Europe/Russia).
+> * **Visa & Access Policy:** Extend visa-free entry and direct flights for **India and South Korea** — both show accelerating growth.
+> * **Capacity Planning:** Pre-position infrastructure in **Q4–Q1** when multiple top markets converge at gateway provinces.
+> * **Secondary City Routing:** Develop multi-city itineraries targeting **South Korean and Japanese** tourists for higher per-trip spending.
+
 ---
 
 ## **🏁 Final Research Conclusions**
