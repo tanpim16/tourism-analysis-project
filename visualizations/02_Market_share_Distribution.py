@@ -53,6 +53,7 @@ ax.set_title("Tourism Redistribution Share", loc='left', fontweight='bold', font
 # Formatting
 ax.yaxis.set_major_formatter(PercentFormatter(1.0))
 ax.set_ylim(0, 1)
+ax.set_yticks([0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0])
 ax.set_ylabel("Visitor Share", fontsize=11, color='#666')
 ax.tick_params(axis='both', which='major', labelsize=10)
 
