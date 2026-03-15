@@ -141,8 +141,16 @@ ax.legend(handles=legend_handles, loc='upper right', bbox_to_anchor=(0.98, 0.85)
           fontsize=8.5, framealpha=0.92, edgecolor='#DDDDDD',
           title='Legend', title_fontsize=8.5)
 
-ax.set_title('Tourism Conversion Matrix\nSearch Intent vs. Physical Arrivals  (avg per province, Bangkok excluded)',
-             fontsize=13, fontweight='bold', color='#1A252F', loc='left', pad=16)
+cfg = {
+    'title': 'Tourism Conversion Matrix: Search Intent vs. Physical Arrivals (avg per province, Bangkok excluded)',
+    'subtitle': 'Digital Interest vs. Actual Footprints'
+}
+
+# Remove figure number from title as per instructions
+fig.text(0.07, 0.92, cfg['title'], fontsize=20, fontweight='bold', color="#080808", va='bottom')
+fig.text(0.07, 0.865, cfg['subtitle'], fontsize=12, color='#666', va='bottom')
+
+# ...existing code...
 ax.set_xlabel('Search Intent (Digital Interest)', fontsize=11, color='#444', labelpad=10)
 ax.set_ylabel('Total Arrivals (Actual Footprints)', fontsize=11, color='#444', labelpad=10)
 
