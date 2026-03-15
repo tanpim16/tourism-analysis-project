@@ -64,44 +64,44 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 
 The first phase of our study addresses the "Paradox of Plenty." While the national policy has successfully decentralized visitor footprints, the economic benefits remain largely anchored in primary hubs.
 
-### **Figure 1: Monthly Tourist Arrivals (Volume Analysis)**
+### **Figure 1A: Monthly Tourist Arrivals (Volume Analysis)**
 <p align="center">
   <img src="visualizations/total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
 </p>
-<p align="center"><strong>Figure 1. Monthly Tourist Arrivals: Primary vs. Secondary Cities (2023–2025)</strong></p>
+<p align="center"><strong>Figure 1A. Monthly Tourist Arrivals: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
 > **🔍 Analytical Deep-Dive: Successful Redistribution**
 > Figure 1 proves that the "Secondary City" policy is working in terms of volume. Secondary cities (Green line) now mirror the seasonal spikes of major hubs (Blue line) perfectly. This indicates that travelers are increasingly willing to explore emerging destinations during national "High Seasons." We have successfully moved the "Footprints."
 
-### **Figure 2: Monthly Tourism Income (Value Analysis)**
+### **Figure 1B: Monthly Tourism Income (Value Analysis)**
 <p align="center">
   <img src="visualizations/total_revenue_trend.png" alt="Tourism Income Trend" width="800">
 </p>
-<p align="center"><strong>Figure 2A. Monthly Tourism Revenue: Primary vs. Secondary Cities (2023–2025)</strong></p>
+<p align="center"><strong>Figure 1B. Monthly Tourism Revenue: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
 > **🔍 Analytical Deep-Dive: The Stagnant Wealth Gap**
-> Despite the arrival growth, Figure 2 reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** ### **Figure 2b: Yield Efficiency Analysis (Real Revenue per Visitor)**
+> Despite the arrival growth, Figure 1B reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** ### **Figure 1C: Yield Efficiency Analysis (Real Revenue per Visitor)**
 <p align="center">
   <img src="visualizations/Figure_Yield_Efficiency_Final.png" alt="Yield Efficiency Analysis" width="800">
 </p>
-<p align="center"><strong>Figure 2B. Comparative Yield Efficiency: Average Spend per Head (Unit: THB/Person)</strong></p>
+<p align="center"><strong>Figure 1C. Comparative Yield Efficiency: Average Spend per Head (Unit: THB/Person)</strong></p>
 
 > **🔍 Analytical Deep-Dive: Decoding the Efficiency Gap**
-> Figure 2b uncovers the core of the paradox. While Major Cities command a premium spend per visitor, Secondary Cities suffer from low **"Revenue Capture."** > * **The Insight:** It takes nearly **4 tourists** in a secondary city to match the economic contribution of **1 tourist** in a primary city. 
+> Figure 1C uncovers the core of the paradox. While Major Cities command a premium spend per visitor, Secondary Cities suffer from low **"Revenue Capture."** > * **The Insight:** It takes nearly **4 tourists** in a secondary city to match the economic contribution of **1 tourist** in a primary city. 
 > * **Action Plan:** To bridge this gap, policy must transition from "Volume-Based" to **"Value-Based"**—focusing on increasing the length of stay and providing high-value local experiences that encourage deeper spending in the community.
 ---
 
 ## **02 : The Potential — The Structural Shift**
 ### *Market Share: Establishing a New Economic Baseline*
 
-### **Figure 3: Tourism Redistribution Share**
+### **Figure 2: Tourism Redistribution Share**
 <p align="center">
   <img src="visualizations/Figure%203_updated.png" alt="Market Share Distribution" width="800">
 </p>
-<p align="center"><strong>Figure 3. Market Share Distribution of Tourist Arrivals</strong></p>
+<p align="center"><strong>Figure 2. Market Share Distribution of Tourist Arrivals</strong></p>
 
 > **🔍 Analytical Deep-Dive: A Permanent Shift**
-> Unlike temporary seasonal spikes, Figure 3 displays a **Steady Expansion** of the secondary city baseline (Green Area). This is evidence of a **Structural Decentralization** in Thai tourism. Secondary cities are becoming a permanent part of the national travel "habit," creating a stable long-term opportunity for local infrastructure investment.
+> Unlike temporary seasonal spikes, Figure 2 displays a **Steady Expansion** of the secondary city baseline (Green Area). This is evidence of a **Structural Decentralization** in Thai tourism. Secondary cities are becoming a permanent part of the national travel "habit," creating a stable long-term opportunity for local infrastructure investment.
 
 ---
 
@@ -110,11 +110,11 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 This section bridges the gap between digital discovery and physical arrival. We analyze the **Discovery Window** (Timing) and the **Conversion Matrix** (Efficiency) to identify structural bottlenecks in the traveler's journey.
 
-### **Figure 4A: Time-Aligned Intent vs. Physical Footprints**
+### **Figure 2A: Time-Aligned Intent vs. Physical Footprints**
 <p align="center">
   <img src="visualizations/Figure%204_Lag_Aligned_Clean.png" alt="Lag Analysis" width="800">
 </p>
-<p align="center"><strong>Figure 4A. Predictive Lead-Time Analysis: The Discovery Window</strong></p>
+<p align="center"><strong>Figure 3A. Predictive Lead-Time Analysis: The Discovery Window</strong></p>
 
 > **🔍 Analytical Deep-Dive: The "Explorer" planning cycle**
 > * **Major Cities (1-Month Lag):** Reflects **"Spontaneous Travel."** High accessibility and familiarity allow travelers to visit almost immediately after searching.
@@ -123,11 +123,11 @@ This section bridges the gap between digital discovery and physical arrival. We 
 
 ---
 
-### **Figure 4B: Tourism Conversion Matrix**
+### **Figure 3B: Tourism Conversion Matrix**
 <p align="center">
   <img src="visualizations/Figure_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
 </p>
-<p align="center"><strong>Figure 4B. Strategic Matrix: Search Intent (Digital) vs. Actual Arrivals (Physical)</strong></p>
+<p align="center"><strong>Figure 3B. Strategic Matrix: Search Intent (Digital) vs. Actual Arrivals (Physical)</strong></p>
 
 
 
@@ -154,11 +154,11 @@ Beyond tourist volume, the **Quality of Income** is defined by its consistency. 
 
 $$CV = \frac{\sigma}{\mu} \times 100$$
 
-### **Figure 5: Income Stability vs. Performance Matrix**
+### **Figure 4: Income Stability vs. Performance Matrix**
 <p align="center">
   <img src="visualizations/Figure_Income_Stability.png" alt="Income Stability Analysis" width="850">
 </p>
-<p align="center"><strong>Figure 5. Stability Matrix: Revenue Performance vs. Income Volatility (CV%)</strong></p>
+<p align="center"><strong>Figure 4. Stability Matrix: Revenue Performance vs. Income Volatility (CV%)</strong></p>
 
 > **🔍 Analytical Deep-Dive: Decoding the "Risk-Reward" Trade-off**
 > * **✅ Stable Cash Cows:** Provinces in the top-left provide consistent, year-round income—the gold standard for sustainability.
@@ -192,22 +192,22 @@ To evaluate the actual economic impact on local communities, we look beyond nomi
 
 $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
-### **Figure 6: National Wealth Distribution (The Real Revenue Map)**
+### **Figure 6A: National Wealth Distribution (The Real Revenue Map)**
 <p align="center">
   <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="550">
 </p>
-<p align="center"><strong>Figure 6. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
+<p align="center"><strong>Figure 6A. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
 
 
 
 > **🔍 Analytical Deep-Dive: Mapping the "Connectivity Gap"**
 > The heatmap reveals that tourism wealth is heavily concentrated within established **"Economic Corridors"** (Central, Southern, and Eastern Seaboards). Many secondary cities in the North-East and deep North remain in **"Revenue Cold-Spots."** To uplift these regions, policy must shift from *mere digital promotion* to building **physical connectivity** and accessibility to major tourism hubs.
 
-### **Figure 7: Tourism Performance Benchmarking (Real Revenue Ranking)**
+### **Figure 6B: Tourism Performance Benchmarking (Real Revenue Ranking)**
 <p align="center">
   <img src="visualizations/Figure_5_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
 </p>
-<p align="center"><strong>Figure 7. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
+<p align="center"><strong>Figure 6B. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
 
 > **🔍 Analytical Deep-Dive: The "Chiang Rai Blueprint"**
 > While **Bangkok** generates **18 times** the revenue of the top secondary city, **Chiang Rai** emerges as a **"Strategic Blueprint."** It outperforms its secondary-tier peers by 3x, proving that a secondary city can achieve significant economic scale by effectively leveraging unique cultural assets and cross-border positioning.
@@ -219,10 +219,12 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
 After conducting a deep dive into the economic performance of the 55 secondary provinces, it is essential to contextualize these findings within the national landscape. By benchmarking them against Thailand’s primary tourism hubs (Major Cities), we can clearly visualize the "Great Divide" in terms of revenue scale and market composition.
 
-#### **Figure 8: Market Structure Analysis (Primary vs. Secondary)**
+#### **Figure 7A: Market Structure Analysis (Primary vs. Secondary)**
 <p align="center">
   <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="850">
 </p>
+<p align="center"><strong>Figure 7A. Market Structure Analysis (Primary vs. Secondary)
+</strong></p>
 
 > **🔍 Structural Insight: The Foreigner Gap**
 >
@@ -231,10 +233,13 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 ---
 
-#### **Figure 9: Revenue Powerhouses vs. Emerging Potential**
+#### **Figure 7B: Revenue Powerhouses vs. Emerging Potential**
 <p align="center">
   <img src="visualizations/Figure_12_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
 </p>
+<p align="center"><strong>Revenue Powerhouses vs. Emerging Potential
+
+</strong></p>
 
 > **🔍 Scale Insight: The 8.2x Multiplier**
 >
@@ -253,11 +258,11 @@ Development policies should not aim to transform secondary cities into "miniatur
 
 By synthesizing **Yield, Conversion, and Stability**, we move from observation to action. We categorize Thailand’s provinces into a strategic portfolio using **Median-based Thresholds** to guide national investment and policy decisions.
 
-### **Figure 10: The Strategic Positioning Matrix**
+### **Figure 8: The Strategic Positioning Matrix**
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
 </p>
-<p align="center"><strong>Figure 10. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
+<p align="center"><strong>Figure 8. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
 
 
 
