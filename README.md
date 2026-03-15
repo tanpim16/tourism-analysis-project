@@ -18,7 +18,8 @@ This research evaluates the economic impact of tourism on 55 secondary cities us
 * [04 : Economic Resilience — Income Stability & Risk](#04--economic-resilience--income-stability--risk)
 * [05 : Regional Seasonality — The Precision Window](#05--regional-seasonality--the-precision-window)
 * [06 : The Reality — Real Wealth Generation](#06--the-reality--real-wealth-generation)
-* [07 : Strategic Portfolio Analysis 📊](#07--strategic-portfolio-analysis-)
+* [08 : Strategic Portfolio Analysis 📊](#08--strategic-portfolio-analysis-)
+* [09 : Foreign Tourist Analysis 🌍](#09--foreign-tourist-analysis-)
 * [Final Research Conclusions](#-final-research-conclusions)
 
 ---
@@ -265,6 +266,36 @@ By synthesizing **Yield, Conversion, and Stability**, we move from observation t
 > * **💎 PREMIUM NICHE:** The "Quality Leaders." They prove that high visitor volume is not mandatory for success if the destination attracts high-spending, niche explorers.
 > * **🚜 MASS MARKET:** High footprints but low local capture. **Strategic Action:** These cities must increase local "spending touchpoints" to convert high volume into real value.
 > * **🌱 EMERGING:** The "Growth Frontier." Focus should remain on building foundational infrastructure and establishing a clear brand identity.
+
+---
+
+## **09 : Foreign Tourist Analysis 🌍**
+### *Top 10 Source Countries for Thailand's Inbound Tourism*
+
+Understanding **where Thailand's international visitors come from** is essential for shaping targeted marketing, bilateral agreements, and capacity planning. This section examines the Top 10 source countries by total foreign tourist arrivals from 2023 to 2025.
+
+### **Figure 9A: Top 10 Countries with Highest Foreign Tourist Arrivals**
+<p align="center">
+  <img src="visualizations/F8.1_Top10_Foreigners.png" alt="Top 10 Foreign Tourist Countries" width="900">
+</p>
+<p align="center"><strong>Figure 9A. Annual breakdown of the Top 10 source countries (2023–2025)</strong></p>
+
+> **🔍 Key Insight:**
+>
+> * **China** dominates as the largest source market, reflecting the strong post-pandemic recovery of Chinese outbound tourism.
+> * **Malaysia** and **India** consistently rank in the top tier, driven by geographic proximity and growing middle-class travel demand.
+> * **South Korea** and **Russia** show significant seasonal patterns that can be leveraged for targeted campaign timing.
+
+### **Figure 9B: Monthly Heatmap — Foreign Tourist Arrivals by Country**
+<p align="center">
+  <img src="visualizations/F8.2_Heatmap_Top10_Foreigners.png" alt="Heatmap Top 10 Foreign Tourists" width="900">
+</p>
+<p align="center"><strong>Figure 9B. Monthly visitor intensity for the Top 10 countries (2023–2025)</strong></p>
+
+> **🔍 Seasonality Insight:**
+>
+> * The heatmap reveals clear **seasonal clustering** — Chinese visitors peak during Q1 (Lunar New Year) and Q4 (Golden Week), while European markets peak during the Northern Hemisphere winter months (Nov–Feb).
+> * **Year-over-year growth** is visible across most countries from 2023 to 2025, confirming the sustained recovery trajectory of Thailand's international tourism sector.
 
 ---
 

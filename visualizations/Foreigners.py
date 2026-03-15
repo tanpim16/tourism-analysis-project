@@ -11,9 +11,9 @@ import os
 # ─── Style & Configuration ────────────────────────────────────────────────────
 plt.rcParams.update({
     'figure.facecolor': 'white',
-    'axes.facecolor':   '#F8F9FA',
+    'axes.facecolor':   "#2875C2",
     'axes.grid':        True,
-    'grid.color':       '#FFFFFF',
+    'grid.color':       "#7C7373",
     'grid.linewidth':   1.2,
     'font.family':      'sans-serif',
     'axes.spines.top':  False,
