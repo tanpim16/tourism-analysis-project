@@ -212,20 +212,21 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 > While **Bangkok** generates **18 times** the revenue of the top secondary city, **Chiang Rai** emerges as a **"Strategic Blueprint."** It outperforms its secondary-tier peers by 3x, proving that a secondary city can achieve significant economic scale by effectively leveraging unique cultural assets and cross-border positioning.
 
 ---
+
 ## 07 : Macro-Micro Comparison — The Great Divide ⚖️
 ### *Benchmarking Secondary Cities against National Hubs*
 
-To understand the true potential and challenges of secondary cities, we must benchmark them against Thailand's primary tourism hubs (Major Cities). This section reveals the stark contrast in both economic scale and market composition.
+After conducting a deep dive into the economic performance of the 55 secondary provinces, it is essential to contextualize these findings within the national landscape. By benchmarking them against Thailand’s primary tourism hubs (Major Cities), we can clearly visualize the "Great Divide" in terms of revenue scale and market composition.
 
 #### **Figure 8: Market Structure Analysis (Primary vs. Secondary)**
 <p align="center">
-  <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="800">
+  <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="850">
 </p>
 
 > **🔍 Structural Insight: The Foreigner Gap**
 >
-> * **Primary Hubs (Global Magnets):** Major cities are heavily powered by **International Revenue (67.7%)**. They are the main gateway for high-spending foreign explorers.
-> * **Secondary Cities (Domestic Backbone):** Conversely, secondary cities rely almost entirely on **Domestic Travelers (89.2%)**. This highlights a "Branding Gap" where secondary cities have yet to penetrate the global market.
+> * **Primary Hubs (Global Magnets):** Major cities are heavily powered by **International Revenue (67.7%)**. These provinces act as the main gateways, capturing massive spending from high-value global travelers.
+> * **Secondary Cities (Domestic Backbone):** In contrast, secondary cities rely almost entirely on **Domestic Travelers (89.2%)**. This stark difference reveals a significant "Branding Gap," indicating that secondary destinations have yet to effectively penetrate the global tourism market.
 
 ---
 
@@ -234,15 +235,15 @@ To understand the true potential and challenges of secondary cities, we must ben
   <img src="visualizations/Figure_12_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
 </p>
 
-> **🔍 Scale Insight: The 8x Multiplier**
+> **🔍 Scale Insight: The 8.2x Multiplier**
 >
-> * **Economic Dominance:** The top primary cities (Bangkok, Phuket, Chonburi) generate revenue on a scale that dwarfs the entire secondary tier. The absolute revenue gap between the two tiers is approximately **8.2x**.
-> * **The "Chiang Rai" Benchmark:** Chiang Rai stands as the leading secondary city, with a revenue structure that begins to mimic primary cities. It serves as a **"Success Template"** for other secondary provinces to follow.
+> * **Economic Dominance:** The scale of revenue generation is staggering. A few primary hubs (Bangkok, Phuket, Chonburi) generate revenue that dwarfs the entire secondary tier combined. Overall, the revenue gap between these two tiers is approximately **8.2x**.
+> * **The "Chiang Rai" Benchmark:** Despite the divide, **Chiang Rai** stands out as the leading secondary city. Its revenue structure has begun to mimic the balanced model of primary cities, serving as a **"Success Template"** for other secondary provinces aiming to elevate their economic status.
 
 ---
 
 ### **🎯 Strategic Takeaway**
-Development should not aim to make secondary cities "miniature versions" of Bangkok, but rather to **increase their Foreign Revenue Share** to ensure economic resilience and higher yield per head.
+Development policies should not aim to transform secondary cities into "miniature versions" of Bangkok. Instead, the focus should be on **strategically increasing their Foreign Revenue Share**. This approach will ensure greater economic resilience and a higher yield per visitor (Yield per head) while preserving the unique local identity of the secondary tier.
 
 ---
 
