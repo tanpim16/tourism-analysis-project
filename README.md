@@ -126,7 +126,7 @@ This section bridges the gap between digital discovery and physical arrival. We 
 Knowing *when* travelers search is only half the equation — the other half is whether that interest actually converts into a physical visit. This section maps each province's **digital search intensity** against its **actual arrival volume** to expose critical conversion gaps. By identifying where intent breaks down, we can pinpoint the structural barriers that prevent online interest from becoming real economic activity.
 
 <p align="center">
-  <img src="visualizations/Figure_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
+  <img src="visualizations/Figure_5_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
 </p>
 <p align="center"><strong>Figure 3B. Strategic Matrix: Search Intent (Digital) vs. Actual Arrivals (Physical)</strong></p>
 
