@@ -33,14 +33,13 @@ yield_stats = df.groupby('City_type_EN')['yield_per_head'].mean().sort_values(as
 sns.set_theme(style="white") # พื้นหลังขาวสะอาด
 plt.figure(figsize=(11, 7))
 
-# กำหนดสี: เมืองหลัก = สีฟ้า (#339af0), เมืองรอง = สีเขียว (#51cf66)
 # ตรวจสอบลำดับใน yield_stats เพื่อใส่สีให้ตรง
 palette = []
 for city in yield_stats['City_type_EN']:
     if 'Major' in city:
-        palette.append('#339af0') # Blue
+        palette.append("#1084e3") # Blue
     else:
-        palette.append('#51cf66') # Green
+        palette.append("#139829") # Green
 
 ax = sns.barplot(data=yield_stats, x='City_type_EN', y='yield_per_head', palette=palette, edgecolor=".2", linewidth=1.5)
 
