@@ -63,14 +63,14 @@ CHART_CONFIGS = [
         'title':    'Monthly Tourist Arrivals',
         'subtitle': 'Number of visitors  ·  Jan 2023 – Dec 2025',
         'ylabel':   'Visitors',
-        'filename': 'total_visitors_trend.png',
+        'filename': 'Figure_1_total_visitors_trend.png',
     },
     {
         'col':      'total_revenue',
         'title':    'Monthly Tourism Income',
         'subtitle': 'Total revenue (Million THB)  ·  Jan 2023 – Dec 2025', # ใส่หน่วยใน Subtitle เพื่อความชัดเจน
         'ylabel':   'Million THB',
-        'filename': 'total_revenue_trend.png',
+        'filename': 'Figure_1_total_Revenue_trend.png',
     },
 ]
 
@@ -84,7 +84,7 @@ def create_chart(cfg):
         sub['ma'] = moving_avg(sub[col])
         groups[name] = sub
 
-    fig = plt.figure(figsize=(16, 8))
+    fig = plt.figure(figsize=(12, 6))
     gs  = GridSpec(1, 1, figure=fig, left=0.07, right=0.96, top=0.78, bottom=0.12)
     ax  = fig.add_subplot(gs[0, 0])
 
@@ -146,7 +146,7 @@ def create_chart(cfg):
     ax.legend(handles=handles, loc='upper left', fontsize=9.5, framealpha=0.9, edgecolor='#DDD')
 
     # ข้อความหัวกราฟและที่มา
-    fig.text(0.07, 0.92, cfg['title'], fontsize=22, fontweight='bold', color='#1A1A2E', va='bottom')
+    fig.text(0.07, 0.92, cfg['title'], fontsize=20, fontweight='bold', color="#080808", va='bottom')
     fig.text(0.07, 0.865, cfg['subtitle'], fontsize=12, color='#666', va='bottom')
     fig.text(0.07, 0.04, 'Source: Thailand Tourism Authority  ·  Shaded area = raw monthly data', fontsize=8.5, color='#AAA')
 

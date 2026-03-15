@@ -64,7 +64,7 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 The first phase of our study addresses the "Paradox of Plenty." While the national policy has successfully decentralized visitor footprints, the economic benefits remain largely anchored in primary hubs.
 
 <p align="center">
-  <img src="visualizations/total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
+  <img src="visualizations/Figure_1_total_visitors_trend.png" alt="Tourist Arrivals Trend" width="800">
 </p>
 <p align="center"><strong>Figure 1A. Monthly Tourist Arrivals: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
@@ -73,7 +73,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 
 <p align="center">
-  <img src="visualizations/total_revenue_trend.png" alt="Tourism Income Trend" width="800">
+  <img src="visualizations/Figure_1_total_Revenue_trend.png" alt="Tourism Income Trend" width="800">
 </p>
 <p align="center"><strong>Figure 1B. Monthly Tourism Revenue: Primary vs. Secondary Cities (2023–2025)</strong></p>
 
