@@ -82,7 +82,7 @@ for i, total in enumerate(secondary_df['total_rev']):
 ax.invert_yaxis()
 
 # 5. ตกแต่งกราฟให้ดูพรีเมียม
-plt.title('Figure 9: Real Revenue Composition (Thai vs Foreigner)\nTotal Economic Contribution of 55 Secondary Cities', 
+plt.title('Real Revenue Composition (Thai vs Foreigner)\nTotal Economic Contribution of 55 Secondary Cities', 
           fontsize=20, fontweight='bold', pad=40, color='#333333')
 plt.xlabel('Total Real Revenue (Million THB)', fontsize=13, fontweight='bold')
 plt.ylabel('Province', fontsize=13, fontweight='bold')

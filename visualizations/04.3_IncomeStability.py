@@ -131,7 +131,7 @@ ax.legend(handles=legend_handles, loc='upper right', bbox_to_anchor=(0.98, 0.78)
           fontsize=8.5, framealpha=0.92, edgecolor='#DDDDDD',
           title='Legend', title_fontsize=8.5)
 
-ax.set_title('Figure 5: Income Stability vs. Performance Matrix\nCV of Real Revenue — Higher CV = More Seasonal Risk',
+ax.set_title('Income Stability vs. Performance Matrix\nCV of Real Revenue — Higher CV = More Seasonal Risk',
              fontsize=13, fontweight='bold', color='#1A252F', loc='left', pad=16)
 ax.set_xlabel('Income Volatility  (CV % — lower = more stable)', fontsize=11, color='#444', labelpad=10)
 ax.set_ylabel('Avg Monthly Real Revenue (Million THB, log scale)', fontsize=11, color='#444', labelpad=10)

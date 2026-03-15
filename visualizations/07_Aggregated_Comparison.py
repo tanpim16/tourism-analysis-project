@@ -73,7 +73,7 @@ for i in range(len(labels)):
                 fontsize=10, fontweight='bold')
 
 # 6. ตกแต่งหัวข้อและแกน (ดำสนิท)
-plt.title('Figure 8: Primary vs. Secondary Cities Structure Analysis\nRevenue Composition & Market Efficiency Gap', 
+plt.title('Primary vs. Secondary Cities Structure Analysis\nRevenue Composition & Market Efficiency Gap', 
           fontsize=18, fontweight='bold', pad=45, color='black')
 plt.ylabel('Market Composition Percentage (%)', fontsize=12, fontweight='bold', color='black')
 plt.xlabel('City Tier', fontsize=12, fontweight='bold', color='black')

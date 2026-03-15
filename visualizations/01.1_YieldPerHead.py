@@ -54,7 +54,7 @@ for p in ax.patches:
                 fontsize=13, fontweight='bold', color='#2c3e50')
 
 # ปรับ Font และ Labels
-plt.title('Figure 1C : Average Yield per Head (Real Revenue per Visitor)', fontsize=16, fontweight='bold', pad=30, color='#1a1a1a')
+plt.title('Average Yield per Head (Real Revenue per Visitor)', fontsize=16, fontweight='bold', pad=30, color='#1a1a1a')
 plt.xlabel('City Classification', fontsize=13, labelpad=15, fontweight='bold')
 plt.ylabel('Average Real Revenue (THB per Person)', fontsize=13, labelpad=15, fontweight='bold')
 

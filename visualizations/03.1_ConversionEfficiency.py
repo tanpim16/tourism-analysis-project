@@ -127,7 +127,7 @@ ax.legend(handles=legend_handles, loc='upper right', bbox_to_anchor=(0.98, 0.85)
           fontsize=8.5, framealpha=0.92, edgecolor='#DDDDDD',
           title='Legend', title_fontsize=8.5)
 
-ax.set_title('Figure 4B : Tourism Conversion Matrix\nSearch Intent vs. Physical Arrivals  (avg per province, Bangkok excluded)',
+ax.set_title('Tourism Conversion Matrix\nSearch Intent vs. Physical Arrivals  (avg per province, Bangkok excluded)',
              fontsize=13, fontweight='bold', color='#1A252F', loc='left', pad=16)
 ax.set_xlabel('Search Intent (Digital Interest)', fontsize=11, color='#444', labelpad=10)
 ax.set_ylabel('Total Arrivals (Actual Footprints)', fontsize=11, color='#444', labelpad=10)
