@@ -95,7 +95,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 
 <p align="center">
-  <img src="visualizations/Figure%203_updated.png" alt="Market Share Distribution" width="800">
+  <img src="visualizations/Figure_2_Market_Share_Distribution.png" alt="Market Share Distribution" width="800">
 </p>
 <p align="center"><strong>Figure 2. Market Share Distribution of Tourist Arrivals</strong></p>
 
@@ -111,7 +111,7 @@ This section bridges the gap between digital discovery and physical arrival. We 
 
 
 <p align="center">
-  <img src="visualizations/Figure%204_Lag_Aligned_Clean.png" alt="Lag Analysis" width="800">
+  <img src="visualizations/Figure_3A_Predictive_Lead-Time.png" alt="Lag Analysis" width="800">
 </p>
 <p align="center"><strong>Figure 3A. Predictive Lead-Time Analysis: The Discovery Window</strong></p>
 

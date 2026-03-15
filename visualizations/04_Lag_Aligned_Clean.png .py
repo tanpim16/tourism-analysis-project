@@ -71,7 +71,7 @@ plt.xlabel("Timeline (Adjusted for Planning Lead Time)", fontsize=12, labelpad=1
 fig.suptitle("Bridging the Gap: Digital Planning vs. Physical Footprints", fontsize=24, fontweight='bold', y=0.98)
 
 os.makedirs('visualizations', exist_ok=True)
-plt.savefig("visualizations/Figure 4_Lag_Aligned_Clean.png", dpi=300, bbox_inches='tight')
+plt.savefig("visualizations/Figure_3A_Predictive_Lead-Time.png", dpi=300, bbox_inches='tight')
 plt.close()
 
 print("✅ Figure 4 (Clean Layout) created successfully!")

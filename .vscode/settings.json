@@ -7,7 +7,7 @@
             "packageManager": "ms-python.python:pip"
         },
         {
-            "path": "visualizations/01_Trend_visitors_revenue.py",
+            "path": "visualizations/01_AB_Trend_visitors_revenue.py",
             "envManager": "ms-python.python:system",
             "packageManager": "ms-python.python:pip"
         }
