@@ -5,6 +5,20 @@ import matplotlib.patheffects as pe
 import numpy as np
 import os
 
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
+
 # 1. LOAD & AGGREGATE
 df_raw = pd.read_csv('data/processed/final_master_with_trends.csv')
 

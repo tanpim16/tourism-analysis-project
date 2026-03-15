@@ -5,6 +5,20 @@ import matplotlib.colors as colors
 from matplotlib.ticker import FuncFormatter, LogLocator
 import os
 
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
+
 # --- 1. SETUP ---
 csv_path = 'data/processed/master_tourism_analysis.csv'
 geojson_path = 'data/raw/tha_admin1.geojson'

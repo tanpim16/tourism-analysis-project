@@ -2,6 +2,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
+
 # --- 1. LOAD & ANALYZE DATA ---
 csv_path = 'data/processed/master_tourism_analysis.csv'
 df_raw = pd.read_csv(csv_path)

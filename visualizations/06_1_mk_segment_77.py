@@ -4,6 +4,20 @@ import matplotlib.ticker as mtick
 import os
 from matplotlib.patches import Patch
 
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
+
 # 1. LOAD DATA
 file_path = 'data/processed/final_master_with_trends.csv'
 if not os.path.exists(file_path):

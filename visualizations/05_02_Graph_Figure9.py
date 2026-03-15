@@ -3,6 +3,20 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import textwrap, os
 
+# ─── Style ────────────────────────────────────────────────────────────────────
+plt.rcParams.update({
+    'figure.facecolor':  'white',
+    'axes.facecolor':    '#F8F9FA',
+    'axes.grid':         True,
+    'grid.color':        '#FFFFFF',
+    'grid.linewidth':    1.2,
+    'font.family':       'sans-serif',
+    'axes.spines.top':   False,
+    'axes.spines.right': False,
+    'axes.spines.left':  False,
+    'axes.spines.bottom':False,
+})
+
 df_main   = pd.read_csv('data/processed/master_tourism_analysis.csv')
 prov_list = pd.read_csv('data/processed/ProvinceThailandList.csv')
 
