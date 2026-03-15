@@ -18,7 +18,7 @@ This research evaluates the economic impact of tourism on 55 secondary cities us
 * [04 : Economic Resilience — Income Stability & Risk](#04--economic-resilience--income-stability--risk)
 * [05 : Regional Seasonality — The Precision Window](#05--regional-seasonality--the-precision-window)
 * [06 : The Reality — Real Wealth Generation](#06--the-reality--real-wealth-generation)
-* [07 : Macro-Micro Comparison — The Great Divide ⚖️](#07--macro-micro-comparison--the-great-divide-)
+* [07 : Macro-Micro Comparison — The Great Divide ⚖️](#macro-micro)
 * [08 : Strategic Portfolio Analysis 📊](#08--strategic-portfolio-analysis-)
 * [09 : Foreign Tourist Analysis 🌍](#09--foreign-tourist-analysis-)
 * [Final Research Conclusions](#-final-research-conclusions)
@@ -215,7 +215,7 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
 ---
 
-## 07 : Macro-Micro Comparison — The Great Divide ⚖️
+<h2 id="macro-micro">07 : Macro-Micro Comparison — The Great Divide ⚖️</h2>
 ### *Benchmarking Secondary Cities against National Hubs*
 
 After conducting a deep dive into the economic performance of the 55 secondary provinces, it is essential to contextualize these findings within the national landscape. By benchmarking them against Thailand’s primary tourism hubs (Major Cities), we can clearly visualize the "Great Divide" in terms of revenue scale and market composition.
