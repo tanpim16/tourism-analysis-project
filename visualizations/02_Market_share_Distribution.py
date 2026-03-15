@@ -57,7 +57,7 @@ ax.set_ylabel("Visitor Share", fontsize=11, color='#666')
 ax.tick_params(axis='both', which='major', labelsize=10)
 
 os.makedirs('visualizations', exist_ok=True)
-plt.savefig("visualizations/Figure_2_Market_Share_Distribution.png", dpi=300, bbox_inches='tight')
+plt.savefig("visualizations/Figure_2_Marketshare_Distribution.png", dpi=300, bbox_inches='tight')
 plt.close()
 
 print("✅ Figure 3 (Polished & Balanced) created successfully!")

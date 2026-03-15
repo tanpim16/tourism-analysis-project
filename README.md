@@ -95,7 +95,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 
 
 <p align="center">
-  <img src="visualizations/Figure_2_Market_Share_Distribution.png" alt="Market Share Distribution" width="800">
+  <img src="visualizations/Figure_2_Marketshare_Distribution.png" alt="Market Share Distribution" width="800">
 </p>
 <p align="center"><strong>Figure 2. Market Share Distribution of Tourist Arrivals</strong></p>
 
