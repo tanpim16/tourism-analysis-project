@@ -22,7 +22,7 @@ plt.rcParams.update({
 # --- 1. SETUP ---
 csv_path = 'data/processed/master_tourism_analysis.csv'
 geojson_path = 'data/raw/tha_admin1.geojson'
-output_path = 'visualizations/Figure_4_Final_Classic_Clean.png'
+output_path = 'visualizations/Figure_6A_map.png'
 
 # --- 2. LOAD & CLEAN ---
 gdf = gpd.read_file(geojson_path)[['adm1_name', 'geometry']]
@@ -40,7 +40,7 @@ df = df_raw.groupby('ProvinceEN').agg({'real_revenue': 'mean', 'City_type_EN': '
 merged = gdf.merge(df, left_on='adm1_name', right_on='ProvinceEN', how='left')
 
 # --- 3. PLOTTING ---
-fig, ax = plt.subplots(figsize=(10, 14), facecolor='white')
+fig, ax = plt.subplots(figsize=(8, 11), facecolor='white')
 ax.axis('off')
 
 # 💡 เทคนิคสำคัญ: ดันก้นแผนที่ขึ้นเพื่อให้ Colorbar ด้านล่างไม่โดนเบียด
@@ -85,5 +85,5 @@ plt.suptitle('Thailand Tourism Wealth Distribution', fontsize=22, fontweight='bo
 ax.set_title('Strategic Map: Comparison of Major and Secondary Cities', fontsize=14, color='#666666', pad=10)
 
 # ตอน Save ใส่ pad_inches เพิ่มอีกนิดเพื่อให้ชัวร์ว่าไม่โดนตัด
-plt.savefig(output_path, dpi=300, bbox_inches='tight', pad_inches=0.3)
+plt.savefig(output_path, dpi=200, bbox_inches='tight', pad_inches=0.3)
 print(f"🎉 แผนที่ฉบับ Perfect Layout บันทึกแล้วที่: {output_path}")

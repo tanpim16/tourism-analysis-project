@@ -194,7 +194,7 @@ To evaluate the actual economic impact on local communities, we look beyond nomi
 $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
 <p align="center">
-  <img src="visualizations/Figure_4_Final_Classic_Clean.png" alt="Thailand Tourism Wealth Map" width="550">
+  <img src="visualizations/Figure_6A_map.png" alt="Thailand Tourism Wealth Map" width="550">
 </p>
 <p align="center"><strong>Figure 6A. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
 
