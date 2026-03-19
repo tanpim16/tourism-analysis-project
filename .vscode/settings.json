@@ -1,15 +1,3 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": [
-        {
-            "path": "visualizations",
-            "envManager": "ms-python.python:system",
-            "packageManager": "ms-python.python:pip"
-        },
-        {
-            "path": "visualizations/01_AB_Trend_visitors_revenue.py",
-            "envManager": "ms-python.python:system",
-            "packageManager": "ms-python.python:pip"
-        }
-    ]
+    // Removed forced system Python settings. Now VS Code will use the selected interpreter (e.g., venv).
 }

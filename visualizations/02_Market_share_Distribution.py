@@ -68,19 +68,19 @@ ax.legend(
 
 # ─── Subtitle ───
 ax.text(
-    0, 1.08,
+    0.5, 1.08,
     "100% stacked distribution of visitors by city type · Jan 2023 – Dec 2025",
     transform=ax.transAxes,
     fontsize=12,
     color='#888888',
-    ha='left'
+    ha='center'
 )
 
 # ─── Figure Title ───
 fig.suptitle(
     "Tourism Redistribution Share",
-    x=0.125,
-    ha='left',
+    x=0.5,
+    ha='center',
     fontsize=16,
     fontweight='bold',
     y=0.95
