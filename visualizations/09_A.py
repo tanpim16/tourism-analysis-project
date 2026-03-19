@@ -57,7 +57,7 @@ yearly = (ind[ind['country'].isin(top10)]
           .reindex(top10))
 
 # ─── Plot ─────────────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(14, 8))
+fig, ax = plt.subplots(figsize=(10, 8))
 
 years = sorted(yearly.columns)
 n = len(top10)

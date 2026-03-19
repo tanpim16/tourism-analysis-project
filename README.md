@@ -81,7 +81,7 @@ The first phase of our study addresses the "Paradox of Plenty." While the nation
 > Despite the arrival growth, Figure 1B reveals a staggering **3.6x Yield Gap**. Even when visitors increase, the revenue response in secondary cities is disproportionately lower. This suggests these cities currently serve as **"Transit Points"** rather than **"Destination Hubs."** 
 
 <p align="center">
-  <img src="visualizations/Figure_Yield_Efficiency_Final.png" alt="Yield Efficiency Analysis" width="800">
+  <img src="visualizations/Figure_1C_Yield_efficiency.png" alt="Yield Efficiency Analysis" width="800">
 </p>
 <p align="center"><strong>Figure 1C. Comparative Yield Efficiency: Average Spend per Head (Unit: THB/Person)</strong></p>
 
@@ -126,7 +126,7 @@ This section bridges the gap between digital discovery and physical arrival. We 
 Knowing *when* travelers search is only half the equation — the other half is whether that interest actually converts into a physical visit. This section maps each province's **digital search intensity** against its **actual arrival volume** to expose critical conversion gaps. By identifying where intent breaks down, we can pinpoint the structural barriers that prevent online interest from becoming real economic activity.
 
 <p align="center">
-  <img src="visualizations/Figure_5_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
+  <img src="visualizations/Figure_3_Conversion_Efficiency.png" alt="Conversion Matrix" width="850">
 </p>
 <p align="center"><strong>Figure 3B. Strategic Matrix: Search Intent (Digital) vs. Actual Arrivals (Physical)</strong></p>
 
@@ -221,7 +221,7 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 
 <p align="center">
-  <img src="visualizations/Figure_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="850">
+  <img src="visualizations/Figure_7_Primary_vs_Secondary.png" alt="Market Structure Analysis" width="850">
 </p>
 <p align="center"><strong>Figure 7A. Market Structure Analysis (Primary vs. Secondary)
 </strong></p>

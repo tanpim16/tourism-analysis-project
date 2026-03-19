@@ -13,7 +13,7 @@ plt.rcParams.update({
     'font.family':      'sans-serif',
 
     # Title
-    'figure.titlesize': 18,
+    'figure.titlesize': 16,
     'figure.titleweight': 'bold',
 
     # Axis / legend
@@ -66,7 +66,7 @@ for y in [2023, 2024, 2025]:
 heat = heat[month_order].reindex(top10)
 
 # ─── PLOT ────────────────────────────────────────────────────────────────────
-fig = plt.figure(figsize=(14, 12), constrained_layout=True)
+fig = plt.figure(figsize=(10, 8), constrained_layout=True)
 gs = GridSpec(3, 2, figure=fig, width_ratios=[1, 0.04])
 
 vmin, vmax = heat.values.min(), heat.values.max()
@@ -85,15 +85,11 @@ for idx, yr in enumerate([2023, 2024, 2025]):
         data,
         ax=ax,
         cmap='YlOrRd',
-
-        # ✅ REMOVE GRID LINES
         linewidths=0,
-        linecolor=None,
-
         annot=annot,
         fmt='',
         annot_kws={
-            'fontsize': 8,
+            'fontsize': 6,
             'fontweight': 'bold',
             'color': '#2C3E50'
         },
