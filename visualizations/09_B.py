@@ -63,7 +63,7 @@ for y in [2023, 2024, 2025]:
 heat = heat[month_order].reindex(top10)
 
 # ─── PLOT ────────────────────────────────────────────────────────────────────
-fig = plt.figure(figsize=(14, 10), constrained_layout=True)
+fig = plt.figure(figsize=(8, 10), constrained_layout=True)
 gs = GridSpec(3, 2, figure=fig, width_ratios=[1, 0.04])
 
 vmin, vmax = heat.values.min(), heat.values.max()
