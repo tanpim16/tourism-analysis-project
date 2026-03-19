@@ -39,7 +39,7 @@ def prepare_data(path):
 
 # ─── 3. MAIN VISUALIZATION LOGIC ──────────────────────────────────────────────
 def generate_lag_analysis_plot(df):
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 10), sharex=True, gridspec_kw={'hspace': 0.35})
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8), sharex=True, gridspec_kw={'hspace': 0.35})
     
     configs = [
         (ax1, 'Major City', -1, COLORS['Major City']),
