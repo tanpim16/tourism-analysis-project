@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.ticker as mticker
 from matplotlib.gridspec import GridSpec
 
-# ─── GLOBAL STYLE (Hierarchy Consistent) ─────────────────────────────────────
+# ─── GLOBAL STYLE (Hierarchy) ────────────────────────────────────────────────
 plt.rcParams.update({
     'figure.facecolor': 'white',
     'axes.facecolor':   '#F8F9FA',
@@ -16,12 +16,17 @@ plt.rcParams.update({
     'figure.titlesize': 18,
     'figure.titleweight': 'bold',
 
-    # Axis labels / legend
+    # Axis / legend
     'axes.labelsize': 10,
 
     # Ticks
     'xtick.labelsize': 9,
     'ytick.labelsize': 10,
+
+    # Grid
+    'axes.grid': True,
+    'grid.color': '#EAECEE',
+    'grid.linewidth': 0.8,
 })
 
 # ─── DATA ────────────────────────────────────────────────────────────────────
@@ -63,7 +68,7 @@ for y in [2023, 2024, 2025]:
 heat = heat[month_order].reindex(top10)
 
 # ─── PLOT ────────────────────────────────────────────────────────────────────
-fig = plt.figure(figsize=(8, 10), constrained_layout=True)
+fig = plt.figure(figsize=(14, 12), constrained_layout=True)  # ✅ พอดีจอ
 gs = GridSpec(3, 2, figure=fig, width_ratios=[1, 0.04])
 
 vmin, vmax = heat.values.min(), heat.values.max()
@@ -96,21 +101,23 @@ for idx, yr in enumerate([2023, 2024, 2025]):
         cbar=False
     )
 
-    # X ticks
+    # ✅ X ticks (เดือน)
     ax.set_xticklabels(
         [c.split('-')[0] for c in cols],
         fontsize=9,
-        fontweight='normal',
         color='#5D6D7E'
     )
 
-    # Y ticks
+    # ✅ Y ticks (ประเทศ)
     ax.set_yticklabels(
         ax.get_yticklabels(),
         fontsize=10,
-        fontweight='normal',
         color='#34495E'
     )
+
+    # ✅ ลบ label "month_year"
+    ax.set_xlabel('')
+    ax.xaxis.label.set_visible(False)
 
     # Subplot title
     ax.set_title(
@@ -133,8 +140,7 @@ cbar.ax.yaxis.set_major_formatter(
 
 cbar.set_label(
     'Number of Visitors',
-    fontsize=10,
-    fontweight='normal'
+    fontsize=10
 )
 
 # ─── MAIN TITLE ──────────────────────────────────────────────────────────────
