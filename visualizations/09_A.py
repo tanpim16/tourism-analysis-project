@@ -1,5 +1,3 @@
-# Created by Pimkanit – Top 10 Countries by Total Foreign Visitors (2023–2025)
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
@@ -110,7 +108,7 @@ ax.set_xlabel('Number of Visitors', fontsize=10, color='#34495E', labelpad=8)
 # Title
 ax.set_title(
     'Annual breakdown of the Top 10 source countries (2023–2025)',
-    fontsize=16,
+    fontsize=18,
     fontweight='bold',
     color='#1F2D3D',
     pad=10
