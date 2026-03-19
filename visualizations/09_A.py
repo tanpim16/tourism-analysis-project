@@ -108,7 +108,7 @@ ax.set_xlabel('Number of Visitors', fontsize=10, color='#34495E', labelpad=8)
 # Title
 ax.set_title(
     'Annual breakdown of the Top 10 source countries (2023–2025)',
-    fontsize=18,
+    fontsize=16,
     fontweight='bold',
     color='#1F2D3D',
     pad=10
