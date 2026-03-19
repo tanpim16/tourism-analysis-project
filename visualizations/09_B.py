@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.ticker as mticker
 from matplotlib.gridspec import GridSpec
 
-# ─── GLOBAL STYLE (Hierarchy) ────────────────────────────────────────────────
+# ─── GLOBAL STYLE ────────────────────────────────────────────────────────────
 plt.rcParams.update({
     'figure.facecolor': 'white',
     'axes.facecolor':   '#F8F9FA',
@@ -23,10 +23,8 @@ plt.rcParams.update({
     'xtick.labelsize': 9,
     'ytick.labelsize': 10,
 
-    # Grid
-    'axes.grid': True,
-    'grid.color': '#EAECEE',
-    'grid.linewidth': 0.8,
+    # Remove default grid
+    'axes.grid': False
 })
 
 # ─── DATA ────────────────────────────────────────────────────────────────────
@@ -68,7 +66,7 @@ for y in [2023, 2024, 2025]:
 heat = heat[month_order].reindex(top10)
 
 # ─── PLOT ────────────────────────────────────────────────────────────────────
-fig = plt.figure(figsize=(14, 12), constrained_layout=True)  # ✅ พอดีจอ
+fig = plt.figure(figsize=(14, 12), constrained_layout=True)
 gs = GridSpec(3, 2, figure=fig, width_ratios=[1, 0.04])
 
 vmin, vmax = heat.values.min(), heat.values.max()
@@ -87,8 +85,11 @@ for idx, yr in enumerate([2023, 2024, 2025]):
         data,
         ax=ax,
         cmap='YlOrRd',
-        linewidths=0.5,
-        linecolor='#FFFFFF',
+
+        # ✅ REMOVE GRID LINES
+        linewidths=0,
+        linecolor=None,
+
         annot=annot,
         fmt='',
         annot_kws={
@@ -101,21 +102,21 @@ for idx, yr in enumerate([2023, 2024, 2025]):
         cbar=False
     )
 
-    # ✅ X ticks (เดือน)
+    # X ticks
     ax.set_xticklabels(
         [c.split('-')[0] for c in cols],
         fontsize=9,
         color='#5D6D7E'
     )
 
-    # ✅ Y ticks (ประเทศ)
+    # Y ticks
     ax.set_yticklabels(
         ax.get_yticklabels(),
         fontsize=10,
         color='#34495E'
     )
 
-    # ✅ ลบ label "month_year"
+    # Remove "month_year"
     ax.set_xlabel('')
     ax.xaxis.label.set_visible(False)
 
@@ -157,3 +158,4 @@ fig.savefig(
 )
 
 plt.show()
+print('✓ Saved: visualizations/Figure_9B_Heatmap_Foreign_Visitors.png')
