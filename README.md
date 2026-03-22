@@ -54,7 +54,7 @@ To evaluate the true impact of Thailand's tourism policies, this project seeks t
 ## **Data Source**
 1. **Tourism Revenue Data (2023 - 2025):** [Ministry of Tourism and Sports](https://www.mots.go.th/news/category/411)
 2. **Consumer Price Index (CPI) Data (2023 - 2025):** [Trade Policy and Strategy Office](https://index.tpso.go.th/document/cpip/post-month)
-3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords.
+3. **Digital Intent Data (2023 - 2025):** Aggregated Google Trends for tourism-related keywords. We use the terms 'Travel' + 'name of province in English' and 'ท่องเที่ยว' + 'ชื่อจังหวัด' (in Thai) to capture intent signals for each province.
 
 ---
 
