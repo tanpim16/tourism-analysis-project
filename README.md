@@ -262,7 +262,7 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 >* **The "Chiang Rai" Benchmark:** Notably, **Chiang Rai** emerges as the top secondary city, with a revenue structure increasingly resembling that of primary hubs. It serves as a **"Success Template"** for other secondary provinces aspiring to enhance their economic performance.
 
 ### **🎯 Strategic Takeaway**
-Policy development should avoid turning secondary cities into replicas of Bangkok. Instead, efforts should focus on **strategically increasing their share of Foreign Revenue**. This will foster greater economic resilience and higher yield per visitor, while maintaining the distinctive local character of secondary destinations.
+* Policy development should avoid turning secondary cities into replicas of Bangkok. Instead, efforts should focus on **strategically increasing their share of Foreign Revenue**. This will foster greater economic resilience and higher yield per visitor, while maintaining the distinctive local character of secondary destinations.
 
 ---
 
@@ -271,9 +271,6 @@ Policy development should avoid turning secondary cities into replicas of Bangko
 ### *Benchmarking the Economic DNA of 55 Cities*
 
 By integrating key metrics—**Yield, Conversion, and Stability**—this section transitions from descriptive analysis to actionable strategy. Thailand’s 55 provinces are systematically categorized into a strategic portfolio using **median-based thresholds**, providing a robust framework for prioritizing national investment and policy interventions.
-
-### **🎯 Policy Implication**
-* **Strategic Resource Allocation:** Policymakers should use the portfolio framework to prioritize investment and support. "Stars" and "Premium Niche" provinces warrant continued or increased investment to sustain their momentum, while "Mass Market" and "Emerging" provinces require targeted interventions—such as product development, branding, and infrastructure upgrades—to move up the value chain. This data-driven approach ensures that national resources are deployed where they will have the greatest impact on sustainable tourism growth and local wealth generation.
 
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
@@ -287,6 +284,9 @@ By integrating key metrics—**Yield, Conversion, and Stability**—this section
 > * **🚜 MASS MARKET:** Provinces in this group attract large numbers of visitors but struggle to convert this volume into substantial local economic benefit. The key strategic imperative here is to enhance local "spending touchpoints" and develop offerings that increase per-visitor value.
 > * **🌱 EMERGING:** Representing the "Growth Frontier," these provinces are in the early stages of tourism development. Policy should focus on building foundational infrastructure, strengthening brand identity, and fostering conditions for future growth.
 
+
+### **🎯 Policy Implication**
+* **Strategic Resource Allocation:** Policymakers should use the portfolio framework to prioritize investment and support. "Stars" and "Premium Niche" provinces warrant continued or increased investment to sustain their momentum, while "Mass Market" and "Emerging" provinces require targeted interventions—such as product development, branding, and infrastructure upgrades—to move up the value chain. This data-driven approach ensures that national resources are deployed where they will have the greatest impact on sustainable tourism growth and local wealth generation.
 ---
 
 ## **09 : Foreign Tourist Analysis 🌍**
@@ -333,9 +333,5 @@ The following table synthesizes the answers to the core research questions that 
 | **3. Is income quality improving?** | A significant gap persists in real income quality (3.6x lower in secondary cities). | Shift focus from volume to yield, emphasizing revenue per visitor. |
 | **4. Can digital signals predict arrivals?** | A consistent two-month lag exists between digital intent and actual visits. | Time marketing interventions 60 days ahead of peak periods. |
 | **5. Are real income gains widespread?** | Gains are selective and risk-dependent; only provinces with stable income profiles see sustained benefits. | Use "Stable Cash Cow" provinces as models to reduce volatility elsewhere. |
-
----
-
-**Synthesis:** The true measure of Thailand’s tourism advancement lies not in arrival counts, but in the generation of real, inflation-adjusted wealth and the promotion of economic stability for local communities.
 
 ---
