@@ -306,11 +306,10 @@ A nuanced understanding of Thailand’s inbound tourism landscape requires a det
 > * **Sustained year-over-year growth** is evident across most top markets, confirming the resilience and ongoing recovery of Thailand’s international tourism sector.
 
 ### **🎯 Policy Implications**
-> * **Market Diversification:** Proactively reduce reliance on China by accelerating growth from **India, South Korea, and ASEAN** countries to mitigate single-market risk.
-> * **Seasonal Campaign Timing:** Implement country-specific marketing campaigns **60–90 days** ahead of peak travel periods (Q1 for China, Nov–Feb for Europe/Russia).
-> * **Visa & Access Policy:** Expand visa-free entry and direct flight options for **India and South Korea**, both of which show strong and accelerating growth trajectories.
-> * **Capacity Planning:** Strategically allocate resources and infrastructure in **Q4–Q1** when multiple top markets converge, especially at major gateway provinces.
-> * **Secondary City Routing:** Promote multi-city itineraries for **South Korean and Japanese** tourists to increase per-trip spending and distribute benefits beyond primary hubs.
+* **Market Diversification:** Proactively reduce reliance on China by accelerating growth from **India, South Korea, and ASEAN** countries to mitigate single-market risk.
+* **Seasonal Campaign Timing:** Implement country-specific marketing campaigns **60–90 days** ahead of peak travel periods (Q1 for China, Nov–Feb for Europe/Russia). * **Visa & Access Policy:** Expand visa-free entry and direct flight options for **India and South Korea**, both of which show strong and accelerating growth trajectories.
+* **Capacity Planning:** Strategically allocate resources and infrastructure in **Q4–Q1** when multiple top markets converge, especially at major gateway provinces.
+* **Secondary City Routing:** Promote multi-city itineraries for **South Korean and Japanese** tourists to increase per-trip spending and distribute benefits beyond primary hubs.
 
 ---
 
