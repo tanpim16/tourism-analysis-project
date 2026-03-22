@@ -161,7 +161,7 @@ ax.tick_params(colors='#888888', labelsize=9)
 
 plt.tight_layout()
 os.makedirs('visualizations', exist_ok=True)
-plt.savefig('visualizations/Figure_Income_Stability.png',
+plt.savefig('visualizations/Figure_4_Income_Stability.png',
             facecolor='white', bbox_inches='tight', dpi=200)
 plt.show()
 print("Done")

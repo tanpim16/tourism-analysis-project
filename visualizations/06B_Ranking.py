@@ -78,6 +78,6 @@ draw_table(ax2, df_secon_final, '#1e8449', 'Secondary City: Top 5 Revenue', 'Sec
 # --- 3. SAVE ---
 # ใช้ pad_inches=0.05 เพื่อบีบขอบขาวรอบภาพให้เหลือน้อยที่สุด
 plt.tight_layout()
-output_path = 'visualizations/Figure_4_Ranking_Tight.png'
+output_path = 'visualizations/Figure_6b_Ranking_Tight.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight', pad_inches=0.05)
 print(f"🎉 ตารางฉบับกระชับพิเศษ (ลดสเปซว่าง) สร้างเสร็จแล้วที่: {output_path}")

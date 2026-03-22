@@ -157,7 +157,7 @@ $$CV = \frac{\sigma}{\mu} \times 100$$
 
 
 <p align="center">
-  <img src="visualizations/Figure_Income_Stability.png" alt="Income Stability Analysis" width="850">
+  <img src="visualizations/Figure_4_Income_Stability.png" alt="Income Stability Analysis" width="850">
 </p>
 <p align="center"><strong>Figure 4. Stability Matrix: Revenue Performance vs. Income Volatility (CV%)</strong></p>
 
@@ -204,7 +204,7 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 > The heatmap reveals that tourism wealth is heavily concentrated within established **"Economic Corridors"** (Central, Southern, and Eastern Seaboards). Many secondary cities in the North-East and deep North remain in **"Revenue Cold-Spots."** To uplift these regions, policy must shift from *mere digital promotion* to building **physical connectivity** and accessibility to major tourism hubs.
 
 <p align="center">
-  <img src="visualizations/Figure_4_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
+  <img src="visualizations/Figure_6b_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
 </p>
 <p align="center"><strong>Figure 6B. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
 
