@@ -200,6 +200,9 @@ The data reveal distinct seasonal profiles for each region:
 
 By tailoring strategies to these regional dynamics, policymakers can enhance the impact of tourism initiatives, ensuring that interventions are both timely and regionally relevant.
 
+### **🎯 Key Takeaway / Policy Implication**
+* **Regionally-Tailored Timing:** Policy interventions and marketing budgets should be allocated according to each region’s unique seasonality profile. For the North, front-load resources before the cool season; for the South, maintain a year-round digital presence; for the Northeast, deploy short, event-driven campaigns. This precision targeting maximizes ROI and ensures that support aligns with actual demand cycles, reducing wasted effort and increasing the effectiveness of public spending.
+
 
 ## **06 : The Reality — Real Wealth Generation**
 
@@ -222,6 +225,9 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 <p align="center"><strong>Figure 6B. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
 
 >Figure 6B further contextualizes these findings by ranking provinces according to CPI-adjusted tourism revenue. The data reveal a pronounced gap: **Bangkok** generates 18 times the revenue of the leading secondary city, yet **Chiang Rai** stands out as a strategic model, outperforming its peers by a factor of three. This suggests that secondary cities can achieve significant economic scale by leveraging unique cultural assets and cross-border linkages, provided that structural barriers to access are addressed.
+
+### **🎯 Key Takeaway / Policy Implication**
+* **Bridging the Wealth Divide**: Real wealth from tourism in secondary cities requires more than just increasing visitor numbers. Policymakers should prioritize investments in transport infrastructure and accessibility to help these cities capture a greater share of tourism revenue. Supporting high-potential cities like Chiang Rai as models and closing the CPI-adjusted revenue gap will promote more equitable and sustainable economic growth across regions.
 
 ---
 
@@ -265,6 +271,9 @@ Policy development should avoid turning secondary cities into replicas of Bangko
 ### *Benchmarking the Economic DNA of 55 Cities*
 
 By integrating key metrics—**Yield, Conversion, and Stability**—this section transitions from descriptive analysis to actionable strategy. Thailand’s 55 provinces are systematically categorized into a strategic portfolio using **median-based thresholds**, providing a robust framework for prioritizing national investment and policy interventions.
+
+### **🎯 Policy Implication**
+* **Strategic Resource Allocation:** Policymakers should use the portfolio framework to prioritize investment and support. "Stars" and "Premium Niche" provinces warrant continued or increased investment to sustain their momentum, while "Mass Market" and "Emerging" provinces require targeted interventions—such as product development, branding, and infrastructure upgrades—to move up the value chain. This data-driven approach ensures that national resources are deployed where they will have the greatest impact on sustainable tourism growth and local wealth generation.
 
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
