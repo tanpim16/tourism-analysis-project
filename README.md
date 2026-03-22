@@ -175,21 +175,36 @@ $$CV = \frac{\sigma}{\mu} \times 100$$
 ---
 
 ## **05 : Regional Seasonality — The Precision Window**
+
 ### *Timing by Geography: When to Intervene?*
 
-To optimize the national budget, we move beyond averages to identify the **"Golden Windows"** unique to each region. This ensures that marketing spend aligns with the actual planning cycle of travelers identified in Section 03.
+This section analyzes the seasonal patterns of tourism across Thailand’s regions (with Bangkok and the metropolitan area analyzed separately) to identify optimal periods for strategic intervention. By examining visitor trends at the regional level, we can align marketing and policy actions with the actual planning cycles of travelers, maximizing the effectiveness of resource allocation.
+
+<p align="center">
+  <img src="visualizations/Figure_5_Visitor Trends by Region.png" alt="Thailand Tourism Wealth Map" width="550">
+</p>
+<p align="center"><strong>Figure 5. Visitor Trends by Region (2023–2025)</strong></p>
+
+The data reveal distinct seasonal profiles for each region:
+
+- **North:** Experiences a pronounced peak from November to January, driven by cooler weather and cultural events. Strategic focus should be on intensifying promotional activities in the months leading up to this period, with approximately 70% of the annual marketing budget allocated to Q3.
+- **South:** Demonstrates stable, year-round visitor flows, reflecting its appeal as a perennial destination. Maintaining a consistent digital presence is recommended to capture ongoing demand.
+- **Northeast:** Characterized by sharp increases during festival periods, indicating a "pulsing" pattern tied to local events (e.g., the Bun Bang Fai Rocket Festival in Yasothon(May)). Short, targeted advertising campaigns with a 6-week lead time are most effective here.
+
 
 | 🌏 Region | 🗓️ Peak Window | 📊 Stability Profile | 🎯 Strategic Action |
 | :--- | :---: | :--- | :--- |
 | **North** | `Nov — Jan` | **Seasonal Sprint** | `Front-load 70%` of budget into Q3 |
 | **South** | `Year-round` | **Resilient Marathon** | Maintain `Always-on` digital presence |
 | **Northeast** | `Festival Peaks` | **Cultural Pulsing** | `Short-burst` ads (6-week lead) |
----
+By tailoring strategies to these regional dynamics, policymakers can enhance the impact of tourism initiatives, ensuring that interventions are both timely and regionally relevant.
+
 
 ## **06 : The Reality — Real Wealth Generation**
+
 ### *Purchasing Power: The Inflation-Adjusted Truth*
 
-To evaluate the actual economic impact on local communities, we look beyond nominal figures to **Real Revenue**. By adjusting for the Consumer Price Index (CPI), we ensure our metrics reflect true purchasing power, removing the distortions caused by inflation across different periods.
+To rigorously assess the economic impact of tourism on local communities, this section moves beyond nominal revenue figures and instead evaluates **Real Revenue**—adjusted for the Consumer Price Index (CPI)—to reflect true purchasing power over time.
 
 $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 
@@ -198,18 +213,14 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 </p>
 <p align="center"><strong>Figure 6A. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
 
-
-
-> **🔍 Analytical Deep-Dive: Mapping the "Connectivity Gap"**
-> The heatmap reveals that tourism wealth is heavily concentrated within established **"Economic Corridors"** (Central, Southern, and Eastern Seaboards). Many secondary cities in the North-East and deep North remain in **"Revenue Cold-Spots."** To uplift these regions, policy must shift from *mere digital promotion* to building **physical connectivity** and accessibility to major tourism hubs.
+Figure 6A visually demonstrates that tourism-generated wealth is predominantly concentrated within established **Economic Corridors** (Central, Southern, and Eastern Seaboards), while many secondary cities in the North-East and deep North remain in **revenue cold-spots**. This spatial disparity highlights the limitations of digital promotion alone and underscores the necessity for policies that enhance **physical connectivity** and accessibility to major tourism hubs.
 
 <p align="center">
   <img src="visualizations/Figure_6b_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
 </p>
 <p align="center"><strong>Figure 6B. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
 
-> **🔍 Analytical Deep-Dive: The "Chiang Rai Blueprint"**
-> While **Bangkok** generates **18 times** the revenue of the top secondary city, **Chiang Rai** emerges as a **"Strategic Blueprint."** It outperforms its secondary-tier peers by 3x, proving that a secondary city can achieve significant economic scale by effectively leveraging unique cultural assets and cross-border positioning.
+Figure 6B further contextualizes these findings by ranking provinces according to CPI-adjusted tourism revenue. The data reveal a pronounced gap: **Bangkok** generates 18 times the revenue of the leading secondary city, yet **Chiang Rai** stands out as a strategic model, outperforming its peers by a factor of three. This suggests that secondary cities can achieve significant economic scale by leveraging unique cultural assets and cross-border linkages, provided that structural barriers to access are addressed.
 
 ---
 
@@ -228,10 +239,8 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 > **🔍 Structural Insight: The Foreigner Gap**
 >
-> * **Primary Hubs (Global Magnets):** Major cities are heavily powered by **International Revenue (67.7%)**. These provinces act as the main gateways, capturing massive spending from high-value global travelers.
-> * **Secondary Cities (Domestic Backbone):** In contrast, secondary cities rely almost entirely on **Domestic Travelers (89.2%)**. This stark difference reveals a significant "Branding Gap," indicating that secondary destinations have yet to effectively penetrate the global tourism market.
-
----
+* **Primary Hubs (Global Magnets):** Major cities derive the majority of their income from **International Revenue (67.7%)**, serving as gateways that attract substantial spending from high-value global travelers.
+* **Secondary Cities (Domestic Backbone):** In contrast, secondary cities depend predominantly on **Domestic Travelers (89.2%)**. This highlights a pronounced "Branding Gap," showing that these destinations have yet to establish a strong presence in the global tourism market.
 
 <p align="center">
   <img src="visualizations/Figure_7B_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
@@ -242,20 +251,19 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 > **🔍 Scale Insight: The 8.2x Multiplier**
 >
-> * **Economic Dominance:** The scale of revenue generation is staggering. A few primary hubs (Bangkok, Phuket, Chonburi) generate revenue that dwarfs the entire secondary tier combined. Overall, the revenue gap between these two tiers is approximately **8.2x**.
-> * **The "Chiang Rai" Benchmark:** Despite the divide, **Chiang Rai** stands out as the leading secondary city. Its revenue structure has begun to mimic the balanced model of primary cities, serving as a **"Success Template"** for other secondary provinces aiming to elevate their economic status.
-
----
+* **Economic Dominance:** Revenue generation is highly concentrated. A handful of primary hubs (Bangkok, Phuket, Chonburi) produce revenue that far exceeds the combined total of all secondary cities, with an overall gap of approximately **8.2x**.
+* **The "Chiang Rai" Benchmark:** Notably, **Chiang Rai** emerges as the top secondary city, with a revenue structure increasingly resembling that of primary hubs. It serves as a **"Success Template"** for other secondary provinces aspiring to enhance their economic performance.
 
 ### **🎯 Strategic Takeaway**
-Development policies should not aim to transform secondary cities into "miniature versions" of Bangkok. Instead, the focus should be on **strategically increasing their Foreign Revenue Share**. This approach will ensure greater economic resilience and a higher yield per visitor (Yield per head) while preserving the unique local identity of the secondary tier.
+Policy development should avoid turning secondary cities into replicas of Bangkok. Instead, efforts should focus on **strategically increasing their share of Foreign Revenue**. This will foster greater economic resilience and higher yield per visitor, while maintaining the distinctive local character of secondary destinations.
 
 ---
 
 ## **08 : Strategic Portfolio Analysis 📊**
+
 ### *Benchmarking the Economic DNA of 55 Cities*
 
-By synthesizing **Yield, Conversion, and Stability**, we move from observation to action. We categorize Thailand’s provinces into a strategic portfolio using **Median-based Thresholds** to guide national investment and policy decisions.
+By integrating key metrics—**Yield, Conversion, and Stability**—this section transitions from descriptive analysis to actionable strategy. Thailand’s 55 provinces are systematically categorized into a strategic portfolio using **median-based thresholds**, providing a robust framework for prioritizing national investment and policy interventions.
 
 <p align="center">
   <img src="visualizations/Figure_8_Quadrant_Professional.png" alt="Strategic Quadrant Analysis" width="850">
@@ -263,20 +271,19 @@ By synthesizing **Yield, Conversion, and Stability**, we move from observation t
 <p align="center"><strong>Figure 8. Strategic Positioning of 55 Cities based on Efficiency (Yield) and Market Share</strong></p>
 
 
-
 > **🔍 Analytical Deep-Dive: Decoding the Quadrants**
-> * **⭐ STARS:** Success stories like **Buri Ram** and **Sra Kaeo**—High Volume + High Value. These provinces have successfully scaled while maintaining high spending per head.
-> * **💎 PREMIUM NICHE:** The "Quality Leaders." They prove that high visitor volume is not mandatory for success if the destination attracts high-spending, niche explorers.
-> * **🚜 MASS MARKET:** High footprints but low local capture. **Strategic Action:** These cities must increase local "spending touchpoints" to convert high volume into real value.
-> * **🌱 EMERGING:** The "Growth Frontier." Focus should remain on building foundational infrastructure and establishing a clear brand identity.
+> * **⭐ STARS:** Provinces such as **Buri Ram** and **Sra Kaeo** exemplify the ideal balance of high visitor volume and high spending per head. These regions have successfully scaled their tourism economies while maintaining strong value capture, making them models for sustainable growth.
+> * **💎 PREMIUM NICHE:** These are the "Quality Leaders"—provinces that, despite lower visitor numbers, achieve high economic returns by attracting high-spending, niche market segments. Their success demonstrates that exclusivity and targeted branding can rival mass tourism in economic impact.
+> * **🚜 MASS MARKET:** Provinces in this group attract large numbers of visitors but struggle to convert this volume into substantial local economic benefit. The key strategic imperative here is to enhance local "spending touchpoints" and develop offerings that increase per-visitor value.
+> * **🌱 EMERGING:** Representing the "Growth Frontier," these provinces are in the early stages of tourism development. Policy should focus on building foundational infrastructure, strengthening brand identity, and fostering conditions for future growth.
 
 ---
 
 ## **09 : Foreign Tourist Analysis 🌍**
+
 ### *Top 10 Source Countries for Thailand's Inbound Tourism*
 
-Understanding **where Thailand's international visitors come from** is essential for shaping targeted marketing, bilateral agreements, and capacity planning. This section examines the Top 10 source countries by total foreign tourist arrivals from 2023 to 2025.
-
+A nuanced understanding of Thailand’s inbound tourism landscape requires a detailed analysis of the top 10 source countries. This section examines both annual and monthly trends from 2023 to 2025, providing actionable insights for market targeting, policy design, and infrastructure planning.
 
 <p align="center">
   <img src="visualizations/Figure_9A_Top10_Foreigners.png" alt="Top 10 Foreign Tourist Countries" width="900">
@@ -284,11 +291,9 @@ Understanding **where Thailand's international visitors come from** is essential
 <p align="center"><strong>Figure 9A. Annual breakdown of the Top 10 source countries (2023–2025)</strong></p>
 
 > **🔍 Key Insight:**
->
-> * **China** dominates as the largest source market, reflecting the strong post-pandemic recovery of Chinese outbound tourism.
-> * **Malaysia** and **India** consistently rank in the top tier, driven by geographic proximity and growing middle-class travel demand.
-> * **South Korea** and **Russia** show significant seasonal patterns that can be leveraged for targeted campaign timing.
-
+> * **China** remains the dominant source market, underscoring the robust recovery of Chinese outbound tourism and its critical role in Thailand’s visitor economy.
+> * **Malaysia** and **India** consistently occupy leading positions, driven by geographic proximity, cultural ties, and expanding middle-class travel demand.
+> * **South Korea** and **Russia** exhibit pronounced seasonal patterns, presenting opportunities for precisely timed marketing campaigns and tailored product offerings.
 
 <p align="center">
   <img src="visualizations/Figure_9B_Heatmap_Foreign_Visitors.png" alt="Heatmap Top 10 Foreign Tourists" width="900">
@@ -296,32 +301,32 @@ Understanding **where Thailand's international visitors come from** is essential
 <p align="center"><strong>Figure 9B. Monthly visitor intensity for the Top 10 countries (2023–2025)</strong></p>
 
 > **🔍 Seasonality Insight:**
->
-> * The heatmap reveals clear **seasonal clustering** — Chinese visitors peak during Q1 (Lunar New Year) and Q4 (Golden Week), while European markets peak during the Northern Hemisphere winter months (Nov–Feb).
-> * **Year-over-year growth** is visible across most countries from 2023 to 2025, confirming the sustained recovery trajectory of Thailand's international tourism sector.
+> * The heatmap reveals distinct **seasonal peaks**: Chinese arrivals surge during Q1 (Lunar New Year) and Q4 (Golden Week), while European markets reach their highest levels during the Northern Hemisphere winter (November–February).
+> * **Sustained year-over-year growth** is evident across most top markets, confirming the resilience and ongoing recovery of Thailand’s international tourism sector.
 
 ### **🎯 Policy Implications**
-
-> * **Market Diversification:** Reduce China dependency by accelerating **India, South Korea, and ASEAN** growth to mitigate single-market risk.
-> * **Seasonal Campaign Timing:** Launch country-specific campaigns **60–90 days** before peak windows (Q1 for China, Nov–Feb for Europe/Russia).
-> * **Visa & Access Policy:** Extend visa-free entry and direct flights for **India and South Korea** — both show accelerating growth.
-> * **Capacity Planning:** Pre-position infrastructure in **Q4–Q1** when multiple top markets converge at gateway provinces.
-> * **Secondary City Routing:** Develop multi-city itineraries targeting **South Korean and Japanese** tourists for higher per-trip spending.
+> * **Market Diversification:** Proactively reduce reliance on China by accelerating growth from **India, South Korea, and ASEAN** countries to mitigate single-market risk.
+> * **Seasonal Campaign Timing:** Implement country-specific marketing campaigns **60–90 days** ahead of peak travel periods (Q1 for China, Nov–Feb for Europe/Russia).
+> * **Visa & Access Policy:** Expand visa-free entry and direct flight options for **India and South Korea**, both of which show strong and accelerating growth trajectories.
+> * **Capacity Planning:** Strategically allocate resources and infrastructure in **Q4–Q1** when multiple top markets converge, especially at major gateway provinces.
+> * **Secondary City Routing:** Promote multi-city itineraries for **South Korean and Japanese** tourists to increase per-trip spending and distribute benefits beyond primary hubs.
 
 ---
 
 ## **🏁 Final Research Conclusions**
 
-| 🔍 Research Question (RQ) | 📝 Final Findings | 💡 Strategic Implication |
+The following table synthesizes the answers to the core research questions that guided this study. Each question is addressed with a concise summary of findings and a corresponding policy implication, providing a holistic view of Thailand’s tourism transformation. This structured overview highlights the most critical insights for policymakers and stakeholders seeking to foster sustainable, equitable, and resilient tourism-driven growth.
+
+| 🔍 Research Question (RQ) | 📝 Synthesis of Findings | 💡 Policy Implication |
 | :--- | :--- | :--- |
-| **1. Growth Rates?** | `YES` (Matches Primary) | Secondary cities are now a **stable national travel habit**. |
-| **2. Redistribution?** | `SUCCESSFUL` | Market share is expanding; focus on **Value Capture**. |
-| **3. Income Quality?** | `LAGGING` (3.6x Gap) | Policy must shift from "Arrivals" to **"Revenue per Head"**. |
-| **4. Digital Predictability?** | `YES` (2-month lag) | Marketing campaigns must launch **60 days** in advance. |
-| **5. Real Income Gains?** | `SELECTIVE` (Risk-based) | Use **"Stable Cash Cows"** as blueprints to reduce volatility. |
+| **1. Are growth rates sustainable?** | Secondary cities now exhibit growth rates on par with primary hubs, indicating a durable shift in travel behavior. | Recognize secondary cities as integral to the national tourism portfolio. |
+| **2. Has market redistribution occurred?** | Market share is broadening, with value increasingly captured outside traditional centers. | Prioritize strategies that enhance value retention in emerging destinations. |
+| **3. Is income quality improving?** | A significant gap persists in real income quality (3.6x lower in secondary cities). | Shift focus from volume to yield, emphasizing revenue per visitor. |
+| **4. Can digital signals predict arrivals?** | A consistent two-month lag exists between digital intent and actual visits. | Time marketing interventions 60 days ahead of peak periods. |
+| **5. Are real income gains widespread?** | Gains are selective and risk-dependent; only provinces with stable income profiles see sustained benefits. | Use "Stable Cash Cow" provinces as models to reduce volatility elsewhere. |
 
 ---
 
-**Final Conclusion:** Thailand’s tourism success must be measured not by the *number of arrivals*, but by the **Real Wealth** generated and the **Economic Stability** provided to its local communities.
+**Synthesis:** The true measure of Thailand’s tourism advancement lies not in arrival counts, but in the generation of real, inflation-adjusted wealth and the promotion of economic stability for local communities.
 
 ---
