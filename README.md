@@ -187,9 +187,9 @@ This section analyzes the seasonal patterns of tourism across Thailand’s regio
 
 The data reveal distinct seasonal profiles for each region:
 
-- **North:** Experiences a pronounced peak from November to January, driven by cooler weather and cultural events. Strategic focus should be on intensifying promotional activities in the months leading up to this period, with approximately 70% of the annual marketing budget allocated to Q3.
-- **South:** Demonstrates stable, year-round visitor flows, reflecting its appeal as a perennial destination. Maintaining a consistent digital presence is recommended to capture ongoing demand.
-- **Northeast:** Characterized by sharp increases during festival periods, indicating a "pulsing" pattern tied to local events (e.g., the Bun Bang Fai Rocket Festival in Yasothon(May)). Short, targeted advertising campaigns with a 6-week lead time are most effective here.
+> - **North:** Experiences a pronounced peak from November to January, driven by cooler weather and cultural events. Strategic focus should be on intensifying promotional activities in the months leading up to this period, with approximately 70% of the annual marketing budget allocated to Q3.
+> - **South:** Demonstrates stable, year-round visitor flows, reflecting its appeal as a perennial destination. Maintaining a consistent digital presence is recommended to capture ongoing demand.
+> - **Northeast:** Characterized by sharp increases during festival periods, indicating a "pulsing" pattern tied to local events (e.g., the Bun Bang Fai Rocket Festival in Yasothon(May)). Short, targeted advertising campaigns with a 6-week lead time are most effective here.
 
 
 | 🌏 Region | 🗓️ Peak Window | 📊 Stability Profile | 🎯 Strategic Action |
@@ -197,6 +197,7 @@ The data reveal distinct seasonal profiles for each region:
 | **North** | `Nov — Jan` | **Seasonal Sprint** | `Front-load 70%` of budget into Q3 |
 | **South** | `Year-round` | **Resilient Marathon** | Maintain `Always-on` digital presence |
 | **Northeast** | `Festival Peaks` | **Cultural Pulsing** | `Short-burst` ads (6-week lead) |
+
 By tailoring strategies to these regional dynamics, policymakers can enhance the impact of tourism initiatives, ensuring that interventions are both timely and regionally relevant.
 
 
@@ -213,14 +214,14 @@ $$Real\ Revenue = \left( \frac{Nominal\ Revenue}{CPI} \right) \times 100$$
 </p>
 <p align="center"><strong>Figure 6A. Geographic Distribution of CPI-Adjusted Tourism Revenue (2023–2025)</strong></p>
 
-Figure 6A visually demonstrates that tourism-generated wealth is predominantly concentrated within established **Economic Corridors** (Central, Southern, and Eastern Seaboards), while many secondary cities in the North-East and deep North remain in **revenue cold-spots**. This spatial disparity highlights the limitations of digital promotion alone and underscores the necessity for policies that enhance **physical connectivity** and accessibility to major tourism hubs.
+>Figure 6A visually demonstrates that tourism-generated wealth is predominantly concentrated within established **Economic Corridors** (Central, Southern, and Eastern Seaboards), while many secondary cities in the North-East and deep North remain in **revenue cold-spots**. This spatial disparity highlights the limitations of digital promotion alone and underscores the necessity for policies that enhance **physical connectivity** and accessibility to major tourism hubs.
 
 <p align="center">
   <img src="visualizations/Figure_6b_Ranking_Tight.png" alt="Tourism Revenue Ranking" width="850">
 </p>
 <p align="center"><strong>Figure 6B. Performance Ranking: Major vs. Secondary City Leaders (Average 2023–2025)</strong></p>
 
-Figure 6B further contextualizes these findings by ranking provinces according to CPI-adjusted tourism revenue. The data reveal a pronounced gap: **Bangkok** generates 18 times the revenue of the leading secondary city, yet **Chiang Rai** stands out as a strategic model, outperforming its peers by a factor of three. This suggests that secondary cities can achieve significant economic scale by leveraging unique cultural assets and cross-border linkages, provided that structural barriers to access are addressed.
+>Figure 6B further contextualizes these findings by ranking provinces according to CPI-adjusted tourism revenue. The data reveal a pronounced gap: **Bangkok** generates 18 times the revenue of the leading secondary city, yet **Chiang Rai** stands out as a strategic model, outperforming its peers by a factor of three. This suggests that secondary cities can achieve significant economic scale by leveraging unique cultural assets and cross-border linkages, provided that structural barriers to access are addressed.
 
 ---
 
@@ -239,8 +240,8 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 > **🔍 Structural Insight: The Foreigner Gap**
 >
-* **Primary Hubs (Global Magnets):** Major cities derive the majority of their income from **International Revenue (67.7%)**, serving as gateways that attract substantial spending from high-value global travelers.
-* **Secondary Cities (Domestic Backbone):** In contrast, secondary cities depend predominantly on **Domestic Travelers (89.2%)**. This highlights a pronounced "Branding Gap," showing that these destinations have yet to establish a strong presence in the global tourism market.
+>* **Primary Hubs (Global Magnets):** Major cities derive the majority of their income from **International Revenue (67.7%)**, serving as gateways that attract substantial spending from high-value global travelers.
+>* **Secondary Cities (Domestic Backbone):** In contrast, secondary cities depend predominantly on **Domestic Travelers (89.2%)**. This highlights a pronounced "Branding Gap," showing that these destinations have yet to establish a strong presence in the global tourism market.
 
 <p align="center">
   <img src="visualizations/Figure_7B_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
@@ -251,8 +252,8 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 
 > **🔍 Scale Insight: The 8.2x Multiplier**
 >
-* **Economic Dominance:** Revenue generation is highly concentrated. A handful of primary hubs (Bangkok, Phuket, Chonburi) produce revenue that far exceeds the combined total of all secondary cities, with an overall gap of approximately **8.2x**.
-* **The "Chiang Rai" Benchmark:** Notably, **Chiang Rai** emerges as the top secondary city, with a revenue structure increasingly resembling that of primary hubs. It serves as a **"Success Template"** for other secondary provinces aspiring to enhance their economic performance.
+>* **Economic Dominance:** Revenue generation is highly concentrated. A handful of primary hubs (Bangkok, Phuket, Chonburi) produce revenue that far exceeds the combined total of all secondary cities, with an overall gap of approximately **8.2x**.
+>* **The "Chiang Rai" Benchmark:** Notably, **Chiang Rai** emerges as the top secondary city, with a revenue structure increasingly resembling that of primary hubs. It serves as a **"Success Template"** for other secondary provinces aspiring to enhance their economic performance.
 
 ### **🎯 Strategic Takeaway**
 Policy development should avoid turning secondary cities into replicas of Bangkok. Instead, efforts should focus on **strategically increasing their share of Foreign Revenue**. This will foster greater economic resilience and higher yield per visitor, while maintaining the distinctive local character of secondary destinations.
