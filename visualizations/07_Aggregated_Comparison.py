@@ -72,20 +72,20 @@ for i in range(len(labels)):
     ax.text(i, 102,
             f'Total: {total_revs[i]:,.0f} M THB',
             ha='center', va='bottom',
-            fontsize=6, fontweight='bold')
+            fontsize=10, fontweight='bold')
 
     ax.annotate(
         f'{thai_revs[i]:,.0f}\n({pct_thai[i]:.1f}%)',
         (i, pct_thai[i] / 2),
         ha='center', va='center',
-        fontsize=6, fontweight='bold', color='black'
+        fontsize=10, fontweight='bold', color='black'
     )
 
     ax.annotate(
         f'{fore_revs[i]:,.0f}\n({pct_fore[i]:.1f}%)',
         (i, pct_thai[i] + pct_fore[i] / 2),
         ha='center', va='center',
-        fontsize=6, fontweight='bold', color='white'
+        fontsize=10, fontweight='bold', color='white'
     )
 
 # 6. TITLE (ใช้ suptitle กันหาย 100%)
@@ -101,7 +101,7 @@ ax.set_title('', fontsize=12, fontweight='bold')
 
 # Axis
 plt.ylabel('Market Consumption', fontsize=10)
-plt.xticks(fontsize=9)
+plt.xticks(fontsize=12, fontweight='bold')
 
 # Y scale + ticks
 ax.set_ylim(0, 115)
@@ -113,10 +113,10 @@ ax.grid(axis='y', linestyle='--', linewidth=0.8, alpha=0.25)
 
 # Legend
 legend_elements = [
-    Line2D([0], [0], color='#90CAF9', lw=8, label='Major City (Domestic)'),
-    Line2D([0], [0], color='#1565C0', lw=8, label='Major City (International)'),
-    Line2D([0], [0], color='#A8E6CF', lw=8, label='Secondary City (Domestic)'),
-    Line2D([0], [0], color='#1B5E20', lw=8, label='Secondary City (International)')
+    Line2D([0], [0], color='#90CAF9', lw=10, label='Major City (Domestic)'),
+    Line2D([0], [0], color='#1565C0', lw=10, label='Major City (International)'),
+    Line2D([0], [0], color='#A8E6CF', lw=10, label='Secondary City (Domestic)'),
+    Line2D([0], [0], color='#1B5E20', lw=10, label='Secondary City (International)')
 ]
 
 ax.legend(

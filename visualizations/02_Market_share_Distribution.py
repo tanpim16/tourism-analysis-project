@@ -54,16 +54,16 @@ ax.set_xlim(pivot.index.min(), pivot.index.max())
 ax.margins(x=0)
 
 # ─── Layout Fix (no overlap) ───
-plt.subplots_adjust(top=0.85)
+plt.subplots_adjust(top=0.83)
 
 # ─── Legend ───
 ax.legend(
     loc='lower left',
-    bbox_to_anchor=(0, 1.01),
+    bbox_to_anchor=(0, 1.0),
     ncol=2,
     frameon=False,
-    fontsize=9,
-    title_fontsize=10
+    fontsize=14,
+    title_fontsize=14
 )
 
 # ─── Subtitle ───
@@ -71,7 +71,7 @@ ax.text(
     0.5, 1.08,
     "100% stacked distribution of visitors by city type · Jan 2023 – Dec 2025",
     transform=ax.transAxes,
-    fontsize=12,
+    fontsize=14,
     color='#888888',
     ha='center'
 )
@@ -81,7 +81,7 @@ fig.suptitle(
     "Tourism Redistribution Share",
     x=0.5,
     ha='center',
-    fontsize=16,
+    fontsize=18,
     fontweight='bold',
     y=0.95
 )
@@ -91,8 +91,8 @@ ax.yaxis.set_major_formatter(PercentFormatter(1.0))
 ax.set_ylim(0, 1)
 ax.set_yticks([0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0])
 
-ax.set_ylabel("Visitor Share", fontsize=10, color='#666')
-ax.tick_params(axis='both', which='major', labelsize=9)
+ax.set_ylabel("Visitor Share", fontsize=14, color='#666')
+ax.tick_params(axis='both', which='major', labelsize=14)
 
 # ─── Save ───
 os.makedirs('visualizations', exist_ok=True)

@@ -74,7 +74,7 @@ for p in ax.patches:
         ha='center', va='bottom',
         xytext=(0, 8),
         textcoords='offset points',
-        fontsize=10,
+        fontsize=14,
         fontweight='bold',
         color='#2c3e50'
     )
@@ -90,12 +90,12 @@ ax.set_title(
 )
 
 ax.set_xlabel('')
-ax.set_ylabel('Average Real Revenue (THB per Person)', fontsize=10, labelpad=10)
+ax.set_ylabel('Average Real Revenue (THB per Person)', fontsize=14, labelpad=10)
 
 # ─── Axis Limits & Ticks ──────────────────────────────────────────────────────
 ax.set_ylim(0, 8500) # เพิ่มพื้นที่ด้านบนนิดหน่อยเพื่อให้ Label ไม่ชนขอบ
 ax.set_yticks(range(0, 8001, 1000))
-ax.tick_params(axis='both', labelsize=10)
+ax.tick_params(axis='both', labelsize=14)
 
 # ─── Grid & Despine ───────────────────────────────────────────────────────────
 ax.yaxis.grid(True, linestyle='--', alpha=0.6, color='#bdc3c7')
@@ -107,7 +107,7 @@ ax.text(
     0.5, -0.15,
     "* Yield = (Real Revenue × 1,000,000) / Total Visitors",
     ha='center', va='center', transform=ax.transAxes,
-    fontsize=9, style='italic', color='#7f8c8d'
+    fontsize=12, style='italic', color='#7f8c8d'
 )
 
 # ─── Layout Adjustment ────────────────────────────────────────────────────────
