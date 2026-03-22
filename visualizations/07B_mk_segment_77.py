@@ -58,7 +58,7 @@ secondary_df = agg_df[
 # 6. VISUALIZATION (Same Size Subplots)
 row_height = 0.35
 # Calculate height based on the longest list (Secondary Cities)
-fig_height = max(len(primary_df), len(secondary_df)) * row_height + 4
+fig_height = max(len(primary_df), len(secondary_df)) * row_height + 1.5
 
 # Using standard subplots guarantees ax_left and ax_right are exactly the same height
 fig, (ax_left, ax_right) = plt.subplots(1, 2, figsize=(24, fig_height), facecolor='white')
@@ -70,44 +70,44 @@ ax_left.set_facecolor(bg_color)
 ax_left.barh(primary_df['ProvinceEN'], primary_df['thai_rev_real'], color='#89c4e1', label='Domestic (Thai)')
 ax_left.barh(primary_df['ProvinceEN'], primary_df['fore_rev_real'], left=primary_df['thai_rev_real'], color='#1a6fa8', label='International (Foreign)')
 
-# Value Labels: fontsize=6, fontweight='bold'
+# Value Labels: fontsize=8, fontweight='bold'
 max_l = primary_df['total_rev'].max()
 for i, total in enumerate(primary_df['total_rev']):
-    ax_left.text(total + (max_l * 0.01), i, f'{total:,.0f}', va='center', fontsize=6, fontweight='bold')
+    ax_left.text(total + (max_l * 0.01), i, f'{total:,.0f}', va='center', fontsize=8, fontweight='bold')
 
-# Subplot Title: fontsize=12, fontweight='bold'
-ax_left.set_title('Major Cities: Revenue Powerhouses', fontsize=14, fontweight='bold', pad=10)
+# Subplot Title: fontsize=14, fontweight='bold'
+ax_left.set_title('Major Cities: Revenue Powerhouses', fontsize=16, fontweight='bold', pad=10)
 ax_left.xaxis.set_major_formatter(mtick.StrMethodFormatter('{x:,.0f}'))
 
-# Legend Title: fontsize=10, fontweight='normal' | Legend Text: fontsize=9
-ax_left.legend(title='Revenue Type', title_fontsize=10, loc='lower right', frameon=True, fontsize=9)
-# X-axis Ticks: fontsize=9 | Y-axis Label: fontsize=10
-ax_left.tick_params(axis='x', labelsize=9)
-ax_left.tick_params(axis='y', labelsize=10)
+# Legend Title: fontsize=14, fontweight='normal' | Legend Text: fontsize=14
+ax_left.legend(title='Revenue Type', title_fontsize=14, loc='lower right', frameon=True, fontsize=14)
+# X-axis Ticks: fontsize=12 | Y-axis Label: fontsize=12
+ax_left.tick_params(axis='x', labelsize=12)
+ax_left.tick_params(axis='y', labelsize=12)
 
 # --- RIGHT PANEL: Secondary Cities ---
 ax_right.set_facecolor(bg_color)
 ax_right.barh(secondary_df['ProvinceEN'], secondary_df['thai_rev_real'], color='#a8ddb5', label='Domestic (Thai)')
 ax_right.barh(secondary_df['ProvinceEN'], secondary_df['fore_rev_real'], left=secondary_df['thai_rev_real'], color='#2a8f48', label='International (Foreign)')
 
-# Value Labels: fontsize=6, fontweight='bold'
+# Value Labels: fontsize=8, fontweight='bold'
 max_r = secondary_df['total_rev'].max()
 for i, total in enumerate(secondary_df['total_rev']):
-    ax_right.text(total + (max_r * 0.01), i, f'{total:,.0f}', va='center', fontsize=6, fontweight='bold')
+    ax_right.text(total + (max_r * 0.01), i, f'{total:,.0f}', va='center', fontsize=8, fontweight='bold')
 
 # Subplot Title: fontsize=12, fontweight='bold'
-ax_right.set_title('Secondary Cities: Emerging Potential', fontsize=14, fontweight='bold', pad=10)
+ax_right.set_title('Secondary Cities: Emerging Potential', fontsize=16, fontweight='bold', pad=10)
 ax_right.xaxis.set_major_formatter(mtick.StrMethodFormatter('{x:,.0f}'))
 
 # Legend Title: fontsize=10, fontweight='normal' | Legend Text: fontsize=9
-ax_right.legend(title='Revenue Type', title_fontsize=10, loc='lower right', frameon=True, fontsize=9)
-# X-axis Ticks: fontsize=9 | Y-axis Label: fontsize=10
-ax_right.tick_params(axis='x', labelsize=9)
-ax_right.tick_params(axis='y', labelsize=10)
+ax_right.legend(title='Revenue Type', title_fontsize=14, loc='lower right', frameon=True, fontsize=14)
+# X-axis Ticks: fontsize=12 | Y-axis Label: fontsize=12
+ax_right.tick_params(axis='x', labelsize=12)
+ax_right.tick_params(axis='y', labelsize=12)
 
 # 7. FINAL TOUCHES
-# Figure Title (suptitle): fontsize=16, fontweight='bold', y=0.87
-plt.suptitle('Full Revenue Comparison', fontsize=16, fontweight='bold', y=0.87)
+# Figure Title (suptitle): fontsize=18, fontweight='bold', y=0.87
+plt.suptitle('Major vs. Secondary Cities: Total Revenue Comparison', fontsize=18, fontweight='bold', y=0.87)
 
 # FIXED SPACING: Stop the subplots at 0.86 so they don't crash into the title at 0.87
 plt.tight_layout(rect=[0.05, 0.01, 0.95, 0.86], w_pad=10)

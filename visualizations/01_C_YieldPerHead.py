@@ -54,7 +54,7 @@ sns.set_theme(style="white")
 fig, ax = plt.subplots(figsize=(10, 7)) # ปรับสัดส่วนให้เตี้ยลงเล็กน้อยเพื่อความสมดุล
 
 # กำหนดสีแยกตามประเภทเมือง
-palette = ["#1084e3" if 'Major' in city else "#139829" for city in yield_stats['City_type_EN']]
+palette = ["#1B4F8A" if 'Major' in city else "#16A085" for city in yield_stats['City_type_EN']]
 
 sns.barplot(
     data=yield_stats,

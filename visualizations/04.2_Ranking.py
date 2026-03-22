@@ -42,7 +42,7 @@ df_secon_final = get_top5('Secon')
 
 # --- 2. VISUALIZATION (ปรับพื้นที่ให้กระชับ) ---
 # บีบ figsize จาก (15, 5) เหลือ (15, 4) เพื่อลดพื้นที่ว่างด้านบน-ล่าง
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 4), facecolor='white')
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 3), facecolor='white')
 ax1.axis('off')
 ax2.axis('off')
 
@@ -57,7 +57,7 @@ def draw_table(ax, df, header_color, title, city_col_name):
                      cellLoc='center')
     
     table.auto_set_font_size(False)
-    table.set_fontsize(11)
+    table.set_fontsize(14)
     table.scale(1, 2.0) # ลด scale ความสูงลงเล็กน้อย
     
     for (row, col), cell in table.get_celld().items():

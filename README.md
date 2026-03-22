@@ -236,7 +236,7 @@ After conducting a deep dive into the economic performance of the 55 secondary p
 <p align="center">
   <img src="visualizations/Figure_7B_Revenue_Comparison.png" alt="Full Revenue Comparison" width="1000">
 </p>
-<p align="center"><strong>Figure 7B. Revenue Powerhouses vs. Emerging Potential
+<p align="center"><strong>Figure 7B. Major vs. Secondary Cities: Total Revenue Comparison
 
 </strong></p>
 

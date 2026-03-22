@@ -32,7 +32,7 @@ if os.path.exists(geojson_path) and os.path.exists(csv_path):
 
     # ─── 3. PLOTTING (Compact Layout) ────────────────────────────────────────
     # 📌 ลดความสูงจาก 8.5 เป็น 8.0 เพื่อลดพื้นที่ว่าง
-    fig, ax = plt.subplots(figsize=(6, 8.0), dpi=150, facecolor='#FFFFFF')
+    fig, ax = plt.subplots(figsize=(6, 7), dpi=150, facecolor='#FFFFFF')
     ax.axis('off')
 
     # 📌 ปรับ bottom ลงมาเพื่อยืดแผนที่ลงด้านล่างให้สุด
@@ -62,11 +62,11 @@ if os.path.exists(geojson_path) and os.path.exists(csv_path):
 
     # 📌 Figure Title (suptitle) → fontsize=16, fontweight='bold', y=0.87
     plt.suptitle('Thailand Tourism Wealth Distribution', 
-                 fontsize=16, fontweight='bold', color='#111827', y=0.87)
+                 fontsize=14, fontweight='bold', color='#111827', y=0.87)
 
     # 📌 Subplot Title → fontsize=12, fontweight='bold'
     ax.set_title('Strategic Map: Comparison of Major and Secondary Cities', 
-                 fontsize=12, fontweight='bold', color='#6B7280', pad=15)
+                 fontsize=10, color='#6B7280', pad=15)
 
     # ─── 5. COLORBARS & TICKS ────────────────────────────────────────────────
     
