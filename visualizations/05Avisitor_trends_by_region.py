@@ -147,7 +147,7 @@ for ax, region in zip(axes, regions):
         markersize=4
     )
 
-    ax.set_title(region, fontsize=12)
+    ax.set_title(region, fontsize=14)
     ax.yaxis.set_major_formatter(FuncFormatter(millions_formatter))
 
     if region == special_region:
@@ -169,7 +169,7 @@ for ax, region in zip(axes, regions):
 # -----------------------------
 # 13. Layout
 # -----------------------------
-fig.suptitle("Figure 5: Visitor Trends by Region (2023–2025)", fontsize=16)
+fig.suptitle("Visitor Trends by Region (2023–2025)", fontsize=16, fontweight="bold")
 fig.supxlabel("Date")
 
 plt.tight_layout(rect=[0, 0.03, 1, 0.97])
